@@ -1,0 +1,7 @@
+Type_ID,Equipment_Type,Category,Fuel_Burn_Rate_L_Hr,Service_Interval_Days,Base_Cost_INR
+ET01,Heavy Tactical Truck,Transport Fleet,2.6,60,12500
+ET02,Armored Personnel Carrier (APC),Combat Armor,4.8,90,48000
+ET03,Field Diesel Generator,Power Logistics,1.4,45,24000
+ET04,Tactical UAV Launcher,Surveillance Systems,1.1,30,62000
+ET05,Mobile Radar Unit,Air Defense,2.2,60,85000
+ET06,Artillery Tractor,Heavy Towing,3.5,75,34000

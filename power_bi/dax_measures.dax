@@ -1,0 +1,174 @@
+/* ============================================================================
+   POWER BI DAX MEASURES LIBRARY
+   Domain: Military Logistics & Fleet Readiness Command Center
+   Star Schema: Fact_Equipment_Inventory, Dim_Bases, Dim_Equipment_Types, Dim_Calendar
+   ============================================================================ */
+
+-- ----------------------------------------------------------------------------
+-- 1. CORE FLEET CAPACITY & READINESS MEASURES
+-- ----------------------------------------------------------------------------
+
+-- Total Fleet Equipment Count
+Total Equipment = 
+COUNTROWS('Fact_Equipment_Inventory')
+
+-- Total Operational Equipment Count
+Operational Equipment = 
+CALCULATE(
+    COUNTROWS('Fact_Equipment_Inventory'),
+    'Fact_Equipment_Inventory'[Status] = "Operational"
+)
+
+-- Fleet Readiness Rate (%)
+Readiness Rate = 
+DIVIDE(
+    [Operational Equipment],
+    [Total Equipment],
+    0
+)
+
+-- Equipment Currently Under Maintenance
+Under Maintenance = 
+CALCULATE(
+    COUNTROWS('Fact_Equipment_Inventory'),
+    'Fact_Equipment_Inventory'[Status] = "Maintenance"
+)
+
+-- Equipment Out of Service (Mission Incapable)
+Out of Service = 
+CALCULATE(
+    COUNTROWS('Fact_Equipment_Inventory'),
+    'Fact_Equipment_Inventory'[Status] = "Out of Service"
+)
+
+-- Critical Assets Flag (Readiness Score < 60%)
+Critical Equipment = 
+CALCULATE(
+    COUNTROWS('Fact_Equipment_Inventory'),
+    'Fact_Equipment_Inventory'[Readiness_Pct] < 60
+)
+
+
+-- ----------------------------------------------------------------------------
+-- 2. FINANCIAL & MAINTENANCE EXPENDITURE MEASURES
+-- ----------------------------------------------------------------------------
+
+-- Total Fleet Maintenance Cost (INR)
+Total Maintenance Cost = 
+SUM('Fact_Equipment_Inventory'[Maintenance_Cost_INR])
+
+-- Average Maintenance Cost Per Asset
+Avg Maintenance Cost Per Unit = 
+DIVIDE(
+    [Total Maintenance Cost],
+    [Total Equipment],
+    0
+)
+
+-- Total Operating Hours Logged
+Total Operating Hours = 
+SUM('Fact_Equipment_Inventory'[Operating_Hours])
+
+-- Average Operating Hours Per Asset
+Avg Operating Hours = 
+AVERAGE('Fact_Equipment_Inventory'[Operating_Hours])
+
+-- Maintenance Cost Per Operating Hour Efficiency Index
+Cost Per Operating Hour = 
+DIVIDE(
+    [Total Maintenance Cost],
+    [Total Operating Hours],
+    0
+)
+
+-- Total Fuel Consumed (Liters)
+Total Fuel Consumed = 
+SUM('Fact_Equipment_Inventory'[Fuel_Used_L])
+
+
+-- ----------------------------------------------------------------------------
+-- 3. UPCOMING PREVENTIVE MAINTENANCE TRIAGE MEASURES
+-- ----------------------------------------------------------------------------
+
+-- Service Overdue Count
+Service Overdue = 
+CALCULATE(
+    COUNTROWS('Fact_Equipment_Inventory'),
+    'Fact_Equipment_Inventory'[Next_Service] < TODAY()
+)
+
+-- Service Required in Next 7 Days (Urgent Queue)
+Upcoming Service 7 Days = 
+CALCULATE(
+    COUNTROWS('Fact_Equipment_Inventory'),
+    'Fact_Equipment_Inventory'[Next_Service] >= TODAY() &&
+    'Fact_Equipment_Inventory'[Next_Service] <= TODAY() + 7
+)
+
+-- Service Required in Next 30 Days (Tactical Queue)
+Upcoming Service 30 Days = 
+CALCULATE(
+    COUNTROWS('Fact_Equipment_Inventory'),
+    'Fact_Equipment_Inventory'[Next_Service] >= TODAY() &&
+    'Fact_Equipment_Inventory'[Next_Service] <= TODAY() + 30
+)
+
+-- Service Required in Next 60 Days (Strategic Horizon)
+Upcoming Service 60 Days = 
+CALCULATE(
+    COUNTROWS('Fact_Equipment_Inventory'),
+    'Fact_Equipment_Inventory'[Next_Service] >= TODAY() &&
+    'Fact_Equipment_Inventory'[Next_Service] <= TODAY() + 60
+)
+
+
+-- ----------------------------------------------------------------------------
+-- 4. SUPPLY CHAIN & DOWNTIME MEASURES
+-- ----------------------------------------------------------------------------
+
+-- Spare Parts Bottleneck Assets (Low or Critical Shortage)
+Spare Parts At Risk = 
+CALCULATE(
+    COUNTROWS('Fact_Equipment_Inventory'),
+    'Fact_Equipment_Inventory'[Spare_Parts] IN {"Low", "Critical Shortage"}
+)
+
+-- Total Cumulative Fleet Downtime Days
+Total Downtime Days = 
+SUM('Fact_Equipment_Inventory'[Downtime_Days])
+
+-- Average Downtime Days Per Inactive Unit
+Avg Downtime Days = 
+CALCULATE(
+    AVERAGE('Fact_Equipment_Inventory'[Downtime_Days]),
+    'Fact_Equipment_Inventory'[Status] <> "Operational"
+)
+
+
+-- ----------------------------------------------------------------------------
+-- 5. TIME INTELLIGENCE & VARIANCE MEASURES (Month-over-Month)
+-- ----------------------------------------------------------------------------
+
+-- Prior Month Maintenance Cost
+Prior Month Maintenance Cost = 
+CALCULATE(
+    [Total Maintenance Cost],
+    DATEADD('Dim_Calendar'[Date], -1, MONTH)
+)
+
+-- MoM Maintenance Cost Growth %
+MoM Maintenance Cost Growth Pct = 
+VAR PrevCost = [Prior Month Maintenance Cost]
+VAR CurrCost = [Total Maintenance Cost]
+RETURN
+    IF(
+        ISBLANK(PrevCost) || PrevCost = 0,
+        BLANK(),
+        DIVIDE(CurrCost - PrevCost, PrevCost, 0)
+    )
+
+-- Target Readiness Gap %
+Readiness Gap to Target = 
+VAR BaseTarget = SELECTEDVALUE('Dim_Bases'[Target_Readiness], 85.0) / 100.0
+RETURN
+    [Readiness Rate] - BaseTarget

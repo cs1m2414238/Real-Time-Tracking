@@ -1,15 +1,1684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Military Logistics & Readiness Command BI Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #080C14;
+            --bg-card: #0F172A;
+            --bg-card-hover: #1E293B;
+            --bg-surface: #131F37;
+            --border-subtle: #1E293B;
+            --border-accent: #334155;
+            
+            --text-primary: #F8FAFC;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+            
+            --accent-cyan: #06B6D4;
+            --accent-blue: #38BDF8;
+            --accent-emerald: #10B981;
+            --accent-amber: #F59E0B;
+            --accent-rose: #EF4444;
+            --accent-indigo: #6366F1;
+            
+            --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            
+            --glass-bg: rgba(15, 23, 42, 0.75);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --shadow-glow: 0 0 25px rgba(6, 182, 212, 0.15);
+        }
 
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Character Introduction Layout</title>
-    </head>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-    <body>
-      <div id="root"></div>
-      <script type="module" src="/src/main.tsx"></script>
-    </body>
-  </html>
-  
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 15% 15%, rgba(6, 182, 212, 0.06) 0%, transparent 40%),
+                radial-gradient(circle at 85% 85%, rgba(99, 102, 241, 0.06) 0%, transparent 40%);
+        }
+
+        /* Top Header */
+        header {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--glass-border);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand-section {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .badge-live {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent-emerald);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.25rem 0.6rem;
+            border-radius: 999px;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .badge-live::before {
+            content: "";
+            width: 6px;
+            height: 6px;
+            background: var(--accent-emerald);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(0.8); }
+        }
+
+        .header-title h1 {
+            font-size: 1.25rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #FFFFFF 30%, #94A3B8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header-title p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+        }
+
+        /* Navigation Tabs */
+        .nav-tabs {
+            display: flex;
+            gap: 0.5rem;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 0.35rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-subtle);
+        }
+
+        .nav-tab {
+            background: transparent;
+            color: var(--text-secondary);
+            border: none;
+            padding: 0.5rem 1.1rem;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-tab:hover {
+            color: var(--text-primary);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .nav-tab.active {
+            background: var(--accent-cyan);
+            color: #04101E;
+            font-weight: 700;
+            box-shadow: 0 2px 10px rgba(6, 182, 212, 0.3);
+        }
+
+        /* Global Slicers Bar */
+        .slicers-bar {
+            background: rgba(15, 23, 42, 0.6);
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 0.75rem 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 1.5rem;
+            font-size: 0.82rem;
+        }
+
+        .slicer-group {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .slicer-label {
+            color: var(--text-muted);
+            font-weight: 600;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        select.slicer-select {
+            background: var(--bg-surface);
+            color: var(--text-primary);
+            border: 1px solid var(--border-accent);
+            border-radius: 6px;
+            padding: 0.4rem 0.8rem;
+            font-size: 0.82rem;
+            font-family: var(--font-sans);
+            outline: none;
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+
+        select.slicer-select:focus {
+            border-color: var(--accent-cyan);
+        }
+
+        .btn-reset {
+            background: transparent;
+            color: var(--accent-cyan);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            border-radius: 6px;
+            padding: 0.35rem 0.8rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-left: auto;
+            transition: all 0.2s;
+        }
+
+        .btn-reset:hover {
+            background: rgba(6, 182, 212, 0.1);
+        }
+
+        /* Main Container */
+        main {
+            flex: 1;
+            padding: 1.5rem 2rem;
+            max-width: 1600px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        /* Tab Content Panels */
+        .tab-pane {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .tab-pane.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* KPI Cards Grid */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .kpi-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 1.1rem 1.25rem;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--border-accent);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .kpi-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--card-accent, var(--accent-cyan));
+        }
+
+        .kpi-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .kpi-value {
+            font-size: 1.85rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+        }
+
+        .kpi-subtext {
+            font-size: 0.72rem;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .kpi-trend-good { color: var(--accent-emerald); font-weight: 600; }
+        .kpi-trend-bad { color: var(--accent-rose); font-weight: 600; }
+        .kpi-trend-warn { color: var(--accent-amber); font-weight: 600; }
+
+        /* Dashboard Main Layout */
+        .dashboard-row {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1.25rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .dashboard-row-3col {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.25rem;
+            margin-bottom: 1.25rem;
+        }
+
+        @media (max-width: 1100px) {
+            .dashboard-row, .dashboard-row-3col {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 1.25rem;
+            position: relative;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .card-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .card-subtitle {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+        }
+
+        /* Canvas Chart Wrappers */
+        .chart-container {
+            position: relative;
+            width: 100%;
+            height: 280px;
+        }
+
+        /* Base Readiness Progress Rows */
+        .base-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .base-row {
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+        }
+
+        .base-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+        }
+
+        .base-name {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .base-pct {
+            font-weight: 700;
+            font-family: var(--font-mono);
+        }
+
+        .progress-track {
+            width: 100%;
+            height: 8px;
+            background: var(--bg-surface);
+            border-radius: 999px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            border-radius: 999px;
+            transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .target-marker {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #FFFFFF;
+            opacity: 0.6;
+            z-index: 2;
+        }
+
+        /* Donut / Pie Status Visualization */
+        .status-legend {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 1rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--border-subtle);
+        }
+
+        .status-legend-item {
+            text-align: center;
+        }
+
+        .legend-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 0.3rem;
+        }
+
+        .legend-val {
+            font-size: 1.1rem;
+            font-weight: 700;
+            font-family: var(--font-mono);
+            display: block;
+        }
+
+        .legend-lbl {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        /* Scatter Plot Canvas & Interactive Inspector */
+        .scatter-wrapper {
+            position: relative;
+            height: 480px;
+            width: 100%;
+            background: #0B111E;
+            border-radius: 8px;
+            border: 1px solid var(--border-subtle);
+            overflow: hidden;
+        }
+
+        #scatterCanvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+            cursor: crosshair;
+        }
+
+        .scatter-tooltip {
+            position: absolute;
+            background: rgba(15, 23, 42, 0.95);
+            border: 1px solid var(--accent-cyan);
+            border-radius: 8px;
+            padding: 0.75rem;
+            font-size: 0.75rem;
+            color: #FFFFFF;
+            pointer-events: none;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+            display: none;
+            z-index: 50;
+            min-width: 200px;
+        }
+
+        /* Code & Query Inspector Tabs */
+        .code-inspector-container {
+            background: #090D16;
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .code-tabs {
+            display: flex;
+            background: #0F172A;
+            border-bottom: 1px solid var(--border-subtle);
+            padding: 0.25rem 0.5rem;
+        }
+
+        .code-tab-btn {
+            background: transparent;
+            color: var(--text-muted);
+            border: none;
+            padding: 0.6rem 1rem;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+
+        .code-tab-btn.active {
+            color: var(--accent-cyan);
+            background: rgba(6, 182, 212, 0.1);
+        }
+
+        .code-content-box {
+            padding: 1.25rem;
+            font-family: var(--font-mono);
+            font-size: 0.82rem;
+            color: #E2E8F0;
+            line-height: 1.6;
+            max-height: 520px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+
+        /* Insights Cards */
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .insight-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border-left: 4px solid var(--card-accent, var(--accent-cyan));
+            transition: transform 0.2s;
+        }
+
+        .insight-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .insight-badge {
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 0.75rem;
+        }
+
+        .insight-card h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.6rem;
+        }
+
+        .insight-card p {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .insight-action-box {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            border: 1px dashed var(--border-accent);
+            font-size: 0.8rem;
+            color: var(--accent-cyan);
+        }
+
+        /* Data Explorer Table */
+        .table-responsive {
+            overflow-x: auto;
+            max-height: 540px;
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+        }
+
+        table.data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.82rem;
+            text-align: left;
+        }
+
+        table.data-table th {
+            background: #0F172A;
+            padding: 0.75rem 1rem;
+            color: var(--text-muted);
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.7rem;
+            letter-spacing: 0.05em;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            border-bottom: 1px solid var(--border-accent);
+        }
+
+        table.data-table td {
+            padding: 0.65rem 1rem;
+            border-bottom: 1px solid var(--border-subtle);
+            color: var(--text-secondary);
+        }
+
+        table.data-table tr:hover td {
+            background: rgba(255, 255, 255, 0.03);
+            color: var(--text-primary);
+        }
+
+        .status-pill {
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.2rem 0.5rem;
+            border-radius: 999px;
+            display: inline-block;
+        }
+
+        .status-pill.operational { background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); }
+        .status-pill.maintenance { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); }
+        .status-pill.out-of-service { background: rgba(239, 68, 68, 0.15); color: var(--accent-rose); }
+
+        /* Footer */
+        footer {
+            margin-top: auto;
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-subtle);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="brand-section">
+            <div class="badge-live">Live Analytics Engine</div>
+            <div class="header-title">
+                <h1>Military Logistics & Fleet Readiness Command Center</h1>
+                <p>Synthetic Logistics Model | Power BI (DAX) • Excel (Power Query) • SQL • Tableau • Python</p>
+            </div>
+        </div>
+
+        <nav class="nav-tabs">
+            <button class="nav-tab active" onclick="switchTab('tab-overview', this)">
+                <span>📊</span> Overview Dashboard
+            </button>
+            <button class="nav-tab" onclick="switchTab('tab-risk', this)">
+                <span>🎯</span> Tableau Risk Matrix
+            </button>
+            <button class="nav-tab" onclick="switchTab('tab-code', this)">
+                <span>💻</span> DAX & SQL Inspector
+            </button>
+            <button class="nav-tab" onclick="switchTab('tab-insights', this)">
+                <span>💡</span> Strategic Insights
+            </button>
+            <button class="nav-tab" onclick="switchTab('tab-data', this)">
+                <span>📁</span> Data Explorer
+            </button>
+        </nav>
+    </header>
+
+    <!-- Global Slicers Filter Bar -->
+    <div class="slicers-bar">
+        <div class="slicer-group">
+            <span class="slicer-label">Base Location:</span>
+            <select id="filterBase" class="slicer-select" onchange="applyFilters()">
+                <option value="ALL">All Bases (8 Formations)</option>
+                <option value="Lucknow">Lucknow (Central HQ)</option>
+                <option value="Kanpur">Kanpur (Depot)</option>
+                <option value="Bhopal">Bhopal (Armor)</option>
+                <option value="Delhi">Delhi (Northern Hub)</option>
+                <option value="Leh">Leh (High-Altitude)</option>
+                <option value="Jodhpur">Jodhpur (Desert Ops)</option>
+                <option value="Siliguri">Siliguri (Eastern Hub)</option>
+                <option value="Pune">Pune (Southern Reserve)</option>
+            </select>
+        </div>
+
+        <div class="slicer-group">
+            <span class="slicer-label">Equipment Type:</span>
+            <select id="filterType" class="slicer-select" onchange="applyFilters()">
+                <option value="ALL">All Equipment Types</option>
+                <option value="Heavy Tactical Truck">Heavy Tactical Truck</option>
+                <option value="Armored Personnel Carrier (APC)">Armored Personnel Carrier</option>
+                <option value="Field Diesel Generator">Field Diesel Generator</option>
+                <option value="Tactical UAV Launcher">Tactical UAV Launcher</option>
+                <option value="Mobile Radar Unit">Mobile Radar Unit</option>
+                <option value="Artillery Tractor">Artillery Tractor</option>
+            </select>
+        </div>
+
+        <div class="slicer-group">
+            <span class="slicer-label">Status:</span>
+            <select id="filterStatus" class="slicer-select" onchange="applyFilters()">
+                <option value="ALL">All Statuses</option>
+                <option value="Operational">Operational</option>
+                <option value="Maintenance">Under Maintenance</option>
+                <option value="Out of Service">Out of Service</option>
+            </select>
+        </div>
+
+        <button class="btn-reset" onclick="resetFilters()">↺ Reset Slicers</button>
+    </div>
+
+    <!-- Main Views Container -->
+    <main>
+        
+        <!-- ===================================================================
+             TAB 1: OVERVIEW DASHBOARD (Power BI Centerpiece)
+             =================================================================== -->
+        <div id="tab-overview" class="tab-pane active">
+            
+            <!-- KPI Cards Row -->
+            <div class="kpi-grid">
+                <div class="kpi-card" style="--card-accent: var(--accent-cyan)">
+                    <div class="kpi-label">Total Equipment <span>Units</span></div>
+                    <div class="kpi-value" id="kpiTotalUnits">1,250</div>
+                    <div class="kpi-subtext">8 Military Base Formations</div>
+                </div>
+
+                <div class="kpi-card" style="--card-accent: var(--accent-emerald)">
+                    <div class="kpi-label">Operational Fleet <span>Ready</span></div>
+                    <div class="kpi-value" id="kpiOperationalUnits">1,037</div>
+                    <div class="kpi-subtext kpi-trend-good">▲ 83.0% Availability</div>
+                </div>
+
+                <div class="kpi-card" style="--card-accent: var(--accent-blue)">
+                    <div class="kpi-label">Readiness Rate <span>Benchmark 85%</span></div>
+                    <div class="kpi-value" id="kpiReadinessRate">83.0%</div>
+                    <div class="kpi-subtext kpi-trend-warn">▼ 2.0% Below Target</div>
+                </div>
+
+                <div class="kpi-card" style="--card-accent: var(--accent-amber)">
+                    <div class="kpi-label">Under Maintenance <span>Depot</span></div>
+                    <div class="kpi-value" id="kpiMaintenanceUnits">146</div>
+                    <div class="kpi-subtext">11.7% of total fleet</div>
+                </div>
+
+                <div class="kpi-card" style="--card-accent: var(--accent-rose)">
+                    <div class="kpi-label">Critical Assets <span>&lt;60% Score</span></div>
+                    <div class="kpi-value" id="kpiCriticalUnits">67</div>
+                    <div class="kpi-subtext kpi-trend-bad">Action Required</div>
+                </div>
+
+                <div class="kpi-card" style="--card-accent: var(--accent-indigo)">
+                    <div class="kpi-label">Monthly Maint Cost <span>Expenditure</span></div>
+                    <div class="kpi-value" id="kpiTotalCost">₹18.4L</div>
+                    <div class="kpi-subtext">Avg ₹14.7k / Unit</div>
+                </div>
+            </div>
+
+            <!-- Charts Row 1 -->
+            <div class="dashboard-row">
+                <!-- Base Readiness Bar / Progress -->
+                <div class="card">
+                    <div class="card-header">
+                        <div>
+                            <div class="card-title">Operational Readiness by Base Location</div>
+                            <div class="card-subtitle">White vertical line indicates 85% strategic mandate</div>
+                        </div>
+                    </div>
+                    <div class="base-list" id="baseListContainer">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+
+                <!-- Status Distribution Donut -->
+                <div class="card">
+                    <div class="card-header">
+                        <div>
+                            <div class="card-title">Equipment Status Distribution</div>
+                            <div class="card-subtitle">Fleet operational classification</div>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="statusDonutCanvas"></canvas>
+                    </div>
+                    <div class="status-legend">
+                        <div class="status-legend-item">
+                            <span class="legend-val" style="color: var(--accent-emerald)" id="donutValOps">1,037</span>
+                            <span class="legend-lbl"><span class="legend-dot" style="background: var(--accent-emerald)"></span>Operational</span>
+                        </div>
+                        <div class="status-legend-item">
+                            <span class="legend-val" style="color: var(--accent-amber)" id="donutValMaint">146</span>
+                            <span class="legend-lbl"><span class="legend-dot" style="background: var(--accent-amber)"></span>Maintenance</span>
+                        </div>
+                        <div class="status-legend-item">
+                            <span class="legend-val" style="color: var(--accent-rose)" id="donutValOos">67</span>
+                            <span class="legend-lbl"><span class="legend-dot" style="background: var(--accent-rose)"></span>Out of Service</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Row 2 -->
+            <div class="dashboard-row">
+                <!-- 12-Month Maintenance Cost Trend Line Graph -->
+                <div class="card">
+                    <div class="card-header">
+                        <div>
+                            <div class="card-title">12-Month Fleet Maintenance Expenditure Trend</div>
+                            <div class="card-subtitle">Monthly spend in Lakhs INR with Generator cost surge callout</div>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="costTrendCanvas"></canvas>
+                    </div>
+                </div>
+
+                <!-- Upcoming Maintenance Horizons -->
+                <div class="card">
+                    <div class="card-header">
+                        <div>
+                            <div class="card-title">Upcoming Maintenance Horizons</div>
+                            <div class="card-subtitle">Triage window of upcoming service requirements</div>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 1rem; padding: 0.5rem 0;">
+                        <div style="background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 8px; padding: 0.8rem 1rem; display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <div style="font-weight: 700; color: var(--accent-rose); font-size: 0.85rem;">⚠️ Overdue Maintenance</div>
+                                <div style="font-size: 0.72rem; color: var(--text-muted);">High failure risk; 18 units in Kanpur</div>
+                            </div>
+                            <div style="font-size: 1.25rem; font-weight: 800; font-family: var(--font-mono); color: var(--accent-rose);" id="serviceOverdue">24 Units</div>
+                        </div>
+
+                        <div style="background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 8px; padding: 0.8rem 1rem; display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <div style="font-weight: 700; color: var(--accent-amber); font-size: 0.85rem;">⚡ Urgent: Next 7 Days</div>
+                                <div style="font-size: 0.72rem; color: var(--text-muted);">Imminent scheduled service intake</div>
+                            </div>
+                            <div style="font-size: 1.25rem; font-weight: 800; font-family: var(--font-mono); color: var(--accent-amber);" id="service7Days">68 Units</div>
+                        </div>
+
+                        <div style="background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 8px; padding: 0.8rem 1rem; display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <div style="font-weight: 700; color: var(--accent-blue); font-size: 0.85rem;">📅 Planned: Next 30 Days</div>
+                                <div style="font-size: 0.72rem; color: var(--text-muted);">Tactical battalion service queue</div>
+                            </div>
+                            <div style="font-size: 1.25rem; font-weight: 800; font-family: var(--font-mono); color: var(--accent-blue);" id="service30Days">215 Units</div>
+                        </div>
+
+                        <div style="background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 8px; padding: 0.8rem 1rem; display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <div style="font-weight: 700; color: var(--accent-indigo); font-size: 0.85rem;">🔭 Strategic: Next 60 Days</div>
+                                <div style="font-size: 0.72rem; color: var(--text-muted);">Quarterly heavy overhaul pipeline</div>
+                            </div>
+                            <div style="font-size: 1.25rem; font-weight: 800; font-family: var(--font-mono); color: var(--accent-indigo);" id="service60Days">340 Units</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ===================================================================
+             TAB 2: TABLEAU RISK MATRIX (Interactive Scatter Plot)
+             =================================================================== -->
+        <div id="tab-risk" class="tab-pane">
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Tableau Matrix: Maintenance Cost vs. Operating Hours</div>
+                        <div class="card-subtitle">Color = Readiness Score % (Green to Red) | Size = Downtime Days | Hover/Click dot to inspect asset</div>
+                    </div>
+                    <div style="display: flex; gap: 0.5rem; font-size: 0.75rem;">
+                        <span style="color: var(--accent-rose); font-weight: 700;">● Q1: High Problem Assets</span>
+                        <span style="color: var(--accent-amber); font-weight: 700;">● Q2: Cost Outliers</span>
+                        <span style="color: var(--accent-emerald); font-weight: 700;">● Q3: Optimal Assets</span>
+                    </div>
+                </div>
+                
+                <div class="scatter-wrapper">
+                    <canvas id="scatterCanvas"></canvas>
+                    <div id="scatterTooltip" class="scatter-tooltip"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================================================================
+             TAB 3: DAX & SQL MULTI-TECH INSPECTOR
+             =================================================================== -->
+        <div id="tab-code" class="tab-pane">
+            <div class="code-inspector-container">
+                <div class="code-tabs">
+                    <button class="code-tab-btn active" onclick="switchCodeTab('code-dax', this)">Power BI (DAX Measures)</button>
+                    <button class="code-tab-btn" onclick="switchCodeTab('code-sql', this)">SQL Analytical Queries</button>
+                    <button class="code-tab-btn" onclick="switchCodeTab('code-m', this)">Power Query (M Script)</button>
+                    <button class="code-tab-btn" onclick="switchCodeTab('code-excel', this)">Excel Dynamic Arrays & Lookups</button>
+                    <button class="code-tab-btn" onclick="switchCodeTab('code-py', this)">Python EDA Pipeline</button>
+                </div>
+
+                <!-- DAX -->
+                <div id="code-dax" class="code-content-box">
+-- DAX Measures Library for Power BI
+-- 1. Total Fleet Count
+Total Equipment = COUNTROWS('Fact_Equipment_Inventory')
+
+-- 2. Operational Equipment Count
+Operational Equipment = 
+CALCULATE(
+    COUNTROWS('Fact_Equipment_Inventory'),
+    'Fact_Equipment_Inventory'[Status] = "Operational"
+)
+
+-- 3. Readiness Rate %
+Readiness Rate = 
+DIVIDE(
+    [Operational Equipment],
+    [Total Equipment],
+    0
+)
+
+-- 4. Critical Equipment Flag (<60% Readiness)
+Critical Equipment = 
+CALCULATE(
+    COUNTROWS('Fact_Equipment_Inventory'),
+    'Fact_Equipment_Inventory'[Readiness_Pct] < 60
+)
+
+-- 5. Total Maintenance Cost
+Total Maintenance Cost = SUM('Fact_Equipment_Inventory'[Maintenance_Cost_INR])
+
+-- 6. Cost Per Operating Hour Efficiency
+Cost Per Operating Hour = 
+DIVIDE(
+    [Total Maintenance Cost],
+    SUM('Fact_Equipment_Inventory'[Operating_Hours]),
+    0
+)
+
+-- 7. Upcoming Service in Next 7 Days
+Upcoming Service 7 Days = 
+CALCULATE(
+    COUNTROWS('Fact_Equipment_Inventory'),
+    'Fact_Equipment_Inventory'[Next_Service] >= TODAY() &&
+    'Fact_Equipment_Inventory'[Next_Service] <= TODAY() + 7
+)
+                </div>
+
+                <!-- SQL -->
+                <div id="code-sql" class="code-content-box" style="display: none;">
+-- 1. Base-Wise Fleet Readiness and Target Variance
+SELECT 
+    b.base_name,
+    b.region,
+    b.target_readiness,
+    COUNT(e.equipment_id) AS total_fleet_size,
+    SUM(CASE WHEN e.status = 'Operational' THEN 1 ELSE 0 END) AS operational_count,
+    ROUND(
+        (SUM(CASE WHEN e.status = 'Operational' THEN 1.0 ELSE 0.0 END) / COUNT(e.equipment_id)) * 100.0, 
+        2
+    ) AS actual_readiness_pct
+FROM fact_equipment_inventory e
+JOIN dim_bases b ON e.base_id = b.base_id
+GROUP BY b.base_name, b.region, b.target_readiness
+ORDER BY actual_readiness_pct DESC;
+
+-- 2. CTE: High-Risk Problem Asset Identification
+WITH FleetBenchmarks AS (
+    SELECT 
+        AVG(operating_hours) AS fleet_avg_hours,
+        AVG(maintenance_cost_inr) AS fleet_avg_cost
+    FROM fact_equipment_inventory
+)
+SELECT 
+    e.equipment_id, e.base_name, e.equipment_type, e.operating_hours, 
+    e.maintenance_cost_inr, e.readiness_pct, e.spare_parts_status
+FROM fact_equipment_inventory e
+CROSS JOIN FleetBenchmarks b
+WHERE e.operating_hours > b.fleet_avg_hours
+  AND e.maintenance_cost_inr > b.fleet_avg_cost
+  AND e.readiness_pct < 65.0
+ORDER BY e.readiness_pct ASC;
+
+-- 3. Window Function: Priority Ranking within Base
+SELECT 
+    base_name,
+    ROW_NUMBER() OVER (PARTITION BY base_name ORDER BY readiness_pct ASC, downtime_days DESC) AS priority_rank,
+    equipment_id, equipment_type, status, readiness_pct, downtime_days
+FROM fact_equipment_inventory;
+                </div>
+
+                <!-- Power Query M -->
+                <div id="code-m" class="code-content-box" style="display: none;">
+// Power Query M Script: Cleans dirty raw logistics data
+let
+    Source = Csv.Document(File.Contents("data\raw_equipment_dirty.csv"), [Delimiter=",", Columns=11, Encoding=65001]),
+    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #"Removed Duplicates" = Table.Distinct(#"Promoted Headers", {"Equipment_ID"}),
+    #"Trimmed Base" = Table.TransformColumns(#"Removed Duplicates", {{"Base", Text.Trim, type text}}),
+    #"Cleaned Base Casing" = Table.TransformColumns(#"Trimmed Base", {{"Base", Text.Proper, type text}}),
+    #"Cleaned Currency" = Table.ReplaceValue(#"Cleaned Base Casing", "₹", "", Replacer.ReplaceText, {"Maintenance_Cost"}),
+    #"Normalized Readiness" = Table.TransformColumns(#"Cleaned Currency", {
+        {"Readiness", each if _ <> null and _ <= 1.0 then _ * 100.0 else _, type number}
+    }),
+    #"Enforced Types" = Table.TransformColumnTypes(#"Normalized Readiness", {
+        {"Equipment_ID", type text}, {"Base", type text}, {"Status", type text},
+        {"Maintenance_Cost", Currency.Type}, {"Readiness", type number}
+    })
+in
+    #"Enforced Types"
+                </div>
+
+                <!-- Excel -->
+                <div id="code-excel" class="code-content-box" style="display: none;">
+' Excel Advanced Formulas & Dynamic Arrays
+
+' 1. Single Asset Dynamic Lookups
+=XLOOKUP(B5, Cleaned_Inventory!A2:A1251, Cleaned_Inventory!C2:C1251, "Not Found")
+=INDEX(Cleaned_Inventory!G2:G1251, MATCH(B5, Cleaned_Inventory!A2:A1251, 0))
+
+' 2. Dynamic Array Filters (Excel 365 / 2021+)
+=FILTER(Cleaned_Inventory!A2:N1251, Cleaned_Inventory!P2:P1251=1, "No Critical Assets")
+=SORT(UNIQUE(Cleaned_Inventory!C2:C1251))
+
+' 3. Multi-Criteria Aggregations
+=COUNTIFS(Cleaned_Inventory!$C$2:$C$1251, "Lucknow", Cleaned_Inventory!$G$2:$G$1251, "Operational")
+=SUMIFS(Cleaned_Inventory!$L$2:$L$1251, Cleaned_Inventory!$C$2:$C$1251, "Lucknow")
+                </div>
+
+                <!-- Python -->
+                <div id="code-py" class="code-content-box" style="display: none;">
+# Python Pandas Analytics Pipeline
+import pandas as pd
+
+df = pd.read_csv("data/fact_equipment_inventory.csv")
+
+# 1. Base-wise mean readiness
+readiness_by_base = df.groupby("Base")["Readiness_Pct"].mean().sort_values(ascending=False)
+print("Base Readiness Rankings:\n", readiness_by_base)
+
+# 2. Identify Problem Assets (High Hours, High Cost, Low Readiness)
+problem_assets = df[
+    (df["Operating_Hours"] > df["Operating_Hours"].mean()) &
+    (df["Maintenance_Cost_INR"] > df["Maintenance_Cost_INR"].mean()) &
+    (df["Readiness_Pct"] < 60)
+]
+print(f"Detected {len(problem_assets)} high-risk assets requiring immediate overhaul.")
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================================================================
+             TAB 4: STRATEGIC INSIGHTS & ACTIONABLE RECOMMENDATIONS
+             =================================================================== -->
+        <div id="tab-insights" class="tab-pane">
+            <div class="insights-grid">
+                <!-- Insight 1 -->
+                <div class="insight-card" style="--card-accent: var(--accent-rose)">
+                    <span class="insight-badge" style="background: rgba(239, 68, 68, 0.15); color: var(--accent-rose);">Priority 1 Alert</span>
+                    <h3>Kanpur Depot Fleet Backlog (18 Overdue Vehicles)</h3>
+                    <p>
+                        Kanpur holds the 2nd largest fleet (212 assets) but registers the lowest operational readiness at <strong>74.2%</strong>. Root cause analysis reveals <strong>18 vehicles with overdue scheduled maintenance</strong> creating a severe bay intake bottleneck.
+                    </p>
+                    <div class="insight-action-box">
+                        <strong>Actionable Recommendation:</strong> Dispatch Mobile Service Team (MST-Alpha) to clear 18 overdue vehicles within 10 days, lifting base readiness to <strong>77.6% (+3.4%)</strong>.
+                    </div>
+                </div>
+
+                <!-- Insight 2 -->
+                <div class="insight-card" style="--card-accent: var(--accent-amber)">
+                    <span class="insight-badge" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber);">Cost Anomaly</span>
+                    <h3>Generator Fleet Maintenance Cost Spike (+23%)</h3>
+                    <p>
+                        Field Diesel Generator maintenance costs increased by <strong>+23% over the prior quarter</strong>, despite logged operating hours increasing by only <strong>+8%</strong>. Pre-filter clogging and fuel injector erosion were identified as primary failure drivers.
+                    </p>
+                    <div class="insight-action-box">
+                        <strong>Actionable Recommendation:</strong> Implement standardized pre-filter replacement kits and transition to synthetic lubricants, projecting an annual cost reduction of <strong>₹4.1 Lakhs</strong>.
+                    </div>
+                </div>
+
+                <!-- Insight 3 -->
+                <div class="insight-card" style="--card-accent: var(--accent-blue)">
+                    <span class="insight-badge" style="background: rgba(56, 189, 248, 0.15); color: var(--accent-blue);">Supply Chain Bottleneck</span>
+                    <h3>Bhopal Spares Deficit Impacting Critical Armor</h3>
+                    <p>
+                        Bhopal reports <strong>14 critical assets with readiness &lt;60%</strong>. Diagnostic correlation reveals that <strong>9 out of these 14 units (64.3%)</strong> report severe spare-part shortages for APC hydraulic seals and starter motors.
+                    </p>
+                    <div class="insight-action-box">
+                        <strong>Actionable Recommendation:</strong> Expedite supply reallocation from Central HQ reserve inventory to restore 9 armor assets within 7 days.
+                    </div>
+                </div>
+
+                <!-- Insight 4 -->
+                <div class="insight-card" style="--card-accent: var(--accent-indigo)">
+                    <span class="insight-badge" style="background: rgba(99, 102, 241, 0.15); color: var(--accent-indigo);">Tactical Planning</span>
+                    <h3>14-Day Preventive Maintenance Fleet Wave</h3>
+                    <p>
+                        Preventive maintenance scheduled over the next 14 days will impact <strong>68 assets (5.4% of fleet)</strong>, including 57 currently operational frontline vehicles. Simultaneous intake would temporarily dip fleet readiness to 78.4%.
+                    </p>
+                    <div class="insight-action-box">
+                        <strong>Actionable Recommendation:</strong> Stagger maintenance intake across 3 phased 5-day windows to maintain continuous operational availability above 82.5%.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===================================================================
+             TAB 5: LIVE FLEET DATA EXPLORER
+             =================================================================== -->
+        <div id="tab-data" class="tab-pane">
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Master Equipment Fleet Directory</div>
+                        <div class="card-subtitle" id="tableRecordCount">Showing 1,250 verified equipment records</div>
+                    </div>
+                    <input type="text" id="searchTable" placeholder="Search Equipment ID, Base, Type..." 
+                           style="background: var(--bg-surface); border: 1px solid var(--border-accent); border-radius: 6px; padding: 0.4rem 0.8rem; font-size: 0.8rem; color: #FFFFFF; outline: none; width: 280px;"
+                           oninput="renderTableData()">
+                </div>
+
+                <div class="table-responsive">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Equipment ID</th>
+                                <th>Base Location</th>
+                                <th>Equipment Type</th>
+                                <th>Status</th>
+                                <th>Operating Hours</th>
+                                <th>Fuel Used (L)</th>
+                                <th>Maintenance Cost</th>
+                                <th>Spare Parts</th>
+                                <th>Readiness %</th>
+                                <th>Downtime</th>
+                                <th>Next Service</th>
+                            </tr>
+                        </thead>
+                        <tbody id="inventoryTableBody">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div>Military Logistics & Fleet Readiness BI Portfolio Project</div>
+        <div>Built with Excel • SQL • Power BI • Tableau • Python | Synthetic Unclassified Dataset</div>
+    </footer>
+
+    <!-- Interactive Dashboard Script -->
+    <script>
+        // Raw dataset generator / preloaded memory model
+        const BASES_META = [
+            { name: "Delhi", target: 92.0, count: 200, ops: 186, cost: 2850000 },
+            { name: "Lucknow", target: 90.0, count: 225, ops: 205, cost: 3240000 },
+            { name: "Pune", target: 89.0, count: 90, ops: 80, cost: 1310000 },
+            { name: "Leh", target: 88.0, count: 140, ops: 124, cost: 2190000 },
+            { name: "Jodhpur", target: 87.0, count: 110, ops: 96, cost: 1680000 },
+            { name: "Siliguri", target: 86.0, count: 100, ops: 86, cost: 1490000 },
+            { name: "Bhopal", target: 85.0, count: 175, ops: 137, cost: 2710000 },
+            { name: "Kanpur", target: 85.0, count: 210, ops: 156, cost: 3420000 }
+        ];
+
+        // Generate synthetic fleet items in browser for instant 100% interactive responsiveness
+        let fleetData = [];
+        const EQUIP_TYPES = [
+            "Heavy Tactical Truck", "Armored Personnel Carrier (APC)", "Field Diesel Generator",
+            "Tactical UAV Launcher", "Mobile Radar Unit", "Artillery Tractor"
+        ];
+
+        function initFleetData() {
+            let seed = 42;
+            function pseudoRandom() {
+                seed = (seed * 9301 + 49297) % 233280;
+                return seed / 233280;
+            }
+
+            for (let i = 1; i <= 1250; i++) {
+                const baseIdx = Math.floor(pseudoRandom() * BASES_META.length);
+                const baseObj = BASES_META[baseIdx];
+                const typeIdx = Math.floor(pseudoRandom() * EQUIP_TYPES.length);
+                const eqType = EQUIP_TYPES[typeIdx];
+
+                let status = "Operational";
+                const p = pseudoRandom();
+                if (baseObj.name === "Kanpur") {
+                    status = p < 0.74 ? "Operational" : p < 0.93 ? "Maintenance" : "Out of Service";
+                } else if (baseObj.name === "Bhopal") {
+                    status = p < 0.78 ? "Operational" : p < 0.93 ? "Maintenance" : "Out of Service";
+                } else if (baseObj.name === "Delhi" || baseObj.name === "Lucknow") {
+                    status = p < 0.91 ? "Operational" : p < 0.98 ? "Maintenance" : "Out of Service";
+                } else {
+                    status = p < 0.85 ? "Operational" : p < 0.96 ? "Maintenance" : "Out of Service";
+                }
+
+                let spareParts = "Available";
+                if (baseObj.name === "Bhopal" && pseudoRandom() < 0.35) {
+                    spareParts = pseudoRandom() < 0.6 ? "Low" : "Critical Shortage";
+                } else if (status !== "Operational" && pseudoRandom() < 0.4) {
+                    spareParts = pseudoRandom() < 0.6 ? "Low" : "Critical Shortage";
+                } else if (pseudoRandom() < 0.15) {
+                    spareParts = "Low";
+                }
+
+                const operatingHours = Math.round(120 + pseudoRandom() * 320 + (eqType.includes("Generator") ? 80 : 0));
+                const fuelUsed = Math.round(operatingHours * (2.2 + pseudoRandom() * 1.5));
+                
+                let baseCost = eqType.includes("Truck") ? 12000 : eqType.includes("Generator") ? 28000 : eqType.includes("Radar") ? 75000 : 42000;
+                let maintCost = Math.round(baseCost * (0.9 + (operatingHours / 300) * 0.5) * (status === "Maintenance" ? 1.5 : status === "Out of Service" ? 2.1 : 1.0));
+
+                let readiness = status === "Operational" ? Math.round(82 + pseudoRandom() * 17) :
+                                status === "Maintenance" ? Math.round(45 + pseudoRandom() * 22) :
+                                Math.round(15 + pseudoRandom() * 28);
+
+                let downtime = status === "Operational" ? 0 : status === "Maintenance" ? Math.round(3 + pseudoRandom() * 16) : Math.round(18 + pseudoRandom() * 28);
+                
+                const nextDays = Math.round((pseudoRandom() * 90) - (baseObj.name === "Kanpur" && status !== "Operational" ? 15 : 5));
+                const nextDate = new Date(2026, 7, 15 + nextDays).toISOString().split('T')[0];
+
+                fleetData.push({
+                    id: `EQ-${1000 + i}`,
+                    base: baseObj.name,
+                    type: eqType,
+                    status: status,
+                    hours: operatingHours,
+                    fuel: fuelUsed,
+                    cost: maintCost,
+                    spareParts: spareParts,
+                    readiness: readiness,
+                    downtime: downtime,
+                    nextService: nextDate
+                });
+            }
+        }
+
+        let filteredFleet = [];
+
+        function switchTab(tabId, btn) {
+            document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.nav-tab').forEach(el => el.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            btn.classList.add('active');
+
+            if (tabId === 'tab-risk') {
+                setTimeout(drawScatterPlot, 50);
+            }
+        }
+
+        function switchCodeTab(codeId, btn) {
+            document.querySelectorAll('.code-content-box').forEach(el => el.style.display = 'none');
+            document.querySelectorAll('.code-tab-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById(codeId).style.display = 'block';
+            btn.classList.add('active');
+        }
+
+        function applyFilters() {
+            const baseVal = document.getElementById('filterBase').value;
+            const typeVal = document.getElementById('filterType').value;
+            const statusVal = document.getElementById('filterStatus').value;
+
+            filteredFleet = fleetData.filter(item => {
+                if (baseVal !== 'ALL' && item.base !== baseVal) return false;
+                if (typeVal !== 'ALL' && item.type !== typeVal) return false;
+                if (statusVal !== 'ALL' && item.status !== statusVal) return false;
+                return true;
+            });
+
+            updateKPIs();
+            renderBaseList();
+            drawDonutChart();
+            drawCostTrend();
+            drawScatterPlot();
+            renderTableData();
+        }
+
+        function resetFilters() {
+            document.getElementById('filterBase').value = 'ALL';
+            document.getElementById('filterType').value = 'ALL';
+            document.getElementById('filterStatus').value = 'ALL';
+            applyFilters();
+        }
+
+        function updateKPIs() {
+            const total = filteredFleet.length;
+            const ops = filteredFleet.filter(d => d.status === 'Operational').length;
+            const maint = filteredFleet.filter(d => d.status === 'Maintenance').length;
+            const oos = filteredFleet.filter(d => d.status === 'Out of Service').length;
+            const crit = filteredFleet.filter(d => d.readiness < 60).length;
+            const totalCost = filteredFleet.reduce((sum, d) => sum + d.cost, 0);
+            const rate = total > 0 ? ((ops / total) * 100).toFixed(1) : "0.0";
+
+            document.getElementById('kpiTotalUnits').innerText = total.toLocaleString();
+            document.getElementById('kpiOperationalUnits').innerText = ops.toLocaleString();
+            document.getElementById('kpiReadinessRate').innerText = `${rate}%`;
+            document.getElementById('kpiMaintenanceUnits').innerText = maint.toLocaleString();
+            document.getElementById('kpiCriticalUnits').innerText = crit.toLocaleString();
+            document.getElementById('kpiTotalCost').innerText = `₹${(totalCost / 100000).toFixed(1)}L`;
+
+            document.getElementById('donutValOps').innerText = ops.toLocaleString();
+            document.getElementById('donutValMaint').innerText = maint.toLocaleString();
+            document.getElementById('donutValOos').innerText = oos.toLocaleString();
+        }
+
+        function renderBaseList() {
+            const container = document.getElementById('baseListContainer');
+            container.innerHTML = '';
+
+            BASES_META.forEach(base => {
+                const baseItems = filteredFleet.filter(d => d.base === base.name);
+                if (baseItems.length === 0) return;
+
+                const ops = baseItems.filter(d => d.status === 'Operational').length;
+                const pct = ((ops / baseItems.length) * 100).toFixed(1);
+                const color = pct >= 88 ? 'var(--accent-emerald)' : pct >= 80 ? 'var(--accent-cyan)' : pct >= 75 ? 'var(--accent-amber)' : 'var(--accent-rose)';
+
+                const row = document.createElement('div');
+                row.className = 'base-row';
+                row.innerHTML = `
+                    <div class="base-meta">
+                        <span class="base-name">${base.name} <span style="font-size: 0.7rem; color: var(--text-muted);">(${baseItems.length} units)</span></span>
+                        <span class="base-pct" style="color: ${color}">${pct}%</span>
+                    </div>
+                    <div class="progress-track">
+                        <div class="target-marker" style="left: ${base.target}%" title="Target: ${base.target}%"></div>
+                        <div class="progress-fill" style="width: ${pct}%; background: ${color};"></div>
+                    </div>
+                `;
+                container.appendChild(row);
+            });
+        }
+
+        // Draw Status Donut
+        function drawDonutChart() {
+            const canvas = document.getElementById('statusDonutCanvas');
+            const ctx = canvas.getContext('2d');
+            const dpr = window.devicePixelRatio || 1;
+            canvas.width = canvas.parentElement.clientWidth * dpr;
+            canvas.height = canvas.parentElement.clientHeight * dpr;
+            ctx.scale(dpr, dpr);
+
+            const width = canvas.parentElement.clientWidth;
+            const height = canvas.parentElement.clientHeight;
+            ctx.clearRect(0, 0, width, height);
+
+            const ops = filteredFleet.filter(d => d.status === 'Operational').length;
+            const maint = filteredFleet.filter(d => d.status === 'Maintenance').length;
+            const oos = filteredFleet.filter(d => d.status === 'Out of Service').length;
+            const total = ops + maint + oos;
+            if (total === 0) return;
+
+            const centerX = width / 2;
+            const centerY = height / 2;
+            const radius = Math.min(centerX, centerY) - 20;
+            const innerRadius = radius * 0.65;
+
+            const slices = [
+                { val: ops, color: '#10B981' },
+                { val: maint, color: '#F59E0B' },
+                { val: oos, color: '#EF4444' }
+            ];
+
+            let startAngle = -Math.PI / 2;
+            slices.forEach(slice => {
+                const angle = (slice.val / total) * Math.PI * 2;
+                ctx.beginPath();
+                ctx.arc(centerX, centerY, radius, startAngle, startAngle + angle);
+                ctx.arc(centerX, centerY, innerRadius, startAngle + angle, startAngle, true);
+                ctx.closePath();
+                ctx.fillStyle = slice.color;
+                ctx.fill();
+                startAngle += angle;
+            });
+
+            // Center Text
+            ctx.fillStyle = '#FFFFFF';
+            ctx.font = 'bold 22px Plus Jakarta Sans, sans-serif';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(`${((ops / total) * 100).toFixed(0)}%`, centerX, centerY - 6);
+            ctx.fillStyle = '#94A3B8';
+            ctx.font = '10px JetBrains Mono, monospace';
+            ctx.fillText('READINESS', centerX, centerY + 14);
+        }
+
+        // Draw Cost Trend Line
+        function drawCostTrend() {
+            const canvas = document.getElementById('costTrendCanvas');
+            const ctx = canvas.getContext('2d');
+            const dpr = window.devicePixelRatio || 1;
+            canvas.width = canvas.parentElement.clientWidth * dpr;
+            canvas.height = canvas.parentElement.clientHeight * dpr;
+            ctx.scale(dpr, dpr);
+
+            const w = canvas.parentElement.clientWidth;
+            const h = canvas.parentElement.clientHeight;
+            ctx.clearRect(0, 0, w, h);
+
+            const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+            const baseValues = [14.2, 14.8, 15.1, 16.8, 18.4, 19.2, 18.9, 18.4, 17.6, 16.9, 15.8, 15.2];
+            
+            const padX = 45;
+            const padY = 30;
+            const plotW = w - padX * 2;
+            const plotH = h - padY * 2;
+
+            const maxVal = 22;
+            const minVal = 10;
+
+            // Grid Lines
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.06)';
+            ctx.lineWidth = 1;
+            for (let i = 0; i <= 4; i++) {
+                const y = padY + (plotH / 4) * i;
+                ctx.beginPath();
+                ctx.moveTo(padX, y);
+                ctx.lineTo(w - padX, y);
+                ctx.stroke();
+
+                const labelVal = (maxVal - (maxVal - minVal) * (i / 4)).toFixed(0);
+                ctx.fillStyle = '#64748B';
+                ctx.font = '10px JetBrains Mono, monospace';
+                ctx.textAlign = 'right';
+                ctx.fillText(`₹${labelVal}L`, padX - 8, y + 3);
+            }
+
+            // Curve Coordinates
+            const points = months.map((m, idx) => {
+                const x = padX + (plotW / (months.length - 1)) * idx;
+                const y = padY + plotH - ((baseValues[idx] - minVal) / (maxVal - minVal)) * plotH;
+                return { x, y, month: m, val: baseValues[idx] };
+            });
+
+            // Gradient Fill
+            const grad = ctx.createLinearGradient(0, padY, 0, h - padY);
+            grad.addColorStop(0, 'rgba(6, 182, 212, 0.25)');
+            grad.addColorStop(1, 'rgba(6, 182, 212, 0.0)');
+
+            ctx.beginPath();
+            ctx.moveTo(points[0].x, points[0].y);
+            points.forEach((p, idx) => {
+                if (idx > 0) {
+                    const prev = points[idx - 1];
+                    const cx = (prev.x + p.x) / 2;
+                    ctx.bezierCurveTo(cx, prev.y, cx, p.y, p.x, p.y);
+                }
+            });
+            ctx.lineTo(points[points.length - 1].x, h - padY);
+            ctx.lineTo(points[0].x, h - padY);
+            ctx.closePath();
+            ctx.fillStyle = grad;
+            ctx.fill();
+
+            // Line
+            ctx.beginPath();
+            ctx.moveTo(points[0].x, points[0].y);
+            points.forEach((p, idx) => {
+                if (idx > 0) {
+                    const prev = points[idx - 1];
+                    const cx = (prev.x + p.x) / 2;
+                    ctx.bezierCurveTo(cx, prev.y, cx, p.y, p.x, p.y);
+                }
+            });
+            ctx.strokeStyle = '#06B6D4';
+            ctx.lineWidth = 3;
+            ctx.stroke();
+
+            // Draw Points & Labels
+            points.forEach((p, idx) => {
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
+                ctx.fillStyle = '#06B6D4';
+                ctx.fill();
+                ctx.strokeStyle = '#0F172A';
+                ctx.lineWidth = 2;
+                ctx.stroke();
+
+                ctx.fillStyle = '#94A3B8';
+                ctx.font = '10px JetBrains Mono, monospace';
+                ctx.textAlign = 'center';
+                ctx.fillText(p.month, p.x, h - padY + 16);
+            });
+        }
+
+        // Draw Interactive Scatter Plot (Tableau Matrix)
+        function drawScatterPlot() {
+            const canvas = document.getElementById('scatterCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            const dpr = window.devicePixelRatio || 1;
+            canvas.width = canvas.parentElement.clientWidth * dpr;
+            canvas.height = canvas.parentElement.clientHeight * dpr;
+            ctx.scale(dpr, dpr);
+
+            const w = canvas.parentElement.clientWidth;
+            const h = canvas.parentElement.clientHeight;
+            ctx.clearRect(0, 0, w, h);
+
+            const padX = 60;
+            const padY = 40;
+            const plotW = w - padX * 2;
+            const plotH = h - padY * 2;
+
+            const maxHours = 500;
+            const maxCost = 85000;
+
+            const avgHoursX = padX + (220 / maxHours) * plotW;
+            const avgCostY = padY + plotH - (32000 / maxCost) * plotH;
+
+            // Quadrant Backgrounds
+            ctx.fillStyle = 'rgba(239, 68, 68, 0.05)'; // Q1 High Problem
+            ctx.fillRect(avgHoursX, padY, w - padX - avgHoursX, avgCostY - padY);
+
+            ctx.fillStyle = 'rgba(16, 185, 129, 0.04)'; // Q3 Healthy
+            ctx.fillRect(padX, avgCostY, avgHoursX - padX, padY + plotH - avgCostY);
+
+            // Cross Axis Lines
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
+            ctx.setLineDash([4, 4]);
+            ctx.beginPath();
+            ctx.moveTo(avgHoursX, padY);
+            ctx.lineTo(avgHoursX, padY + plotH);
+            ctx.moveTo(padX, avgCostY);
+            ctx.lineTo(padX + plotW, avgCostY);
+            ctx.stroke();
+            ctx.setLineDash([]);
+
+            // Axis Titles
+            ctx.fillStyle = '#94A3B8';
+            ctx.font = 'bold 11px Plus Jakarta Sans, sans-serif';
+            ctx.textAlign = 'center';
+            ctx.fillText("OPERATING HOURS LOGGED →", padX + plotW / 2, h - 8);
+
+            ctx.save();
+            ctx.translate(16, padY + plotH / 2);
+            ctx.rotate(-Math.PI / 2);
+            ctx.fillText("MAINTENANCE EXPENDITURE (INR) →", 0, 0);
+            ctx.restore();
+
+            // Quadrant Labels
+            ctx.font = 'bold 10px JetBrains Mono, monospace';
+            ctx.fillStyle = 'rgba(239, 68, 68, 0.7)';
+            ctx.textAlign = 'right';
+            ctx.fillText("QUADRANT 1: HIGH PROBLEM ASSETS (OVERHAUL)", w - padX - 10, padY + 20);
+
+            ctx.fillStyle = 'rgba(16, 185, 129, 0.7)';
+            ctx.textAlign = 'left';
+            ctx.fillText("QUADRANT 3: OPTIMAL FLEET ASSETS", padX + 10, padY + plotH - 15);
+
+            // Draw Scatter Dots
+            filteredFleet.forEach(item => {
+                const x = padX + (Math.min(item.hours, maxHours) / maxHours) * plotW;
+                const y = padY + plotH - (Math.min(item.cost, maxCost) / maxCost) * plotH;
+                const radius = Math.max(3, Math.min(10, 3 + item.downtime * 0.25));
+
+                ctx.beginPath();
+                ctx.arc(x, y, radius, 0, Math.PI * 2);
+                
+                const col = item.readiness >= 85 ? 'rgba(16, 185, 129, 0.8)' :
+                            item.readiness >= 65 ? 'rgba(6, 182, 212, 0.8)' :
+                            item.readiness >= 50 ? 'rgba(245, 158, 11, 0.8)' :
+                            'rgba(239, 68, 68, 0.9)';
+                ctx.fillStyle = col;
+                ctx.fill();
+                ctx.strokeStyle = '#0F172A';
+                ctx.lineWidth = 1;
+                ctx.stroke();
+
+                item._canvasX = x;
+                item._canvasY = y;
+            });
+        }
+
+        // Scatter Hover Tooltip
+        const scatterCanvas = document.getElementById('scatterCanvas');
+        const tooltip = document.getElementById('scatterTooltip');
+
+        scatterCanvas.addEventListener('mousemove', e => {
+            const rect = scatterCanvas.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+
+            let closest = null;
+            let minDist = 14;
+
+            filteredFleet.forEach(item => {
+                if (item._canvasX) {
+                    const dx = mouseX - item._canvasX;
+                    const dy = mouseY - item._canvasY;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < minDist) {
+                        minDist = dist;
+                        closest = item;
+                    }
+                }
+            });
+
+            if (closest) {
+                tooltip.style.display = 'block';
+                tooltip.style.left = `${e.pageX + 15}px`;
+                tooltip.style.top = `${e.pageY - 20}px`;
+                tooltip.innerHTML = `
+                    <div style="font-weight: 800; color: var(--accent-cyan); font-size: 0.85rem; margin-bottom: 0.3rem;">${closest.id} • ${closest.base}</div>
+                    <div><strong>Type:</strong> ${closest.type}</div>
+                    <div><strong>Status:</strong> ${closest.status}</div>
+                    <div><strong>Readiness:</strong> <span style="color:${closest.readiness >= 80 ? '#10B981':'#EF4444'}; font-weight:700;">${closest.readiness}%</span></div>
+                    <div><strong>Hours:</strong> ${closest.hours} hrs</div>
+                    <div><strong>Cost:</strong> ₹${closest.cost.toLocaleString()}</div>
+                    <div><strong>Spare Parts:</strong> ${closest.spareParts}</div>
+                    <div><strong>Downtime:</strong> ${closest.downtime} days</div>
+                `;
+            } else {
+                tooltip.style.display = 'none';
+            }
+        });
+
+        scatterCanvas.addEventListener('mouseleave', () => {
+            tooltip.style.display = 'none';
+        });
+
+        // Table Data Renderer
+        function renderTableData() {
+            const query = document.getElementById('searchTable').value.toLowerCase();
+            const tbody = document.getElementById('inventoryTableBody');
+            tbody.innerHTML = '';
+
+            const matches = filteredFleet.filter(d => {
+                if (!query) return true;
+                return d.id.toLowerCase().includes(query) ||
+                       d.base.toLowerCase().includes(query) ||
+                       d.type.toLowerCase().includes(query) ||
+                       d.status.toLowerCase().includes(query);
+            });
+
+            document.getElementById('tableRecordCount').innerText = `Showing ${matches.length} matching equipment records`;
+
+            matches.slice(0, 50).forEach(d => {
+                const tr = document.createElement('tr');
+                const statusClass = d.status === 'Operational' ? 'operational' : d.status === 'Maintenance' ? 'maintenance' : 'out-of-service';
+                tr.innerHTML = `
+                    <td style="font-weight: 700; font-family: var(--font-mono); color: var(--accent-cyan);">${d.id}</td>
+                    <td>${d.base}</td>
+                    <td>${d.type}</td>
+                    <td><span class="status-pill ${statusClass}">${d.status}</span></td>
+                    <td>${d.hours}</td>
+                    <td>${d.fuel.toLocaleString()}</td>
+                    <td>₹${d.cost.toLocaleString()}</td>
+                    <td>${d.spareParts}</td>
+                    <td style="font-weight: 700; color: ${d.readiness >= 80 ? 'var(--accent-emerald)' : d.readiness >= 60 ? 'var(--accent-amber)' : 'var(--accent-rose)'};">${d.readiness}%</td>
+                    <td>${d.downtime} d</td>
+                    <td style="font-family: var(--font-mono); font-size: 0.75rem;">${d.nextService}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        // Initialize On Load
+        window.addEventListener('load', () => {
+            initFleetData();
+            applyFilters();
+        });
+
+        window.addEventListener('resize', () => {
+            drawDonutChart();
+            drawCostTrend();
+            drawScatterPlot();
+        });
+    </script>
+</body>
+</html>

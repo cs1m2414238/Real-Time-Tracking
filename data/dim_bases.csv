@@ -1,0 +1,9 @@
+Base_ID,Base_Name,Region,Strategic_Role,Commander_Rank,Target_Readiness
+B01,Lucknow,Central Command,Logistics & Reserve Hub,Maj General,90.0
+B02,Kanpur,Central Command,Heavy Maintenance Depot,Brigadier,85.0
+B03,Bhopal,Central Command,Armor & Training Center,Maj General,85.0
+B04,Delhi,Northern Command,Strategic Air Defense Hub,Lt General,92.0
+B05,Leh,High-Altitude Ops,Forward Mountain Command,Maj General,88.0
+B06,Jodhpur,Western Command,Desert Warfare Logistics,Brigadier,87.0
+B07,Siliguri,Eastern Command,Corridor Transit Logistics,Brigadier,86.0
+B08,Pune,Southern Command,Technical Training & Reserves,Maj General,89.0

@@ -1,0 +1,1271 @@
+Equipment_ID,Base,Equipment_Type,Status,Last_Service,Next_Service,Fuel_Used,Operating_Hours,Maintenance_Cost,Spare_Parts,Readiness
+EQ-1834,Bhopal, Field Diesel Generator ,Operational,2026-07-05,2026-08-19,291.0,213,"48,900 INR",Available,90.8
+EQ-1652,Pune, Heavy Tactical Truck ,Operational,2026-06-24,2026-08-23,608.0,225,22800,,87.8
+EQ-1228,lucknow,Field Diesel Generator,Operational,09-07-2026,23-08-2026,278.0,195,50500,Available,93.7
+EQ-1193,Kanpur,Tactical UAV Launcher,Operational,2026-07-12,2026-08-11,216.0,205,107600,Available,85.4
+EQ-1752,Siliguri,Tactical UAV Launcher,operational,2026-08-02,2026-09-01,129.0,127,"85,600 INR",Available,82.5
+EQ-2229,Siliguri,Heavy Tactical Truck,Operational,2026-06-09,2026-08-08,576.0,218,18800,Low,80.2
+EQ-2147,Lucknow,Heavy Tactical Truck,Out of Service,2026-06-13,2026-08-12,,125,"₹32,200",Available,33.6
+EQ-1876,Delhi,Armored Personnel Carrier (APC),Operational,2026-07-20,2026-10-18,1348.0,284,87300,Critical Shortage,94%
+EQ-1507,Kanpur,Armored_Personnel_Carrier_(APC),operational,2026-07-31,2026-10-29,830.0,165,79900,Low,92.0
+EQ-1461,Bhopal, Armored Personnel Carrier (APC) ,Operational,2026-07-03,2026-10-01,1504.0,293,92300,Available,90.3
+EQ-2067,kanpur,Tactical UAV Launcher,Operational,25/07/2026,24/08/2026,153.0,130,89500,Available,84.2
+EQ-1081,Bhopal,ARMORED PERSONNEL CARRIER (APC),operational,2026-05-24,2026-08-22,830.0,184,78300,Available,82.2
+EQ-1956,Delhi,Artillery Tractor,Operational,2026-07-25,2026-10-08,880.0,250,59800,Available,91.9
+EQ-1901,lUCKNOW,Armored Personnel Carrier (APC),Operational,2026-07-23,2026-10-21,956.0,213,"76,600 INR",Available,83.9
+EQ-1018,Bhopal,Armored Personnel Carrier (APC),Operational,2026-07-23,2026-10-21,1093.0,210,"77,400 INR",Critical Shortage,86.9
+EQ-1409,Bhopal,Armored Personnel Carrier (APC),operational,07-13-2026,10-11-2026,942.0,201,81500,Available,96.5
+EQ-1791,Pune,Field_Diesel_Generator,Operational,2026-07-26,2026-09-09,429.0,285,55700,Available,87.4
+EQ-1881,  Siliguri   ,Heavy Tactical Truck,Out of Service,09/07/2026,07/09/2026,707.0,288,Rs. 55800,,40.1
+EQ-1754,Leh,Artillery Tractor,Operational,2026-07-15,2026-09-28,840.0,247,56900,Available,83.0
+EQ-1309,Pune,Artillery Tractor,Operational,05-22-2026,08-05-2026,745.0,222,54300,Available,81.8
+EQ-1327,Bhopal,Heavy Tactical Truck,Maintenance,2026-06-05,2026-08-04,551.0,227,"₹26,800",Critical Shortage,49.5
+EQ-1726,Bhopal,Armored Personnel Carrier (APC),Operational,2026-05-10,2026-08-08,862.0,185,71200,Low,91.9
+EQ-1436,Delhi,Tactical UAV Launcher,Operational,2026-07-11,2026-08-10,202.0,198,"₹94,500",Available,0.8080
+EQ-1739,Lucknow,Artillery_Tractor,Operational,24-06-2026,07-09-2026,1008.0,278,Rs. 61500,Critical Shortage,98.3
+EQ-1396,Lucknow,Field Diesel Generator,Operational,2026-07-03,2026-08-17,311.0,231,Rs. 52100,Available,86.3%
+EQ-2014,Delhi,heavy tactical truck,Operational,2026-06-14,2026-08-13,368.0,143,19500,Available,82.6
+EQ-1943,LEH,Heavy Tactical Truck,maintenance,2026-06-24,2026-08-23,,204,"₹27,100",,47.1%
+EQ-2248,Pune,Heavy Tactical Truck,Operational,2026-07-19,2026-09-17,356.0,140,19700,Low,98.9
+EQ-1610,Kanpur,tactical uav launcher,operational,2026-08-05,2026-09-04,289.0,269,"107,700 INR",Available,98%
+EQ-1004,Bhopal,Field Diesel Generator,Operational,2026-06-23,2026-08-07,544.0,351,71000,Low,90.2%
+EQ-1495,Kanpur,Heavy Tactical Truck,Maintenance,2026-06-08,2026-08-07,702.0,243,36400,Critical Shortage,57%
+EQ-1916,  Kanpur   ,Artillery_Tractor,Maintenance,2026-05-04,2026-07-18,785.0,208,95000,Available,49.0
+EQ-1900,  Pune   ,Tactical UAV Launcher,Operational,02-08-2026,01-09-2026,181.0,154,86900,Available,81.5
+EQ-1568,BHOPAL,Heavy Tactical Truck,Maintenance,2026-07-08,2026-09-06,336.0,129,30300,Critical Shortage,64.0
+EQ-1548,Jodhpur,field diesel generator,Operational,2026-07-31,2026-09-14,375.0,247,58600,Critical Shortage,91.0
+EQ-1835,Leh,Heavy Tactical Truck,Operational,2026-06-28,2026-08-27,430.0,173,"20,700 INR",Available,0.8710
+EQ-1774,delhi,Mobile Radar Unit,Operational,2026-08-04,2026-10-03,493.0,243,Rs. 152400,Critical Shortage,89.9
+EQ-1337,Pune,Armored Personnel Carrier (APC),Operational,2026-05-20,2026-08-18,740.0,153,Rs. 76000,Low,80.0
+EQ-1566,Lucknow,Armored Personnel Carrier (APC),operational,2026-07-19,2026-10-17,883.0,174,73100,,0.9500
+EQ-1117,LUCKNOW,field diesel generator,operational,28-06-2026,12-08-2026,390.0,257,51900,Available,91.7
+EQ-1059,Pune,Heavy Tactical Truck,Maintenance,2026-06-13,2026-08-12,527.0,189,33600,Low,55.3
+EQ-2220,Siliguri,Heavy Tactical Truck,Maintenance,2026-06-22,2026-08-21,700.0,271,44800,Available,53.8
+EQ-1157,Leh,heavy tactical truck,operational,2026-07-09,2026-09-07,624.0,258,24700,Available,92.1
+EQ-1779,delhi,Armored Personnel Carrier (APC),operational,2026-06-09,2026-09-07,920.0,191,75300,Available,81.5
+EQ-1508,Lucknow,heavy tactical truck,Maintenance,2026-06-16,2026-08-15,390.0,136,30100,Available,47.0
+EQ-1589,  Bhopal   ,Field Diesel Generator,Maintenance,2026-06-16,2026-07-31,427.0,309,78600,Low,46.7
+EQ-2045,sILIGURI, Field Diesel Generator ,Operational,2026-06-20,2026-08-04,327.0,249,"₹53,400",Available,97.7
+EQ-1514,lEH,Armored Personnel Carrier (APC),Maintenance,2026-06-15,2026-09-13,,149,"106,800 INR",Available,55%
+EQ-1224,Delhi,Heavy Tactical Truck,Maintenance,07-15-2026,09-13-2026,288.0,102,"₹30,800",Critical Shortage,49.1
+EQ-1978,Leh,Heavy Tactical Truck,Maintenance,2026-07-24,2026-09-22,177.0,65,25300,Available,0.4780
+EQ-1075,JODHPUR,Tactical UAV Launcher,Operational,2026-07-19,2026-08-18,72.0,64,77500,Available,87.1
+EQ-1219,Lucknow,Armored Personnel Carrier (APC),Operational,2026-06-29,2026-09-27,897.0,170,79200,Available,89.7%
+EQ-1504,Jodhpur,Armored Personnel Carrier (APC),Operational,2026-07-20,2026-10-18,1178.0,223,72300,Available,86.5
+EQ-2115,Leh,Armored Personnel Carrier (APC),Operational,2026-06-23,2026-09-21,938.0,202,85900,Available,88%
+EQ-1887,Kanpur,Field Diesel Generator,Operational,2026-07-14,2026-08-28,386.0,295,68800,,84.5
+EQ-1545,  Bhopal   ,Armored Personnel Carrier (APC),Operational,2026-06-27,2026-09-25,317.0,71,55200,Available,95.5
+EQ-1731,dELHI,Heavy Tactical Truck,Operational,2026-08-05,2026-10-04,503.0,183,20600,Available,90.9
+EQ-1873,Leh, Heavy Tactical Truck ,Operational,2026-07-17,2026-09-15,279.0,112,16300,Available,94.1
+EQ-1560,Delhi,Heavy Tactical Truck,Operational,2026-07-24,2026-09-22,401.0,156,17300,Available,82.5
+EQ-1889,Kanpur,Field Diesel Generator,Operational,2026-07-18,2026-09-01,396.0,295,64400,Available,92.3
+EQ-2177,Leh,Armored Personnel Carrier (APC),Operational,2026-07-22,2026-10-20,516.0,110,"59,300 INR",Available,86.2
+EQ-1572,Jodhpur,Heavy Tactical Truck,Maintenance,12-Jun-2026,11-Aug-2026,638.0,250,32900,Low,56.4%
+EQ-1965,Bhopal,Field Diesel Generator,Operational,2026-07-29,2026-09-12,330.0,254,60800,Available,98%
+EQ-1812,kanpur,Artillery Tractor,operational,2026-06-12,2026-08-26,566.0,173,Rs. 55800,Available,86.3
+EQ-1322,Lucknow,field diesel generator,Operational,24-07-2026,07-09-2026,422.0,295,Rs. 58700,Available,87.0%
+EQ-2002,Lucknow,Heavy Tactical Truck,Operational,10-Jul-2026,08-Sep-2026,552.0,216,"19,400 INR",Available,80.9%
+EQ-1407,Delhi,Field Diesel Generator,operational,14-07-2026,28-08-2026,292.0,195,50200,Critical Shortage,95.1
+EQ-1523,Kanpur,Armored Personnel Carrier (APC),Operational,07-07-2026,10-05-2026,737.0,161,"75,900 INR",Critical Shortage,0.9060
+EQ-1438,  Jodhpur   ,Heavy Tactical Truck,Operational,2026-07-18,2026-09-16,,112,15200,Available,96.0
+EQ-1269,Siliguri, Field Diesel Generator ,Operational,2026-07-15,2026-08-29,307.0,233,59100,Low,91.7%
+EQ-1156,  Delhi   ,Armored Personnel Carrier (APC),operational,2026-06-26,2026-09-24,760.0,159,79600,Low,93.0
+EQ-1363,Leh,Armored Personnel Carrier (APC),Operational,2026-06-14,2026-09-12,976.0,189,Rs. 79600,Low,82%
+EQ-1626,Siliguri,Heavy Tactical Truck,Operational,2026-06-20,2026-08-19,398.0,151,18400,Low,88.1
+EQ-1155,Jodhpur,Mobile Radar Unit,Operational,07-17-2026,09-15-2026,436.0,209,150600,Available,94.3
+EQ-1237,LEH,Field Diesel Generator,Operational,2026-07-23,2026-09-06,212.0,138,45600,Available,94%
+EQ-1924,lucknow,Field Diesel Generator,Operational,2026-07-31,2026-09-14,294.0,217,59000,Available,86.4
+EQ-1499,Bhopal,Heavy Tactical Truck,Maintenance,2026-06-14,2026-08-13,385.0,135,24500,Available,60.7
+EQ-1976,Kanpur,Armored Personnel Carrier (APC),Operational,2026-05-04,2026-08-02,475.0,100,55800,Available,86%
+EQ-1420,LEH,Armored Personnel Carrier (APC),operational,2026-08-02,2026-10-31,1035.0,198,68300,Available,0.8020
+EQ-1783,Bhopal,Heavy Tactical Truck,operational,23-Jul-2026,21-Sep-2026,514.0,192,20300,Low,83.1
+EQ-1639,Leh,Heavy Tactical Truck,Operational,2026-07-08,2026-09-06,314.0,116,19100,Available,83.6
+EQ-2098,BHOPAL,Armored Personnel Carrier (APC),Operational,2026-06-09,2026-09-07,480.0,95,"58,200 INR",Available,84.2
+EQ-2076,leh,Artillery Tractor,Operational,2026-06-14,2026-08-28,648.0,170,"53,100 INR",Low,88.5
+EQ-1055,Kanpur,Heavy Tactical Truck,Maintenance,06-24-2026,08-23-2026,540.0,221,32900,Low,62.7
+EQ-1911,Lucknow,Heavy Tactical Truck,Operational,2026-06-20,2026-08-19,408.0,161,19700,Available,84.3
+EQ-1486,Lucknow,Field Diesel Generator,maintenance,30/07/2026,13/09/2026,267.0,174,87000,Low,54.8
+EQ-1649,KANPUR,Field Diesel Generator,Maintenance,29-May-2026,13-Jul-2026,366.0,246,78300,,58.4
+EQ-1723,Lucknow,Tactical UAV Launcher,Operational,08-07-2026,07-08-2026,155.0,127,78200,Available,87.5
+EQ-2138,Leh,Heavy Tactical Truck,operational,06-03-2026,08-02-2026,328.0,119,Rs. 18800,Available,87.3
+EQ-2032,Lucknow,Heavy Tactical Truck,Maintenance,06-19-2026,08-18-2026,268.0,99,21000,Available,60.2
+EQ-1052,  Bhopal   ,Artillery Tractor,Operational,2026-06-15,2026-08-29,637.0,175,52300,Available,0.8090
+EQ-1721,Bhopal,Heavy Tactical Truck,Out of Service,2026-06-02,2026-08-01,521.0,188,"43,400 INR",Available,38.5
+EQ-1026,Delhi,Field Diesel Generator,Operational,2026-07-03,2026-08-17,375.0,266,Rs. 54500,Low,82.7
+EQ-1210,Bhopal,Artillery Tractor,Operational,21-06-2026,04-09-2026,1322.0,387,67900,Low,95.5
+EQ-1762,Lucknow,Heavy Tactical Truck,Operational,2026-06-20,2026-08-19,513.0,180,20900,Low,93.6%
+EQ-1615,DELHI,Armored Personnel Carrier (APC),Maintenance,2026-07-10,2026-10-08,,317,180600,Critical Shortage,52.9
+EQ-1063,siliguri,Tactical UAV Launcher,Operational,2026-07-10,2026-08-09,158.0,139,84400,Available,83.7
+EQ-1083,Pune, Heavy Tactical Truck ,Operational,2026-07-27,2026-09-25,679.0,241,Rs. 22100,Available,81.2
+EQ-1138,Pune,Heavy Tactical Truck,Operational,2026-07-13,2026-09-11,426.0,160,Rs. 17300,Low,98.4
+EQ-1141,Siliguri,Armored Personnel Carrier (APC),Operational,2026-05-05,2026-08-03,1072.0,206,74600,Available,91.6
+EQ-1293,LUCKNOW,Tactical UAV Launcher,Operational,25/07/2026,24/08/2026,171.0,165,85500,Low,91.7
+EQ-2005,Leh,Field Diesel Generator,Operational,2026-06-25,2026-08-09,399.0,301,Rs. 72300,Available,94.1
+EQ-1243,Delhi,Heavy Tactical Truck,Operational,2026-07-05,2026-09-03,509.0,197,20900,Available,87.9
+EQ-1232,LUCKNOW,HEAVY TACTICAL TRUCK,Operational,2026-08-04,2026-10-03,512.0,184,17500,Available,94.3
+EQ-1200,Leh,Field Diesel Generator,operational,27-07-2026,10-09-2026,292.0,191,49700,Available,82.6
+EQ-1687,Leh,Field Diesel Generator,Operational,2026-07-01,2026-08-15,356.0,245,55500,Low,86.1
+EQ-1164,Kanpur,heavy tactical truck,Operational,25-06-2026,24-08-2026,385.0,138,16700,Available,84%
+EQ-2033,Leh,Heavy Tactical Truck,operational,13-07-2026,11-09-2026,459.0,192,19900,Available,92.8
+EQ-1705,Jodhpur,Armored Personnel Carrier (APC),Operational,06-10-2026,09-08-2026,571.0,117,67900,Available,86.6
+EQ-1515,Lucknow,Heavy Tactical Truck,Operational,2026-06-22,2026-08-21,358.0,149,18200,,87.2
+EQ-1735,Kanpur,Field Diesel Generator,Operational,16-Jul-2026,30-Aug-2026,499.0,321,54700,Low,95.4
+EQ-1295,Lucknow,Tactical UAV Launcher,Operational,2026-08-01,2026-08-31,218.0,212,113500,Critical Shortage,98.9
+EQ-1257,LEH,Field Diesel Generator,Operational,2026-06-16,2026-07-31,464.0,336,"57,800 INR",Available,82%
+EQ-1854,Delhi,Field Diesel Generator,Operational,2026-07-20,2026-09-03,496.0,331,"59,200 INR",Critical Shortage,87%
+EQ-1678,Siliguri,Heavy Tactical Truck,Operational,19/07/2026,17/09/2026,631.0,253,19900,Available,0.8860
+EQ-2172,Lucknow,Mobile Radar Unit,Operational,2026-07-19,2026-09-17,508.0,209,155600,Available,88.4
+EQ-1935,  Siliguri   ,Heavy Tactical Truck,operational,2026-08-02,2026-10-01,535.0,194,20100,Available,88.5
+EQ-1358,Pune,Armored Personnel Carrier (APC),Operational,06-11-2026,09-09-2026,922.0,180,80100,Available,82%
+EQ-1915,Leh, Field Diesel Generator ,operational,2026-06-22,2026-08-06,374.0,254,56000,Low,89.3
+EQ-1131,Delhi,Armored Personnel Carrier (APC),Operational,2026-05-27,2026-08-25,583.0,117,60200,Low,90.1
+EQ-1095,KANPUR,Armored Personnel Carrier (APC),Operational,2026-08-04,2026-11-02,901.0,175,73300,Low,82.5
+EQ-1100,lEH,Armored Personnel Carrier (APC),Operational,2026-07-17,2026-10-15,891.0,183,69500,Available,0.9300
+EQ-1671,LUCKNOW, Field Diesel Generator ,Operational,07-05-2026,08-19-2026,488.0,334,58400,Available,81.2
+EQ-1230,Siliguri,Tactical UAV Launcher,Operational,04-Aug-2026,03-Sep-2026,271.0,228,110000,Available,0.9230
+EQ-1386,Pune,Artillery Tractor,Operational,2026-06-25,2026-09-08,781.0,202,60400,Available,90.8
+EQ-2212,Kanpur,Mobile Radar Unit,Operational,2026-06-09,2026-08-08,351.0,160,137400,Critical Shortage,97.7
+EQ-2060,Jodhpur,Field Diesel Generator,Operational,07-31-2026,09-14-2026,336.0,237,"₹57,600",Available,92.0%
+EQ-1977,Bhopal,Heavy Tactical Truck,Operational,2026-06-11,2026-08-10,438.0,154,18100,Low,82.0%
+EQ-1186,Leh,Artillery Tractor,Operational,2026-06-02,2026-08-16,853.0,230,"₹51,600",Low,88.0
+EQ-1366,Kanpur,Tactical UAV Launcher,Maintenance,2026-06-30,2026-07-30,212.0,174,154000,Available,55.4
+EQ-1304,dELHI,Heavy Tactical Truck,Operational,2026-06-06,2026-08-05,510.0,202,19600,,88.2
+EQ-1868,Delhi,Armored Personnel Carrier (APC),Operational,2026-06-17,2026-09-15,1041.0,211,76900,Available,81.3
+EQ-1771,Lucknow,Field Diesel Generator,Maintenance,07/07/2026,21/08/2026,459.0,302,119400,Available,67.2
+EQ-1106,Leh,Heavy Tactical Truck,Operational,2026-06-25,2026-08-24,527.0,193,19900,Available,87.3
+EQ-1073,Bhopal,Heavy Tactical Truck,Operational,2026-08-04,2026-10-03,446.0,173,19100,Available,83.7
+EQ-1532,Leh,HEAVY TACTICAL TRUCK,Operational,2026-06-23,2026-08-22,,100,"15,200 INR",Available,0.8750
+EQ-2037,Delhi,Field Diesel Generator,operational,07-02-2026,08-16-2026,246.0,186,52700,Low,85.4%
+EQ-1903,Delhi,Heavy Tactical Truck,operational,2026-07-04,2026-09-02,448.0,176,18700,Available,91.6
+EQ-1554,Siliguri,Heavy Tactical Truck,Operational,2026-06-08,2026-08-07,517.0,186,17900,Available,89.3
+EQ-1479,Lucknow,Field Diesel Generator,Operational,04-Aug-2026,18-Sep-2026,586.0,444,76400,Available,92.8
+EQ-1673,Delhi,Armored Personnel Carrier (APC),Operational,2026-07-20,2026-10-18,791.0,177,69500,Available,92.8
+EQ-1395,kanpur,Heavy Tactical Truck,Operational,2026-06-07,2026-08-06,603.0,228,"22,300 INR",Available,87.1
+EQ-1902,Leh,Armored Personnel Carrier (APC),Operational,2026-07-02,2026-09-30,898.0,175,"₹80,700",Available,0.9530
+EQ-2146,BHOPAL,Tactical UAV Launcher,Operational,2026-07-07,2026-08-06,209.0,195,110900,Available,88.4%
+EQ-1638,Lucknow,Mobile Radar Unit,Operational,2026-07-24,2026-09-22,471.0,198,124900,Available,90.8
+EQ-1968,siliguri,Field Diesel Generator,Operational,2026-07-19,2026-09-02,479.0,368,69300,Critical Shortage,94.2
+EQ-1680,Bhopal,Mobile Radar Unit,Maintenance,2026-08-05,2026-10-04,632.0,258,231300,Critical Shortage,51.7
+EQ-1049,Kanpur, Artillery Tractor ,Operational,2026-07-25,2026-10-08,,212,56000,Available,83.2
+EQ-1793,Leh,Armored Personnel Carrier (APC),Maintenance,2026-05-09,2026-08-07,980.0,208,143100,Available,53%
+EQ-1722,JODHPUR,Field Diesel Generator,Out of Service,06-07-2026,20-08-2026,228.0,157,79700,Low,38.3
+EQ-1707,lUCKNOW,Field Diesel Generator,Operational,03-Aug-2026,17-Sep-2026,247.0,183,55200,Available,93.0
+EQ-2053,Bhopal,Armored Personnel Carrier (APC),Operational,2026-06-25,2026-09-23,1163.0,219,"73,900 INR",Critical Shortage,96.9
+EQ-1879,Pune,Heavy Tactical Truck,Operational,2026-08-02,2026-10-01,418.0,174,20400,Available,94.2
+EQ-1695,Kanpur,Mobile Radar Unit,Operational,2026-06-30,2026-08-29,546.0,224,160100,Available,93.2
+EQ-1279,Siliguri,Armored_Personnel_Carrier_(APC),Operational,2026-07-31,2026-10-29,933.0,198,78500,,93.3
+EQ-1353,pUNE,Artillery Tractor,Operational,10/07/2026,23/09/2026,796.0,237,59500,Available,91.6
+EQ-1528,Leh,Heavy Tactical Truck,Operational,2026-06-14,2026-08-13,453.0,177,18000,Available,82.9
+EQ-2234,Pune,Heavy Tactical Truck,Operational,06-07-2026,08-06-2026,,291,Rs. 21200,,87.1
+EQ-1702,Siliguri,Field_Diesel_Generator,Maintenance,15/07/2026,29/08/2026,420.0,322,89900,Available,58.6
+EQ-1613,  Siliguri   ,Artillery Tractor,Operational,2026-07-15,2026-09-28,809.0,208,60500,,91.3%
+EQ-2157,leh,Heavy Tactical Truck,Operational,2026-07-22,2026-09-20,,144,18700,Available,98.9
+EQ-1151,Leh,Field Diesel Generator,Operational,2026-07-08,2026-08-22,401.0,275,57300,Available,86.0
+EQ-1136,Jodhpur,Heavy Tactical Truck,Operational,2026-07-11,2026-09-09,645.0,244,22100,Available,98.9
+EQ-1024,Kanpur,Heavy Tactical Truck,Maintenance,2026-05-28,2026-07-27,263.0,110,"24,100 INR",Low,56.9
+EQ-1766,Kanpur,Artillery Tractor,Operational,2026-06-20,2026-09-03,620.0,159,48600,,80.6
+EQ-2247,Bhopal,Artillery Tractor,operational,20-05-2026,03-08-2026,695.0,196,50500,Available,92.1
+EQ-1085,Lucknow,TACTICAL UAV LAUNCHER,operational,07-31-2026,08-30-2026,169.0,154,93300,Available,84.9
+EQ-1971,Lucknow,Artillery Tractor,Operational,2026-05-21,2026-08-04,741.0,201,49400,Available,80.1
+EQ-1465,Lucknow,Heavy Tactical Truck,operational,2026-06-24,2026-08-23,453.0,169,20000,Available,86.7
+EQ-1452,Delhi,Artillery Tractor,Operational,2026-05-25,2026-08-08,864.0,242,58100,Available,93.0
+EQ-1633,dELHI, Field Diesel Generator ,Operational,2026-07-15,2026-08-29,323.0,250,"₹58,500",Available,90.4
+EQ-1930,Jodhpur,Armored Personnel Carrier (APC),Operational,2026-05-03,2026-08-01,931.0,191,83800,Available,85.2
+EQ-1047,Leh,Armored Personnel Carrier (APC),Operational,2026-07-03,2026-10-01,798.0,171,76900,Available,0.8410
+EQ-1503,Pune,Artillery Tractor,Operational,2026-05-29,2026-08-12,407.0,125,"44,200 INR",Available,84.7
+EQ-1776,kanpur,Mobile Radar Unit,Maintenance,2026-06-05,2026-08-04,,116,"164,800 INR",Low,59%
+EQ-1188,  Lucknow   ,Field Diesel Generator,Operational,2026-07-07,2026-08-21,383.0,255,59700,Available,0.8430
+EQ-1821,Jodhpur,Heavy Tactical Truck,Operational,07-03-2026,09-01-2026,414.0,151,"19,100 INR",Available,83.1
+EQ-1588,LUCKNOW,Field Diesel Generator,operational,2026-07-28,2026-09-11,282.0,209,59200,Critical Shortage,94.3
+EQ-1252,Kanpur,Field_Diesel_Generator,Maintenance,11/06/2026,26/07/2026,470.0,315,100500,Low,49.2
+EQ-1600,Delhi,Armored_Personnel_Carrier_(APC),Operational,2026-07-10,2026-10-08,1019.0,213,80500,Low,83.9
+EQ-1342,Siliguri,Artillery Tractor,Operational,17-May-2026,31-Jul-2026,703.0,207,55000,Low,91.1
+EQ-1892,Siliguri,Field Diesel Generator,Out of Service,2026-06-18,2026-08-02,377.0,290,117500,Available,15.9
+EQ-2181,kANPUR,Tactical UAV Launcher,Operational,2026-07-01,2026-07-31,213.0,203,"₹91,100",Low,94.4
+EQ-1979,kanpur,Mobile Radar Unit,operational,2026-06-29,2026-08-28,267.0,115,"₹123,300",Available,91.3
+EQ-1552,Siliguri,Field Diesel Generator,operational,23-Jul-2026,06-Sep-2026,344.0,250,Rs. 59000,Critical Shortage,92.1
+EQ-2236,Lucknow,Heavy Tactical Truck,operational,2026-07-26,2026-09-24,621.0,248,22600,Available,95.7
+EQ-1506,Lucknow,Field Diesel Generator,Operational,07-14-2026,08-28-2026,330.0,230,Rs. 53200,Available,82.3
+EQ-2019,  Delhi   ,TACTICAL UAV LAUNCHER,operational,2026-07-22,2026-08-21,209.0,178,103400,Low,92.1
+EQ-1860,leh,Artillery Tractor,operational,2026-07-10,2026-09-23,853.0,226,60400,Available,0.9570
+EQ-1582,Kanpur,Armored Personnel Carrier (APC),Operational,30/05/2026,28/08/2026,772.0,174,69300,Available,0.9610
+EQ-1246,bHOPAL,armored personnel carrier (apc),Operational,2026-06-10,2026-09-08,832.0,178,Rs. 77000,Available,88%
+EQ-1166,Bhopal,Heavy_Tactical_Truck,Out of Service,2026-06-08,2026-08-07,,193,Rs. 50300,Critical Shortage,15.7
+EQ-2190,Jodhpur,Armored Personnel Carrier (APC),Operational,2026-07-19,2026-10-17,778.0,146,75000,Available,94.8
+EQ-1513,  Jodhpur   ,Field Diesel Generator,Operational,24-Jun-2026,08-Aug-2026,354.0,245,53900,,91.3
+EQ-1485,Kanpur,field diesel generator,operational,2026-07-26,2026-09-09,278.0,214,45300,Available,96.1
+EQ-1990,Kanpur,Field Diesel Generator,Operational,02-07-2026,16-08-2026,382.0,261,Rs. 54600,Low,91.9%
+EQ-2185,Lucknow,ARMORED PERSONNEL CARRIER (APC),Operational,2026-05-31,2026-08-29,683.0,145,Rs. 65200,Available,82.3
+EQ-1172,Lucknow,Artillery Tractor,Operational,2026-07-02,2026-09-15,540.0,154,"49,100 INR",Available,90.6
+EQ-2013,Lucknow,Armored Personnel Carrier (APC),Operational,2026-07-20,2026-10-18,1541.0,298,95600,Available,94.7%
+EQ-1967,Lucknow,HEAVY TACTICAL TRUCK,Operational,27/06/2026,26/08/2026,357.0,144,Rs. 19500,Low,93.7
+EQ-1410,Leh,heavy tactical truck,Operational,2026-06-05,2026-08-04,474.0,198,17800,Critical Shortage,95.4
+EQ-1664,Lucknow,Heavy Tactical Truck,Operational,07-01-2026,08-30-2026,359.0,150,18200,Available,96.5
+EQ-1863,Delhi,Field Diesel Generator,Operational,2026-07-21,2026-09-04,459.0,352,65000,Available,92.3
+EQ-2162,Lucknow,Tactical UAV Launcher,Operational,2026-07-23,2026-08-22,364.0,309,120800,Available,82.5%
+EQ-1013,Kanpur,Tactical UAV Launcher,Operational,23/07/2026,22/08/2026,229.0,207,101400,Available,95.1
+EQ-1542,LEH,Heavy Tactical Truck,Operational,2026-06-19,2026-08-18,317.0,124,17800,Critical Shortage,88.5
+EQ-1875,LEH,Field Diesel Generator,maintenance,2026-07-17,2026-08-31,343.0,258,81800,Available,54.8
+EQ-1817,Lucknow,Field Diesel Generator,Maintenance,2026-07-08,2026-08-22,391.0,276,101200,Available,57.6
+EQ-1627,pUNE, Field Diesel Generator ,Operational,2026-07-02,2026-08-16,289.0,200,57700,Available,91.4
+EQ-1525,Siliguri,Mobile Radar Unit,operational,2026-07-08,2026-09-06,370.0,156,Rs. 129000,Available,86.7
+EQ-1387,Bhopal,Field Diesel Generator,Out of Service,2026-07-29,2026-09-12,366.0,280,167800,Low,15.1
+EQ-1392,Siliguri,Heavy Tactical Truck,maintenance,2026-07-07,2026-09-05,524.0,197,37700,Low,58.2%
+EQ-1145,Bhopal,tactical uav launcher,operational,2026-08-03,2026-09-02,228.0,207,97000,Low,90.6%
+EQ-1716,Leh,Armored_Personnel_Carrier_(APC),Operational,10-07-2026,08-10-2026,1165.0,250,"₹88,900",Available,90.5
+EQ-2169,Jodhpur,Heavy Tactical Truck,Operational,2026-06-01,2026-07-31,518.0,201,Rs. 21300,Available,93.5
+EQ-1103,Leh,Field Diesel Generator,Operational,2026-06-24,2026-08-08,345.0,239,59000,Available,93.1
+EQ-2070,Lucknow,Armored Personnel Carrier (APC),Operational,2026-06-12,2026-09-10,,212,72500,Low,81.4
+EQ-1482,Lucknow,Tactical UAV Launcher,Operational,2026-07-18,2026-08-17,,147,91400,Available,87.2
+EQ-1801,Lucknow,Artillery Tractor,Operational,08-02-2026,10-16-2026,810.0,241,"63,100 INR",Low,90.3
+EQ-2164,  Bhopal   ,Artillery Tractor,Operational,04/08/2026,18/10/2026,414.0,112,51300,Available,93.7
+EQ-1137,LEH,Mobile Radar Unit,Operational,2026-07-18,2026-09-16,378.0,155,137000,Available,95.6
+EQ-1352,Lucknow,FIELD DIESEL GENERATOR,Operational,2026-06-17,2026-08-01,544.0,348,"65,200 INR",Available,81.0
+EQ-1181,Kanpur,Heavy Tactical Truck,Operational,2026-06-03,2026-08-02,507.0,203,20300,Available,94.5
+EQ-1619,Pune,Field Diesel Generator,Operational,28-Jul-2026,11-Sep-2026,421.0,288,51500,Available,90.6%
+EQ-1089,Leh,Heavy_Tactical_Truck,Operational,2026-06-14,2026-08-13,374.0,151,18300,Available,87.2
+EQ-2197,Kanpur,FIELD DIESEL GENERATOR,Operational,2026-07-23,2026-09-06,371.0,258,58500,Low,0.8380
+EQ-1368,Kanpur,Armored Personnel Carrier (APC),Operational,2026-06-06,2026-09-04,966.0,195,"68,400 INR",Available,88.5
+EQ-1427,Bhopal,Mobile_Radar_Unit,Operational,16-Jul-2026,14-Sep-2026,306.0,146,Rs. 136800,Available,91.5
+EQ-1655,LEH,heavy tactical truck,Operational,27/07/2026,25/09/2026,729.0,290,22900,Available,0.8670
+EQ-1734,Kanpur,Heavy Tactical Truck,operational,2026-07-16,2026-09-14,250.0,98,14800,Low,91.6
+EQ-1732,Siliguri,Heavy Tactical Truck,Operational,2026-06-02,2026-08-01,341.0,130,"16,900 INR",Available,85.0
+EQ-1003,Delhi,Heavy Tactical Truck,Operational,07-08-2026,09-06-2026,586.0,204,Rs. 21200,Available,96.0
+EQ-2121,Siliguri,Armored Personnel Carrier (APC),Operational,2026-06-06,2026-09-04,1289.0,250,Rs. 82100,Available,86.2
+EQ-1539,Kanpur,Field Diesel Generator,Maintenance,2026-06-29,2026-08-13,460.0,320,"₹102,500",Low,0.5600
+EQ-1209,Bhopal,Heavy Tactical Truck,operational,2026-06-02,2026-08-01,518.0,198,22300,Available,86.0
+EQ-2009,Leh,Armored_Personnel_Carrier_(APC),Operational,2026-06-05,2026-09-03,1119.0,247,79400,Available,91.1
+EQ-1473,kANPUR,Heavy Tactical Truck,Operational,2026-08-04,2026-10-03,273.0,106,18400,Low,85.2
+EQ-1066,Bhopal,Tactical UAV Launcher,Maintenance,2026-07-30,2026-08-29,285.0,262,191300,Critical Shortage,52.8
+EQ-1062,JODHPUR,Field Diesel Generator,Operational,2026-07-15,2026-08-29,333.0,248,59000,Available,84.0
+EQ-1808,Leh,Field Diesel Generator,Maintenance,2026-07-05,2026-08-19,297.0,231,101400,Available,62.2
+EQ-1540,Kanpur,ARMORED PERSONNEL CARRIER (APC),Operational,2026-06-12,2026-09-10,754.0,166,"77,300 INR",Low,83.5
+EQ-2131,Kanpur,Heavy Tactical Truck,Operational,2026-06-03,2026-08-02,501.0,189,"₹17,900",Available,82.2
+EQ-1497,Lucknow,Heavy Tactical Truck,out of service,2026-07-09,2026-09-07,341.0,128,34300,Low,32.7
+EQ-1464,kANPUR,HEAVY TACTICAL TRUCK,Operational,2026-07-13,2026-09-11,449.0,184,21200,Available,87.2
+EQ-1481,Lucknow,Field Diesel Generator,Operational,2026-07-09,2026-08-23,371.0,252,48000,Critical Shortage,97.2
+EQ-2179,Lucknow,Field Diesel Generator,Operational,23-Jun-2026,07-Aug-2026,303.0,200,56400,Available,89.8
+EQ-1163,Siliguri,Artillery Tractor,Operational,10-Jul-2026,23-Sep-2026,921.0,252,56700,Available,83.7
+EQ-1768,DELHI,armored personnel carrier (apc),Operational,30-05-2026,28-08-2026,1260.0,283,88700,Available,86.4
+EQ-1251,Kanpur,Heavy Tactical Truck,Operational,29/06/2026,28/08/2026,314.0,118,"₹15,200",,82.8
+EQ-1501,Delhi,Tactical UAV Launcher,Operational,2026-07-09,2026-08-08,245.0,241,104500,Available,83.7
+EQ-1612,Delhi,Heavy Tactical Truck,Operational,2026-06-29,2026-08-28,,172,20700,Available,85.9
+EQ-2235,Delhi,Tactical UAV Launcher,Operational,2026-07-28,2026-08-27,,154,100900,Available,86.9
+EQ-2104,lUCKNOW,Heavy Tactical Truck,Operational,2026-07-18,2026-09-16,445.0,168,"₹17,600",Available,92.4
+EQ-1429,jodhpur,Armored Personnel Carrier (APC),Operational,2026-05-03,2026-08-01,1307.0,247,92000,Low,82.6%
+EQ-1290,Kanpur,Field Diesel Generator,Operational,2026-07-22,2026-09-05,308.0,222,Rs. 50200,Available,87.0
+EQ-1107,Siliguri, Armored Personnel Carrier (APC) ,operational,2026-07-30,2026-10-28,1381.0,289,93600,Available,83.8%
+EQ-2071,Leh,Field Diesel Generator,Operational,2026-07-29,2026-09-12,357.0,257,57700,Available,91.6
+EQ-1375,Lucknow,Heavy Tactical Truck,Operational,2026-07-01,2026-08-30,649.0,271,"₹25,100",Available,85.8
+EQ-1502,Pune,Field Diesel Generator,operational,2026-07-04,2026-08-18,492.0,374,74300,Available,98.1
+EQ-1440,Lucknow,Artillery_Tractor,Operational,05-06-2026,19-08-2026,678.0,192,"₹50,000",Available,94.6
+EQ-1728,Bhopal,Armored Personnel Carrier (APC),operational,2026-06-13,2026-09-11,1112.0,212,"₹78,400",Available,81.5
+EQ-1527,lUCKNOW,Armored Personnel Carrier (APC),Operational,2026-07-27,2026-10-25,573.0,113,66900,Available,96.6
+EQ-2216,lucknow, Mobile Radar Unit ,operational,2026-06-20,2026-08-19,620.0,257,134600,Critical Shortage,87.9
+EQ-2206,Leh,Armored Personnel Carrier (APC),Operational,2026-06-29,2026-09-27,966.0,197,71500,Available,94.4
+EQ-1070,Pune,Armored Personnel Carrier (APC),Operational,2026-07-08,2026-10-06,730.0,162,72200,Available,89.9
+EQ-1104,Lucknow,Armored Personnel Carrier (APC),Operational,2026-05-26,2026-08-24,741.0,154,71700,Available,95.7
+EQ-1146,Lucknow,Field Diesel Generator,Operational,2026-08-01,2026-09-15,462.0,306,62900,Low,80.6
+EQ-1451,Kanpur,Armored Personnel Carrier (APC),Maintenance,14/07/2026,12/10/2026,877.0,191,111100,,52.6
+EQ-1918,  Delhi   ,Tactical UAV Launcher,Operational,15/07/2026,14/08/2026,217.0,204,92700,Available,93.1%
+EQ-1466,Jodhpur,Mobile Radar Unit,Operational,02-Jun-2026,01-Aug-2026,380.0,183,147800,Available,98.2
+EQ-1162,Lucknow,Artillery Tractor,Operational,2026-06-06,2026-08-20,,234,60900,Available,83.9
+EQ-1706,Siliguri,Heavy Tactical Truck,Operational,2026-07-30,2026-09-28,563.0,202,18900,Available,94%
+EQ-1742,Lucknow,Armored Personnel Carrier (APC),Operational,2026-06-12,2026-09-10,643.0,131,68200,Low,85.7
+EQ-1105,bHOPAL,Field Diesel Generator,Maintenance,05-07-2026,19-08-2026,384.0,250,95800,Low,47.5
+EQ-1189,Leh,Tactical UAV Launcher,Operational,2026-07-15,2026-08-14,155.0,152,100700,,88.9
+EQ-1510,Delhi,Artillery Tractor,Out of Service,2026-05-17,2026-07-31,565.0,153,129900,Critical Shortage,42.9
+EQ-1203,Lucknow,Field Diesel Generator,Operational,2026-07-28,2026-09-11,422.0,324,61700,Available,87.0
+EQ-1370,Lucknow,Tactical UAV Launcher,Operational,18-07-2026,17-08-2026,185.0,156,"86,200 INR",Available,87.1%
+EQ-2154,Kanpur,Artillery Tractor,Operational,2026-06-14,2026-08-28,419.0,128,42000,Available,89.7
+EQ-1393,Siliguri,Tactical UAV Launcher,operational,2026-08-02,2026-09-01,143.0,128,Rs. 84500,Available,83.2
+EQ-1587,lucknow,Heavy Tactical Truck,Operational,2026-06-24,2026-08-23,433.0,154,"₹17,700",Available,98%
+EQ-1861,Bhopal,Heavy Tactical Truck,operational,2026-07-11,2026-09-09,494.0,184,20300,Available,89.8
+EQ-1218,Delhi,Field Diesel Generator,Operational,24-Jul-2026,07-Sep-2026,329.0,245,Rs. 51400,Available,84.2%
+EQ-1110,Leh,HEAVY TACTICAL TRUCK,Operational,2026-06-01,2026-07-31,454.0,171,18800,Available,80.8%
+EQ-1727,Siliguri,Armored Personnel Carrier (APC),Maintenance,2026-07-05,2026-10-03,886.0,195,141200,Low,52.2
+EQ-1639,Leh,Heavy Tactical Truck,Operational,2026-07-08,2026-09-06,314.0,116,19100,Available,83.6
+EQ-1476,Delhi,Heavy Tactical Truck,Operational,2026-06-27,2026-08-26,461.0,163,16500,Available,96.3
+EQ-1966,Delhi,Mobile Radar Unit,Operational,2026-08-05,2026-10-04,635.0,267,"₹139,800",Available,98.8
+EQ-1699,Jodhpur,Field Diesel Generator,Operational,2026-06-27,2026-08-11,471.0,315,"70,300 INR",Low,83.6
+EQ-1127,jODHPUR,Mobile Radar Unit,Operational,2026-06-04,2026-08-03,294.0,145,136700,Available,89.1
+EQ-1636,dELHI,Artillery Tractor,Operational,2026-06-06,2026-08-20,374.0,112,48000,Available,90.9
+EQ-1557,  Kanpur   ,Artillery Tractor,Operational,23-07-2026,06-10-2026,,170,52200,Available,91.8
+EQ-2007,kANPUR,ARTILLERY TRACTOR,operational,23/06/2026,06/09/2026,876.0,239,Rs. 59600,Available,87.0
+EQ-1825,  Leh   ,Artillery Tractor,Operational,26/07/2026,09/10/2026,659.0,172,49000,Critical Shortage,81.5
+EQ-1068,Bhopal,ARMORED PERSONNEL CARRIER (APC),Operational,2026-05-17,2026-08-15,1139.0,245,83600,Low,91.7
+EQ-1389,Pune,Heavy Tactical Truck,Operational,2026-07-08,2026-09-06,614.0,217,"₹19,400",Available,91.6
+EQ-2176,Lucknow,Heavy Tactical Truck,Operational,2026-07-09,2026-09-07,450.0,162,20300,Critical Shortage,94.6
+EQ-1577,Kanpur,Mobile Radar Unit,Operational,2026-07-23,2026-09-21,417.0,206,"146,500 INR",Available,91.4%
+EQ-2200,Kanpur,Tactical UAV Launcher,Operational,2026-07-25,2026-08-24,280.0,263,"₹98,900",Available,83.2
+EQ-2085,Siliguri,Field Diesel Generator,Operational,2026-07-13,2026-08-27,390.0,282,58300,Low,92.1
+EQ-2041,Lucknow,Field Diesel Generator,Operational,2026-07-13,2026-08-27,498.0,361,65600,Available,81.2
+EQ-1630,  Jodhpur   ,Heavy Tactical Truck,Operational,2026-07-26,2026-09-24,552.0,224,20400,Available,82.5
+EQ-1097,Jodhpur,Mobile Radar Unit,Maintenance,2026-07-03,2026-09-01,434.0,209,Rs. 246900,Low,66.0
+EQ-2016,Delhi,Artillery Tractor,Operational,2026-07-08,2026-09-21,676.0,204,60900,Available,93%
+EQ-1576,Jodhpur,Field Diesel Generator,Operational,2026-07-21,2026-09-04,188.0,127,50400,Available,97.7%
+EQ-1012,Delhi,Field Diesel Generator,operational,06-21-2026,08-05-2026,315.0,232,53800,Available,95%
+EQ-1346,Delhi,Artillery Tractor,operational,05/07/2026,18/09/2026,782.0,206,56000,Available,92.7
+EQ-1171,Delhi, Armored Personnel Carrier (APC) ,Operational,2026-07-12,2026-10-10,736.0,150,70100,,91.5
+EQ-1225,Leh,Heavy Tactical Truck,Operational,12-07-2026,10-09-2026,391.0,153,"₹19,000",,97.8
+EQ-1877,  Kanpur   ,Artillery Tractor,Operational,2026-05-30,2026-08-13,609.0,169,47700,Available,98.3
+EQ-1417,Lucknow,Armored Personnel Carrier (APC),Operational,2026-07-21,2026-10-19,1236.0,272,92200,Available,93.8
+EQ-1602,Bhopal,Field Diesel Generator,Out of Service,15-Jul-2026,29-Aug-2026,266.0,204,Rs. 98600,Available,22.5
+EQ-1318,Kanpur,Field Diesel Generator,Operational,2026-06-19,2026-08-03,322.0,241,"54,500 INR",Available,96.8
+EQ-1736,Lucknow,Heavy Tactical Truck,Operational,2026-07-23,2026-09-21,,196,17700,Available,98.5
+EQ-1865,Delhi,Armored Personnel Carrier (APC),operational,25-05-2026,23-08-2026,735.0,164,"79,400 INR",Low,80.8
+EQ-1227,Lucknow,Armored Personnel Carrier (APC),Operational,2026-08-01,2026-10-30,913.0,198,72100,Available,93.8
+EQ-1792,Delhi,HEAVY TACTICAL TRUCK,Operational,2026-06-12,2026-08-11,495.0,184,Rs. 21100,Available,98.9
+EQ-1419,delhi,Armored Personnel Carrier (APC),Operational,2026-07-30,2026-10-28,1315.0,253,"₹85,100",Available,90.2%
+EQ-1493,Pune,Field Diesel Generator,Operational,2026-07-23,2026-09-06,405.0,264,59900,Available,85.5%
+EQ-1122,Kanpur,Tactical UAV Launcher,Out of Service,2026-07-21,2026-08-20,158.0,149,201700,Critical Shortage,20.9%
+EQ-1869,Siliguri,heavy tactical truck,Operational,2026-06-01,2026-07-31,580.0,204,Rs. 21600,Available,91.0
+EQ-1579,kanpur,Heavy_Tactical_Truck,Maintenance,2026-06-07,2026-08-06,274.0,108,23900,Available,46.5
+EQ-1632,Lucknow,Heavy Tactical Truck,Operational,2026-07-08,2026-09-06,649.0,243,"₹19,200",Available,91.6
+EQ-1268,Leh,Mobile Radar Unit,operational,26/07/2026,24/09/2026,251.0,123,130200,Available,91.9
+EQ-1394,Leh,Artillery Tractor,Operational,20-May-2026,03-Aug-2026,1024.0,286,64500,Available,95%
+EQ-1668,Kanpur,Armored Personnel Carrier (APC),Operational,2026-06-16,2026-09-14,,270,82800,Available,85.7
+EQ-1604,lEH,Heavy Tactical Truck,Maintenance,23-06-2026,22-08-2026,645.0,236,37100,Available,59.9
+EQ-2054,Kanpur,Artillery Tractor,Operational,01/07/2026,14/09/2026,,208,60200,Available,92.8
+EQ-2163,Lucknow,Field_Diesel_Generator,maintenance,24-Jun-2026,08-Aug-2026,248.0,176,"₹75,600",Available,50.3
+EQ-2063,  Bhopal   ,Tactical UAV Launcher,Operational,2026-07-21,2026-08-20,278.0,252,116800,Available,94.0
+EQ-1830,Delhi,tactical uav launcher,Out of Service,2026-07-06,2026-08-05,202.0,180,184900,Available,0.2280
+EQ-1541,kanpur,Tactical UAV Launcher,Operational,02/08/2026,01/09/2026,281.0,236,93500,Available,84%
+EQ-1323,Leh,Armored Personnel Carrier (APC),operational,2026-06-13,2026-09-11,737.0,154,78800,Available,96.8
+EQ-1558,Delhi,HEAVY TACTICAL TRUCK,Maintenance,2026-07-09,2026-09-07,435.0,155,28100,Available,62.3
+EQ-1890,  Jodhpur   ,Heavy Tactical Truck,Maintenance,2026-06-05,2026-08-04,586.0,224,34100,Critical Shortage,65.1
+EQ-1048,kANPUR,Artillery Tractor,Maintenance,2026-05-24,2026-08-07,857.0,247,99100,Low,57.7
+EQ-1591,Jodhpur,Field Diesel Generator,Operational,2026-07-02,2026-08-16,362.0,264,50600,Critical Shortage,89.4
+EQ-1786,Bhopal,Armored Personnel Carrier (APC),operational,2026-07-20,2026-10-18,1151.0,249,84000,Low,90.5
+EQ-1637,Delhi,Armored Personnel Carrier (APC),Operational,2026-05-23,2026-08-21,1055.0,236,78400,Available,89.7
+EQ-1919,Leh,Mobile Radar Unit,Operational,07-29-2026,09-27-2026,396.0,172,124100,Low,98.3
+EQ-1596,DELHI,Heavy Tactical Truck,Maintenance,06-06-2026,08-05-2026,427.0,152,27000,Low,56.8
+EQ-1569,Jodhpur,Field Diesel Generator,Operational,2026-07-11,2026-08-25,189.0,147,51800,Available,0.8740
+EQ-1538,Lucknow,Field Diesel Generator,Operational,2026-08-05,2026-09-19,354.0,236,Rs. 55700,Available,90.6
+EQ-2186,Lucknow,Armored Personnel Carrier (APC),Operational,2026-05-02,2026-07-31,1148.0,242,84800,Available,83.1
+EQ-2213,Lucknow,Tactical UAV Launcher,Operational,2026-07-10,2026-08-09,182.0,159,88000,Available,91.6
+EQ-1756,Kanpur,Armored Personnel Carrier (APC),Operational,2026-06-16,2026-09-14,1714.0,326,104800,Available,88.9
+EQ-1369,Kanpur,Field Diesel Generator,Operational,20-Jun-2026,04-Aug-2026,411.0,265,"₹54,100",Low,94.8
+EQ-1434,sILIGURI,Artillery Tractor,Operational,19-06-2026,02-09-2026,748.0,230,53800,Available,85.3
+EQ-1936,Lucknow,Heavy_Tactical_Truck,Operational,2026-06-20,2026-08-19,382.0,152,17600,Available,94.2
+EQ-1950,lucknow,Artillery Tractor,operational,2026-06-13,2026-08-27,686.0,207,"55,300 INR",Available,95.1
+EQ-1109,Bhopal,Tactical UAV Launcher,Operational,2026-07-04,2026-08-03,212.0,207,92700,Low,90.3
+EQ-1856,Bhopal,Field Diesel Generator,Out of Service,2026-06-26,2026-08-10,345.0,225,103200,Low,17.9
+EQ-1524,bhopal,Field Diesel Generator,Operational,2026-07-06,2026-08-20,443.0,294,Rs. 59000,Available,96.6
+EQ-1500,sILIGURI,Heavy Tactical Truck,maintenance,02-Aug-2026,01-Oct-2026,280.0,112,"₹27,400",,62.1
+EQ-1148,Kanpur, Heavy Tactical Truck ,Operational,2026-07-01,2026-08-30,284.0,115,15400,Available,98.2
+EQ-1294,Bhopal,Mobile Radar Unit,Operational,2026-06-25,2026-08-24,,237,149900,Low,86.8
+EQ-1300,Leh,Heavy Tactical Truck,Maintenance,26/06/2026,25/08/2026,569.0,203,29900,Low,64.3
+EQ-1565,Delhi,Tactical UAV Launcher,Maintenance,2026-07-20,2026-08-19,268.0,255,204800,Critical Shortage,46.6
+EQ-1628,Kanpur,Artillery Tractor,Operational,2026-07-13,2026-09-26,697.0,188,"56,000 INR",Available,88.3
+EQ-1898,Kanpur,Armored Personnel Carrier (APC),Maintenance,2026-05-21,2026-08-19,940.0,202,110800,Low,56.3
+EQ-1595,  Kanpur   ,Heavy Tactical Truck,Maintenance,2026-07-10,2026-09-08,606.0,221,43200,Low,0.6310
+EQ-1550,  Siliguri   ,Artillery Tractor,operational,15/06/2026,29/08/2026,551.0,164,46700,Available,88.4
+EQ-1180,lucknow,Artillery Tractor,Operational,06-21-2026,09-04-2026,1145.0,331,66400,Available,81.1
+EQ-1383,DELHI,Armored Personnel Carrier (APC),Maintenance,31/07/2026,29/10/2026,398.0,88,Rs. 83200,Available,48.1
+EQ-1259,Lucknow,tactical uav launcher,Operational,2026-07-26,2026-08-25,221.0,217,94200,Low,88.8
+EQ-1787,Siliguri,heavy tactical truck,operational,2026-07-27,2026-09-25,532.0,212,22300,Available,96.6
+EQ-1460,siliguri,Field Diesel Generator,operational,2026-07-05,2026-08-19,273.0,188,41400,Available,80.1
+EQ-1355,Kanpur,MOBILE RADAR UNIT,Operational,11-07-2026,09-09-2026,426.0,194,150300,Available,0.9050
+EQ-1423,Pune, Field Diesel Generator ,Operational,2026-07-21,2026-09-04,375.0,245,"₹53,900",Available,94%
+EQ-1185,Bhopal,Field Diesel Generator,Maintenance,2026-06-19,2026-08-03,358.0,246,111800,Critical Shortage,63.1
+EQ-1096,Pune,Field Diesel Generator,Maintenance,2026-07-17,2026-08-31,264.0,172,70000,Critical Shortage,46.3
+EQ-2010,Kanpur,Armored Personnel Carrier (APC),operational,2026-06-21,2026-09-19,,168,72600,Available,87.1
+EQ-2194,  Delhi   ,tactical uav launcher,operational,2026-07-31,2026-08-30,245.0,210,103700,Available,88.9
+EQ-1408,Lucknow,Mobile Radar Unit,Operational,2026-07-19,2026-09-17,388.0,187,"₹132,800",Available,90.5
+EQ-1400,LEH,Artillery Tractor,Operational,15/07/2026,28/09/2026,840.0,256,66100,Available,86.3
+EQ-1405,Siliguri,Tactical UAV Launcher,Operational,2026-08-02,2026-09-01,203.0,172,94700,Low,91.0
+EQ-1281,Bhopal,Heavy_Tactical_Truck,Operational,2026-07-13,2026-09-11,473.0,180,18800,Critical Shortage,96.6
+EQ-1574,Pune,Heavy Tactical Truck,operational,2026-06-06,2026-08-05,404.0,165,21000,Available,82.9
+EQ-1312,Bhopal,Tactical UAV Launcher,Operational,2026-07-12,2026-08-11,261.0,249,99600,Available,90.8
+EQ-1743,Leh,Artillery Tractor,Operational,29-Jun-2026,12-Sep-2026,605.0,163,56900,Available,87.3
+EQ-2224,Lucknow,Field Diesel Generator,Operational,01/08/2026,15/09/2026,404.0,284,60700,Low,87.2
+EQ-1691,Leh,Field Diesel Generator,Operational,2026-06-25,2026-08-09,364.0,238,52700,Available,87.7
+EQ-1019,Bhopal,Heavy Tactical Truck,Operational,2026-07-12,2026-09-10,359.0,134,15900,Low,93.7
+EQ-2193,Delhi, Field Diesel Generator ,Operational,12-Jul-2026,26-Aug-2026,297.0,223,49000,Available,83.1
+EQ-1453,Pune,Artillery Tractor,Operational,17/07/2026,30/09/2026,476.0,145,51000,Low,83.2
+EQ-1331,Jodhpur,Artillery Tractor,Operational,10-Jun-2026,24-Aug-2026,700.0,194,50800,Available,90.9%
+EQ-1608,Jodhpur,Tactical UAV Launcher,operational,06-Jul-2026,05-Aug-2026,149.0,132,95300,Available,87%
+EQ-1411,Kanpur,Armored Personnel Carrier (APC),operational,2026-07-05,2026-10-03,1079.0,230,83800,Low,96.9%
+EQ-2128,jODHPUR,Armored Personnel Carrier (APC),Operational,2026-05-12,2026-08-10,,157,74600,Available,85.2
+EQ-1806,Delhi,Armored Personnel Carrier (APC),Operational,2026-05-22,2026-08-20,,179,65600,Critical Shortage,84.5
+EQ-1614,Kanpur,HEAVY TACTICAL TRUCK,Operational,2026-07-05,2026-09-03,360.0,124,17800,Critical Shortage,95.0
+EQ-1908,Lucknow,Heavy Tactical Truck,operational,19-07-2026,17-09-2026,593.0,208,18500,Available,90.4
+EQ-1220,Siliguri,Heavy Tactical Truck,Operational,2026-06-07,2026-08-06,,178,20400,Available,88%
+EQ-1498,Delhi,Mobile Radar Unit,Operational,2026-07-04,2026-09-02,387.0,185,119800,Available,85.3
+EQ-2222,Kanpur,Artillery Tractor,Maintenance,30/07/2026,13/10/2026,807.0,210,114500,Low,49%
+EQ-1208,Kanpur,Armored Personnel Carrier (APC),Operational,2026-07-18,2026-10-16,,220,77600,Available,98.7
+EQ-1884,  Bhopal   ,Heavy Tactical Truck,Operational,05-08-2026,04-10-2026,567.0,221,"₹19,900",Low,83.5%
+EQ-1399,Kanpur,Armored Personnel Carrier (APC),operational,2026-06-16,2026-09-14,1015.0,189,77400,Available,0.8770
+EQ-1987,Leh,Heavy Tactical Truck,Maintenance,2026-07-02,2026-08-31,601.0,242,36000,Available,63.0
+EQ-1940,Jodhpur, Heavy Tactical Truck ,Operational,04-08-2026,03-10-2026,408.0,149,20000,Available,85.3
+EQ-1531,kANPUR,Heavy Tactical Truck,Operational,2026-07-04,2026-09-02,502.0,203,20400,Available,95.1
+EQ-2106,Bhopal,Tactical UAV Launcher,Operational,03/07/2026,02/08/2026,162.0,143,"96,800 INR",Available,95.4
+EQ-1710,kANPUR,Armored Personnel Carrier (APC),Operational,2026-07-09,2026-10-07,1286.0,279,Rs. 77700,Available,98.1%
+EQ-2059,Bhopal,Artillery Tractor,Operational,2026-05-25,2026-08-08,795.0,222,"57,200 INR",Low,88.3
+EQ-1720,Kanpur,Field Diesel Generator,operational,2026-06-26,2026-08-10,389.0,256,64000,Available,83.6
+EQ-1897,Delhi,Heavy Tactical Truck,Operational,02-08-2026,01-10-2026,472.0,167,"19,000 INR",Low,82.6
+EQ-1555,Lucknow,field diesel generator,operational,2026-07-14,2026-08-28,369.0,280,59700,Available,96.6
+EQ-1214,Bhopal,Armored Personnel Carrier (APC),Operational,12/07/2026,10/10/2026,1017.0,227,89100,Low,82.4
+EQ-1848,Lucknow,Heavy Tactical Truck,Out of Service,2026-07-25,2026-09-23,764.0,285,57000,Available,20.0
+EQ-1653,Pune,artillery tractor,Operational,2026-07-28,2026-10-11,654.0,181,49900,Low,94.5
+EQ-2023,Bhopal,Artillery Tractor,Operational,2026-06-15,2026-08-29,630.0,193,51200,Critical Shortage,96.0
+EQ-2199,  Kanpur   ,Heavy Tactical Truck,Maintenance,17-Jul-2026,15-Sep-2026,481.0,185,Rs. 30500,Available,67.9
+EQ-2083,  Jodhpur   ,Tactical UAV Launcher,Operational,2026-07-20,2026-08-19,193.0,178,"90,300 INR",Low,82.0
+EQ-2119,Lucknow,Field Diesel Generator,Operational,2026-06-16,2026-07-31,410.0,272,63600,Available,92.7
+EQ-2144,LEH,Armored Personnel Carrier (APC),Operational,2026-06-02,2026-08-31,979.0,201,79500,Available,98.1
+EQ-1201,Pune,HEAVY TACTICAL TRUCK,Operational,2026-07-29,2026-09-27,473.0,191,19300,Critical Shortage,80.7
+EQ-1245,Bhopal,Heavy Tactical Truck,Maintenance,2026-07-21,2026-09-19,334.0,120,Rs. 25900,Low,51.1
+EQ-1657,Delhi,Field Diesel Generator,Operational,27-06-2026,11-08-2026,368.0,260,"62,500 INR",Available,80.5
+EQ-2066,Leh,FIELD DIESEL GENERATOR,Operational,2026-07-28,2026-09-11,252.0,192,Rs. 50300,Available,88%
+EQ-1338,BHOPAL,Heavy Tactical Truck,Operational,2026-07-30,2026-09-28,449.0,160,20000,Available,98.6
+EQ-1893,Lucknow,Heavy Tactical Truck,Operational,2026-06-02,2026-08-01,634.0,223,"₹19,700",Available,92.6
+EQ-2101,Lucknow,Mobile Radar Unit,Operational,2026-06-25,2026-08-24,523.0,244,152700,Critical Shortage,98.4
+EQ-1477,  Jodhpur   ,Artillery Tractor,Operational,2026-06-09,2026-08-23,814.0,223,59900,Available,90%
+EQ-1014,Leh,Heavy Tactical Truck,Operational,12/06/2026,11/08/2026,215.0,88,14900,Available,95.3
+EQ-2048,Lucknow,Heavy Tactical Truck,Maintenance,2026-06-11,2026-08-10,301.0,104,31400,Low,52%
+EQ-1773,Kanpur,ARMORED PERSONNEL CARRIER (APC),Operational,2026-05-09,2026-08-07,1080.0,226,"87,600 INR",Available,82.4%
+EQ-1345,  Siliguri   ,Armored Personnel Carrier (APC),Operational,2026-07-16,2026-10-14,814.0,171,81400,Available,86.1
+EQ-1862,Bhopal,Field Diesel Generator,Operational,2026-07-22,2026-09-05,250.0,169,51900,Low,96.8
+EQ-1556,LUCKNOW,Field_Diesel_Generator,Operational,2026-06-30,2026-08-14,320.0,235,48700,Low,99.0
+EQ-1284,lUCKNOW,Heavy Tactical Truck,Operational,2026-07-31,2026-09-29,323.0,119,18900,Low,86.7
+EQ-1703,Kanpur,ARMORED PERSONNEL CARRIER (APC),Maintenance,2026-07-28,2026-10-26,794.0,159,96800,Available,58.6
+EQ-1888,Delhi,Artillery Tractor,operational,07-07-2026,20-09-2026,570.0,177,52900,Available,83.8%
+EQ-2035,Leh,Mobile Radar Unit,operational,03-Aug-2026,02-Oct-2026,367.0,170,124200,Available,81.1
+EQ-2204,Pune,Field Diesel Generator,Operational,2026-07-03,2026-08-17,385.0,292,63900,Available,91.7
+EQ-1217,Kanpur,Armored Personnel Carrier (APC),Operational,07-05-2026,10-03-2026,835.0,156,"78,400 INR",Available,94.5
+EQ-2108,Kanpur, Field Diesel Generator ,Out of Service,2026-07-21,2026-09-04,265.0,196,"₹108,200",,34.5
+EQ-1215,delhi,Mobile Radar Unit,Operational,2026-07-11,2026-09-09,377.0,179,136200,Available,83.8
+EQ-1631,  Jodhpur   ,Mobile Radar Unit,Operational,18/06/2026,17/08/2026,226.0,110,110400,Available,86.2
+EQ-2133,Bhopal,Field Diesel Generator,Operational,2026-06-19,2026-08-03,497.0,356,"₹54,100",Low,84.8
+EQ-1666,Lucknow,Field Diesel Generator,Operational,2026-07-12,2026-08-26,359.0,266,"52,300 INR",Low,98.6
+EQ-1809,Bhopal,Heavy Tactical Truck,Operational,2026-07-06,2026-09-04,553.0,231,21200,Available,85.4
+EQ-1603,Kanpur,HEAVY TACTICAL TRUCK,operational,2026-07-17,2026-09-15,564.0,214,20200,Available,85.7
+EQ-1958,  Siliguri   ,Heavy_Tactical_Truck,Operational,2026-06-22,2026-08-21,533.0,195,21400,Available,82.2%
+EQ-1912,lucknow,Artillery Tractor,Operational,2026-06-23,2026-09-06,777.0,205,58000,Available,96.6
+EQ-1824,Lucknow,Tactical UAV Launcher,Operational,2026-07-20,2026-08-19,211.0,176,Rs. 87500,Available,91.7
+EQ-1348,Pune,Tactical UAV Launcher,operational,2026-07-28,2026-08-27,144.0,124,96300,Available,84.1
+EQ-1060,Kanpur,Heavy Tactical Truck,Operational,07-30-2026,09-28-2026,597.0,218,19500,Available,80.8
+EQ-1878,Jodhpur,Field Diesel Generator,Operational,07-06-2026,08-20-2026,401.0,273,"₹64,900",Available,97%
+EQ-1167,Lucknow,Field Diesel Generator,Operational,2026-07-15,2026-08-29,415.0,309,52800,Available,0.8910
+EQ-1416,lEH,Artillery Tractor,Operational,15/07/2026,28/09/2026,535.0,157,52400,Available,93.2
+EQ-1718,Siliguri,Heavy Tactical Truck,Operational,07-02-2026,08-31-2026,,181,"₹17,900",Available,94.5
+EQ-1078,dELHI,Field Diesel Generator,Operational,24-06-2026,08-08-2026,358.0,242,"54,800 INR",Available,91.5
+EQ-1800,Kanpur,Field Diesel Generator,Operational,2026-06-20,2026-08-04,392.0,261,62200,Available,90.9
+EQ-1229,Lucknow,Tactical UAV Launcher,Operational,2026-07-12,2026-08-11,176.0,159,"93,800 INR",Available,89.1
+EQ-2245,Leh,Heavy Tactical Truck,Out of Service,07-14-2026,09-12-2026,350.0,145,33700,Available,33.6
+EQ-1964,Kanpur,Heavy_Tactical_Truck,Operational,2026-06-03,2026-08-02,527.0,206,"₹19,500",Available,82%
+EQ-1084,Pune,Heavy Tactical Truck,Operational,2026-07-16,2026-09-14,370.0,151,Rs. 19700,Available,0.8580
+EQ-2195,leh,Heavy Tactical Truck,Operational,2026-06-07,2026-08-06,299.0,103,16100,Available,97.0
+EQ-1199,Kanpur,Heavy Tactical Truck,operational,2026-07-02,2026-08-31,427.0,177,"₹21,200",Available,96.2
+EQ-2021,Lucknow,Heavy Tactical Truck,Operational,2026-07-10,2026-09-08,532.0,198,20700,Available,0.9660
+EQ-1679,Siliguri,Tactical UAV Launcher,Operational,2026-07-12,2026-08-11,258.0,241,115600,Available,94%
+EQ-1484,Lucknow,Heavy Tactical Truck,Operational,2026-07-02,2026-08-31,453.0,184,18000,Available,82.7
+EQ-2233,Leh,Field Diesel Generator,Operational,2026-07-26,2026-09-09,357.0,254,"58,100 INR",Available,90.6
+EQ-1222,Siliguri,Heavy Tactical Truck,Operational,2026-06-27,2026-08-26,222.0,90,"16,400 INR",Available,89.5
+EQ-1488,Siliguri,Heavy Tactical Truck,Maintenance,2026-07-06,2026-09-04,318.0,126,29500,Available,54%
+EQ-1128,JODHPUR,Armored Personnel Carrier (APC),Maintenance,2026-05-18,2026-08-16,834.0,166,"₹121,700",Low,0.5630
+EQ-1544,Bhopal,Armored Personnel Carrier (APC),Operational,2026-07-28,2026-10-26,1260.0,267,82800,Available,82.3
+EQ-1093,jODHPUR, Tactical UAV Launcher ,Maintenance,2026-07-05,2026-08-04,170.0,159,152800,,49%
+EQ-1288,Jodhpur,Field_Diesel_Generator,Operational,14-07-2026,28-08-2026,446.0,295,72700,Low,91.4%
+EQ-1029,Delhi,Artillery Tractor,Operational,2026-06-05,2026-08-19,622.0,164,57000,Available,0.8560
+EQ-1092,Lucknow,Artillery Tractor,Maintenance,2026-06-11,2026-08-25,854.0,243,93100,Available,48%
+EQ-1852,DELHI,Field Diesel Generator,Operational,2026-07-09,2026-08-23,335.0,226,62200,Low,84.3
+EQ-1988,KANPUR,Field Diesel Generator,Operational,2026-06-18,2026-08-02,429.0,312,63000,Available,82.5
+EQ-1578,JODHPUR,Mobile Radar Unit,Operational,25/06/2026,24/08/2026,528.0,233,153800,Available,97.4
+EQ-1050,Kanpur,Field Diesel Generator,Operational,14-Jul-2026,28-Aug-2026,230.0,154,46500,Available,0.8700
+EQ-1738,Delhi,Artillery Tractor,Operational,13/07/2026,26/09/2026,836.0,244,64900,Available,95.4
+EQ-1714,Leh,Heavy Tactical Truck,Operational,2026-06-12,2026-08-11,509.0,192,"22,200 INR",Low,86.6
+EQ-1098,LUCKNOW,Heavy Tactical Truck,Operational,06-08-2026,08-07-2026,532.0,186,17900,Available,96.4%
+EQ-2074,dELHI,Mobile Radar Unit,Operational,2026-07-12,2026-09-10,290.0,130,118500,Available,97.8
+EQ-1999,Leh,Armored Personnel Carrier (APC),Operational,2026-06-13,2026-09-11,778.0,166,73700,Critical Shortage,86.1
+EQ-2028,Kanpur,Heavy Tactical Truck,operational,18/06/2026,17/08/2026,472.0,180,18700,Available,81.9
+EQ-1356,dELHI, Artillery Tractor ,Operational,2026-06-22,2026-09-05,556.0,144,48700,,0.9710
+EQ-1648,  Kanpur   , Armored Personnel Carrier (APC) ,Operational,2026-05-10,2026-08-08,863.0,192,75900,Available,91.0
+EQ-1874,KANPUR,ARTILLERY TRACTOR,Operational,2026-07-07,2026-09-20,600.0,158,48000,Available,82.8
+EQ-1184,LEH,Artillery Tractor,operational,2026-05-30,2026-08-13,850.0,219,53200,Low,96.8
+EQ-2202,Kanpur,Field Diesel Generator,Operational,2026-07-10,2026-08-24,315.0,234,56100,Available,92.8
+EQ-1607,Jodhpur,Artillery Tractor,Operational,2026-05-23,2026-08-06,516.0,156,48100,Available,95.5%
+EQ-2062,Kanpur, Armored Personnel Carrier (APC) ,Operational,10-Jun-2026,08-Sep-2026,,52,52500,Available,97.2
+EQ-1313,Bhopal,Armored Personnel Carrier (APC),Operational,2026-06-07,2026-09-05,1111.0,236,83300,Critical Shortage,94.3
+EQ-2003,pune,Field Diesel Generator,Operational,2026-07-07,2026-08-21,387.0,263,Rs. 64100,Critical Shortage,91.0
+EQ-1028,Delhi,Artillery Tractor,Operational,2026-07-01,2026-09-14,784.0,213,49300,Critical Shortage,96.4
+EQ-1129,JODHPUR,Heavy Tactical Truck,Operational,2026-06-10,2026-08-09,499.0,179,18200,Available,98.9
+EQ-1788,Jodhpur,Heavy Tactical Truck,Operational,2026-07-20,2026-09-18,547.0,195,21100,Available,96.1
+EQ-1827,Kanpur,Heavy Tactical Truck,Operational,2026-06-18,2026-08-17,618.0,246,"₹19,300",Available,93%
+EQ-1847,Delhi,Artillery Tractor,Operational,2026-07-28,2026-10-11,781.0,209,57700,Critical Shortage,88.5
+EQ-1262,kanpur,Heavy Tactical Truck,operational,2026-06-20,2026-08-19,495.0,172,20500,Available,98.6
+EQ-2208,delhi,field diesel generator,operational,2026-07-12,2026-08-26,304.0,220,60700,Available,90.6
+EQ-2160,Leh,Heavy Tactical Truck,Operational,2026-06-03,2026-08-02,453.0,160,20800,Available,86%
+EQ-1910,Jodhpur,Artillery Tractor,Operational,30-06-2026,13-09-2026,1033.0,303,68700,Low,93.3
+EQ-1315,jodhpur,Tactical UAV Launcher,Operational,2026-07-05,2026-08-04,267.0,260,115300,Available,98.4
+EQ-1260,dELHI,Armored Personnel Carrier (APC),Operational,2026-05-24,2026-08-22,1044.0,233,79200,Available,81%
+EQ-1235,Lucknow,Tactical_UAV_Launcher,Maintenance,2026-07-16,2026-08-15,330.0,302,226100,Available,45.0
+EQ-1740,LUCKNOW,Heavy Tactical Truck,Operational,2026-07-26,2026-09-24,612.0,220,Rs. 22200,Available,91.7
+EQ-2226,Leh,Artillery Tractor,Operational,2026-08-03,2026-10-17,733.0,188,57700,Low,94.5
+EQ-2042,lEH,Heavy Tactical Truck,Operational,2026-07-06,2026-09-04,371.0,154,19700,Available,98.9
+EQ-1120,Leh,Armored Personnel Carrier (APC),Operational,01-Jul-2026,29-Sep-2026,1043.0,232,87400,Critical Shortage,86.7
+EQ-1265,dELHI,Field Diesel Generator,Maintenance,2026-07-30,2026-09-13,320.0,244,76700,Available,47.4
+EQ-1317,Siliguri,Armored Personnel Carrier (APC),operational,2026-06-12,2026-09-10,1092.0,229,Rs. 78200,Available,85.6
+EQ-1810,Kanpur,Field Diesel Generator,maintenance,2026-07-30,2026-09-13,284.0,206,92500,Critical Shortage,67%
+EQ-1242,LUCKNOW,Field Diesel Generator,Operational,2026-07-22,2026-09-05,345.0,253,Rs. 48500,Available,98.6
+EQ-1253,Bhopal, Heavy Tactical Truck ,Maintenance,2026-07-26,2026-09-24,680.0,270,37600,Available,0.5880
+EQ-1533,Siliguri,Field Diesel Generator,maintenance,19-06-2026,03-08-2026,358.0,256,72300,Critical Shortage,59%
+EQ-1020,KANPUR,Field Diesel Generator,Maintenance,29-Jun-2026,13-Aug-2026,266.0,175,59200,Critical Shortage,57%
+EQ-1974,Kanpur,ARMORED PERSONNEL CARRIER (APC),Operational,08-06-2026,06-09-2026,827.0,162,74400,Available,84.4
+EQ-1795,Pune,Field Diesel Generator,operational,2026-07-22,2026-09-05,277.0,195,48400,Available,92.6
+EQ-1152,Kanpur,Armored Personnel Carrier (APC),Maintenance,12-05-2026,10-08-2026,1139.0,212,98800,Available,59.9
+EQ-1480,Leh,Tactical UAV Launcher,Operational,2026-07-01,2026-07-31,,250,112700,Low,83.7
+EQ-1551,Bhopal,Tactical UAV Launcher,Operational,2026-08-03,2026-09-02,243.0,199,"₹103,600",Available,95.9
+EQ-2022,Jodhpur,Armored Personnel Carrier (APC),Operational,2026-05-12,2026-08-10,857.0,166,"73,600 INR",Critical Shortage,91.5
+EQ-1696,Kanpur,Field Diesel Generator,Maintenance,2026-06-01,2026-07-16,338.0,241,86200,Available,49.6
+EQ-1620,Leh,Armored Personnel Carrier (APC),Operational,2026-06-13,2026-09-11,929.0,206,"84,600 INR",Low,85.9
+EQ-1039,Delhi,ARMORED PERSONNEL CARRIER (APC),Operational,2026-05-11,2026-08-09,660.0,128,68800,Available,95.0
+EQ-1086,Bhopal,Armored Personnel Carrier (APC),Operational,2026-05-28,2026-08-26,907.0,169,78200,Available,98.8
+EQ-1065,Bhopal,Armored Personnel Carrier (APC),Operational,11-06-2026,09-09-2026,1056.0,235,85100,Available,86.3
+EQ-1796,  Lucknow   ,Artillery Tractor,Operational,26-05-2026,09-08-2026,911.0,247,59600,Available,92.4
+EQ-1959,Delhi, Field Diesel Generator ,out of service,04-Aug-2026,18-Sep-2026,414.0,294,144000,Available,15%
+EQ-1905,Kanpur,Heavy Tactical Truck,Operational,2026-07-08,2026-09-06,477.0,183,17900,Available,80.7
+EQ-1444,kanpur,Heavy Tactical Truck,Operational,2026-06-25,2026-08-24,435.0,170,17700,Available,84.1
+EQ-1938,siliguri,Heavy Tactical Truck,Out of Service,2026-07-19,2026-09-17,,206,38600,Available,39.0
+EQ-1491,Lucknow,Heavy Tactical Truck,Operational,2026-07-03,2026-09-01,495.0,174,18900,Available,96%
+EQ-1686,Leh,HEAVY TACTICAL TRUCK,Maintenance,18-Jun-2026,17-Aug-2026,601.0,207,34000,Critical Shortage,62.9
+EQ-1267,Leh,HEAVY TACTICAL TRUCK,Operational,2026-07-03,2026-09-01,,248,23700,Available,83.0
+EQ-1437,Kanpur,Artillery Tractor,Operational,2026-06-04,2026-08-18,954.0,276,66700,Available,0.9300
+EQ-2215,siliguri,Field Diesel Generator,Operational,2026-07-27,2026-09-10,358.0,242,55000,Available,98.5
+EQ-1777,Pune,Heavy Tactical Truck,out of service,28-Jun-2026,27-Aug-2026,405.0,142,43100,Low,17.1
+EQ-2130,Delhi,Artillery Tractor,Maintenance,2026-07-17,2026-09-30,802.0,211,92400,Available,49.4
+EQ-1745,Siliguri,Armored Personnel Carrier (APC),Operational,2026-06-15,2026-09-13,1082.0,220,"₹89,600",Low,89.2
+EQ-2078,Siliguri,MOBILE RADAR UNIT,Operational,02-Jun-2026,01-Aug-2026,376.0,173,"₹123,600",Available,86.8
+EQ-1690,Siliguri,Heavy Tactical Truck,Operational,2026-06-12,2026-08-11,563.0,194,20000,Available,86.6
+EQ-1644,Leh,Mobile Radar Unit,Operational,2026-07-20,2026-09-18,247.0,119,"₹117,800",Available,85.5
+EQ-1365,Kanpur,Mobile Radar Unit,maintenance,2026-06-29,2026-08-28,547.0,229,"₹242,700",Low,51.6
+EQ-1154,Siliguri,Field Diesel Generator,Operational,2026-07-18,2026-09-01,426.0,273,49400,Available,97%
+EQ-2073,Kanpur,Heavy Tactical Truck,Out of Service,2026-06-23,2026-08-22,496.0,178,35400,,38.0
+EQ-1840,kANPUR,Artillery Tractor,Maintenance,2026-04-30,2026-07-14,715.0,184,Rs. 99500,Critical Shortage,64.8
+EQ-1079,Delhi,Heavy Tactical Truck,Operational,2026-06-16,2026-08-15,516.0,179,19400,Low,0.9190
+EQ-1580,  Lucknow   ,Heavy Tactical Truck,Operational,15-06-2026,14-08-2026,621.0,226,23600,Available,97.0
+EQ-1459,  Delhi   ,Field Diesel Generator,Operational,2026-07-08,2026-08-22,333.0,226,50800,Low,96.5%
+EQ-2230,Bhopal,Armored Personnel Carrier (APC),Maintenance,2026-05-14,2026-08-12,1632.0,305,136300,Critical Shortage,64.1
+EQ-1529,kanpur,HEAVY TACTICAL TRUCK,Operational,2026-07-02,2026-08-31,448.0,186,"20,000 INR",Available,0.9620
+EQ-1922,Kanpur,Armored Personnel Carrier (APC),Maintenance,2026-07-25,2026-10-23,638.0,143,137200,,51.6
+EQ-1719,Kanpur,MOBILE RADAR UNIT,Operational,2026-07-29,2026-09-27,432.0,176,"131,200 INR",Low,95.7
+EQ-2026,Delhi, Armored Personnel Carrier (APC) ,operational,2026-07-13,2026-10-11,1103.0,216,88300,Available,99%
+EQ-1526,Lucknow,Armored Personnel Carrier (APC),Operational,05-22-2026,08-20-2026,540.0,104,69700,Available,0.8730
+EQ-1169,jodhpur,Heavy Tactical Truck,Operational,2026-07-18,2026-09-16,461.0,163,"18,100 INR",Available,88.7
+EQ-1622,kANPUR,artillery tractor,operational,2026-05-26,2026-08-09,797.0,218,56000,Available,90.4
+EQ-1518,Leh,Heavy Tactical Truck,operational,02/07/2026,31/08/2026,357.0,131,15900,Low,83.0
+EQ-1855,kanpur,Armored Personnel Carrier (APC),Operational,2026-05-29,2026-08-27,1207.0,266,96000,Critical Shortage,93.2
+EQ-1672,Leh, Armored Personnel Carrier (APC) ,maintenance,2026-06-29,2026-09-27,430.0,91,93600,Available,50.6
+EQ-1882,Leh,Heavy Tactical Truck,Out of Service,2026-07-25,2026-09-23,406.0,151,Rs. 33000,Available,24.0%
+EQ-1883,Lucknow,Field Diesel Generator,Operational,2026-07-23,2026-09-06,355.0,230,55500,Available,97.3
+EQ-2132,JODHPUR,Tactical UAV Launcher,Operational,2026-08-02,2026-09-01,243.0,216,107800,Available,96.1
+EQ-1244,Delhi,Heavy Tactical Truck,Operational,2026-08-04,2026-10-03,599.0,213,22900,Low,88.1
+EQ-1851,  Leh   ,Armored Personnel Carrier (APC),Operational,2026-05-05,2026-08-03,776.0,163,78200,Available,90.4
+EQ-2166,Bhopal,Heavy Tactical Truck,Operational,2026-07-02,2026-08-31,764.0,284,21000,Available,88.7
+EQ-2020,Kanpur,Tactical UAV Launcher,Operational,2026-08-01,2026-08-31,246.0,216,110900,Available,0.8600
+EQ-1871,Siliguri, Armored Personnel Carrier (APC) ,Operational,2026-07-01,2026-09-29,846.0,186,67600,Available,82.7
+EQ-1241,Delhi,Heavy Tactical Truck,Operational,2026-07-18,2026-09-16,381.0,139,18100,Critical Shortage,81.3
+EQ-1941,DELHI,Armored Personnel Carrier (APC),Operational,2026-07-30,2026-10-28,614.0,130,70600,Available,92.5
+EQ-1949,Lucknow,Armored Personnel Carrier (APC),Operational,01-Jul-2026,29-Sep-2026,989.0,192,85100,Available,85%
+EQ-1975,Delhi,Heavy_Tactical_Truck,Operational,2026-06-27,2026-08-26,425.0,154,18800,Available,97.1
+EQ-1439,Pune,Tactical UAV Launcher,Maintenance,2026-07-21,2026-08-20,126.0,109,"₹135,700",Available,51.6
+EQ-1982,  Bhopal   ,field diesel generator,operational,2026-06-19,2026-08-03,430.0,285,63000,Low,98.1
+EQ-1448,Siliguri,Field_Diesel_Generator,Operational,2026-06-19,2026-08-03,264.0,203,"42,000 INR",Available,84.7
+EQ-1530,Jodhpur,Heavy Tactical Truck,Operational,2026-06-27,2026-08-26,324.0,134,19800,Available,94%
+EQ-1562,Kanpur,Heavy Tactical Truck,Operational,2026-07-11,2026-09-09,714.0,268,22000,Available,98.3
+EQ-1701,Kanpur,Heavy Tactical Truck,Maintenance,2026-06-19,2026-08-18,426.0,151,36300,Available,62.5
+EQ-1308,Lucknow,Heavy Tactical Truck,Operational,2026-07-30,2026-09-28,422.0,148,"₹16,600",Available,95%
+EQ-1182,Kanpur,Armored_Personnel_Carrier_(APC),Operational,2026-07-13,2026-10-11,782.0,152,77100,Available,91%
+EQ-2040,Leh,Field Diesel Generator,Operational,09-Jul-2026,23-Aug-2026,475.0,322,"69,200 INR",Low,81.9
+EQ-1314,pune,Heavy Tactical Truck,Operational,2026-07-15,2026-09-13,555.0,211,"20,300 INR",Low,92.5
+EQ-1559,Delhi,Artillery Tractor,operational,27/06/2026,10/09/2026,757.0,214,52700,Low,0.8100
+EQ-1033,Siliguri,Field Diesel Generator,operational,2026-07-08,2026-08-22,349.0,259,Rs. 59600,Available,95.7
+EQ-2117,Lucknow,Tactical UAV Launcher,Operational,2026-07-01,2026-07-31,353.0,315,106600,Low,98.2
+EQ-1149,  Lucknow   ,Mobile Radar Unit,Operational,2026-06-07,2026-08-06,477.0,221,141100,Available,98.0
+EQ-1998,Leh,Tactical UAV Launcher,Operational,2026-07-01,2026-07-31,276.0,227,113200,Available,88.0
+EQ-2084,Bhopal,Armored_Personnel_Carrier_(APC),Operational,2026-08-05,2026-11-03,1507.0,298,Rs. 95600,Low,0.8920
+EQ-1150,Delhi,Heavy Tactical Truck,Operational,2026-07-06,2026-09-04,507.0,188,20300,Available,90.4
+EQ-1598,Bhopal,Armored Personnel Carrier (APC),Operational,22-Jun-2026,20-Sep-2026,736.0,146,76200,Available,84.9
+EQ-1741,Jodhpur,Armored Personnel Carrier (APC),Operational,2026-08-04,2026-11-02,488.0,102,68300,Available,84.9
+EQ-1512,Jodhpur,Field Diesel Generator,Operational,2026-07-22,2026-09-05,377.0,256,54600,Available,92.6
+EQ-1205,Jodhpur,Field Diesel Generator,Operational,2026-06-20,2026-08-04,250.0,177,50900,Available,92.6
+EQ-1509,Lucknow,Field Diesel Generator,Operational,07-03-2026,08-17-2026,382.0,262,53500,Available,85.5
+EQ-1606,Leh,Field Diesel Generator,Operational,07-19-2026,09-02-2026,560.0,372,77500,Low,96.6
+EQ-1125,Kanpur,Heavy Tactical Truck,Operational,2026-06-16,2026-08-15,544.0,201,19000,,88.5
+EQ-1221,Delhi,TACTICAL UAV LAUNCHER,Operational,2026-07-12,2026-08-11,340.0,310,111200,Available,87.4
+EQ-1665,  Kanpur   , Field Diesel Generator ,Out of Service,2026-06-07,2026-07-22,339.0,217,100900,Low,15.5
+EQ-1326,Bhopal,Heavy Tactical Truck,Operational,2026-07-26,2026-09-24,320.0,120,"19,200 INR",Low,81.1
+EQ-1192,Bhopal,Field Diesel Generator,Out of Service,2026-06-24,2026-08-08,472.0,311,127500,Low,34.1
+EQ-1511,Lucknow,Mobile Radar Unit,Out of Service,21-06-2026,20-08-2026,488.0,208,272700,Available,38%
+EQ-1261,Leh,Field Diesel Generator,Operational,2026-06-27,2026-08-11,301.0,204,"₹50,200",Low,0.9500
+EQ-1011,Kanpur,Mobile Radar Unit,Operational,2026-07-07,2026-09-05,405.0,171,Rs. 120900,Available,92.5
+EQ-1334,Lucknow,Artillery Tractor,Operational,2026-08-02,2026-10-16,605.0,161,46400,Low,97.1
+EQ-1906,Kanpur,Field Diesel Generator,Operational,2026-07-25,2026-09-08,404.0,262,59300,Critical Shortage,97%
+EQ-1712,Kanpur,Armored Personnel Carrier (APC),Operational,2026-05-14,2026-08-12,971.0,190,71300,Low,91.0
+EQ-2098,BHOPAL,Armored Personnel Carrier (APC),Operational,2026-06-09,2026-09-07,480.0,95,"58,200 INR",Available,84.2
+EQ-1811,Siliguri,Field Diesel Generator,Maintenance,2026-07-05,2026-08-19,362.0,248,"83,700 INR",Low,48.4
+EQ-2092,Lucknow,Field Diesel Generator,Operational,2026-07-18,2026-09-01,380.0,257,61700,Available,85.5
+EQ-2127,Lucknow,Heavy Tactical Truck,Operational,07-28-2026,09-26-2026,459.0,188,"₹17,900",Available,94.7
+EQ-2123,Lucknow,Heavy Tactical Truck,Operational,2026-07-09,2026-09-07,492.0,203,21500,Available,0.9420
+EQ-2111,Lucknow,Armored Personnel Carrier (APC),Operational,02-08-2026,31-10-2026,934.0,185,72200,Available,96.9
+EQ-2068,Leh,Heavy Tactical Truck,operational,15-Jun-2026,14-Aug-2026,599.0,227,22400,,95.6
+EQ-1894,Delhi,Heavy Tactical Truck,Operational,2026-08-01,2026-09-30,641.0,227,23200,Available,0.9150
+EQ-2015,jodhpur,Artillery Tractor,Maintenance,2026-06-19,2026-09-02,922.0,281,111000,Available,62.1
+EQ-2114,Lucknow,Heavy Tactical Truck,Operational,2026-06-07,2026-08-06,,197,19500,Low,95.0
+EQ-1179,Lucknow,Tactical UAV Launcher,Out of Service,12-07-2026,11-08-2026,201.0,181,175600,Available,20.1
+EQ-1445,Delhi,Artillery Tractor,Operational,2026-05-20,2026-08-03,466.0,129,Rs. 50400,Available,82.5
+EQ-1849,Kanpur,Field Diesel Generator,Maintenance,07-06-2026,22-07-2026,317.0,221,100000,Available,58.7
+EQ-1121,Kanpur,Armored Personnel Carrier (APC),Operational,2026-06-23,2026-09-21,1087.0,234,"₹91,300",Available,88%
+EQ-2112,Leh,Tactical UAV Launcher,Operational,2026-07-20,2026-08-19,243.0,205,95300,Available,88.3
+EQ-1343,Lucknow,Field Diesel Generator,Operational,2026-07-09,2026-08-23,369.0,274,54100,Available,94.8
+EQ-2219,pune,Field Diesel Generator,Operational,2026-07-01,2026-08-15,313.0,209,45200,Low,92.8
+EQ-1118,Lucknow,Heavy Tactical Truck,Operational,2026-06-20,2026-08-19,311.0,122,15600,Available,88.1
+EQ-2095,JODHPUR,artillery tractor,operational,2026-06-11,2026-08-25,820.0,231,54200,Available,83.5
+EQ-2143,Pune,Tactical UAV Launcher,Operational,2026-07-23,2026-08-22,195.0,187,91300,Available,0.8420
+EQ-1236,Bhopal,Mobile Radar Unit,Operational,2026-06-24,2026-08-23,554.0,226,"₹131,200",Available,93.6
+EQ-2056,Bhopal,Field Diesel Generator,Operational,09-Jul-2026,23-Aug-2026,285.0,219,"₹52,000",Available,94.1
+EQ-2087,Delhi,Field Diesel Generator,operational,2026-07-15,2026-08-29,495.0,321,"61,500 INR",Low,97.1%
+EQ-1799,kANPUR,Armored Personnel Carrier (APC),Operational,2026-05-16,2026-08-14,876.0,196,84400,,93.3
+EQ-1053,  Bhopal   ,Field Diesel Generator,operational,2026-07-21,2026-09-04,332.0,219,53600,Available,82%
+EQ-1486,Lucknow,Field Diesel Generator,maintenance,30/07/2026,13/09/2026,267.0,174,87000,Low,54.8
+EQ-1469,Bhopal,ARTILLERY TRACTOR,Operational,2026-06-23,2026-09-06,551.0,168,52700,Critical Shortage,98.6
+EQ-1135,SILIGURI,Armored Personnel Carrier (APC),Maintenance,2026-07-07,2026-10-05,675.0,149,134100,Low,66.4
+EQ-1775,  Leh   ,Field Diesel Generator,Operational,25/06/2026,09/08/2026,416.0,297,53100,Low,89.6
+EQ-1124,Delhi,Field Diesel Generator,Operational,2026-07-20,2026-09-03,,175,50200,Available,88.5
+EQ-1360,DELHI,Tactical UAV Launcher,Operational,2026-07-30,2026-08-29,156.0,153,Rs. 97700,Available,0.8160
+EQ-1992,Pune,Heavy Tactical Truck,Operational,2026-07-02,2026-08-31,225.0,83,16400,Critical Shortage,80.3
+EQ-1022,Kanpur,Heavy Tactical Truck,Operational,2026-07-07,2026-09-05,431.0,164,20800,Available,95.0
+EQ-1413,Bhopal,Heavy Tactical Truck,Maintenance,2026-07-22,2026-09-20,262.0,105,27900,Available,51%
+EQ-1866,Lucknow,Artillery Tractor,Operational,2026-06-21,2026-09-04,599.0,175,56800,Available,81.8
+EQ-1689,Siliguri,Mobile Radar Unit,Maintenance,2026-07-11,2026-09-09,549.0,230,233400,Critical Shortage,46%
+EQ-1802,  Jodhpur   ,Heavy_Tactical_Truck,Operational,2026-08-05,2026-10-04,398.0,151,"₹16,400",Available,88.5
+EQ-1234,Kanpur,Heavy Tactical Truck,Out of Service,2026-08-02,2026-10-01,421.0,145,36600,Available,41.2
+EQ-1972,siliguri,Heavy Tactical Truck,Operational,2026-07-31,2026-09-29,345.0,144,19800,Available,92.6
+EQ-1920,Lucknow,Artillery Tractor,Operational,12-Jul-2026,25-Sep-2026,730.0,204,53600,Available,93.3
+EQ-1647,bhopal,Tactical UAV Launcher,Operational,2026-07-20,2026-08-19,,60,80100,Available,85.7
+EQ-2250,dELHI,Heavy Tactical Truck,Maintenance,07-07-2026,05-09-2026,274.0,104,Rs. 28400,Critical Shortage,49.8
+EQ-1119,jODHPUR,Mobile Radar Unit,Operational,2026-07-03,2026-09-01,519.0,252,139700,Available,81.5
+EQ-1367,Bhopal, Mobile Radar Unit ,Maintenance,2026-08-03,2026-10-02,436.0,206,198100,Critical Shortage,52.8
+EQ-1456,Kanpur,Mobile_Radar_Unit,Out of Service,14-05-2026,13-07-2026,367.0,155,236300,Low,35.8
+EQ-1797,Lucknow,Heavy Tactical Truck,Out of Service,2026-07-19,2026-09-17,426.0,173,30600,Available,0.1740
+EQ-1016,Lucknow,Armored Personnel Carrier (APC),Operational,2026-06-25,2026-09-23,766.0,166,69700,Available,96.7
+EQ-1426,Siliguri,Heavy Tactical Truck,Operational,02-08-2026,01-10-2026,686.0,236,21900,Low,86.4
+EQ-1397,bHOPAL,Mobile Radar Unit,Operational,2026-08-05,2026-10-04,264.0,109,"127,900 INR",Available,83.1
+EQ-1040,Kanpur, Armored Personnel Carrier (APC) ,Maintenance,2026-05-03,2026-08-01,1063.0,204,"162,700 INR",Available,47.1
+EQ-1325,Delhi,Heavy Tactical Truck,Operational,2026-06-15,2026-08-14,342.0,129,17400,Available,97.1
+EQ-1346,Delhi,Artillery Tractor,operational,05/07/2026,18/09/2026,782.0,206,56000,Available,92.7
+EQ-1467,Bhopal,Tactical UAV Launcher,Operational,2026-07-10,2026-08-09,270.0,225,"94,400 INR",Critical Shortage,84.1
+EQ-1526,Lucknow,Armored Personnel Carrier (APC),Operational,05-22-2026,08-20-2026,540.0,104,69700,Available,0.8730
+EQ-2081,Lucknow,HEAVY TACTICAL TRUCK,Operational,2026-06-02,2026-08-01,416.0,159,20700,Available,84.0
+EQ-2237,Jodhpur,heavy tactical truck,Operational,2026-07-04,2026-09-02,672.0,250,"₹19,400",Available,90.0
+EQ-1091,Jodhpur,Armored Personnel Carrier (APC),Maintenance,19-Jun-2026,17-Sep-2026,952.0,199,137300,Critical Shortage,55.3
+EQ-2151,Bhopal,Armored Personnel Carrier (APC),operational,2026-06-04,2026-09-02,,145,"72,200 INR",Available,81.5
+EQ-1914,Bhopal,Artillery Tractor,operational,2026-07-22,2026-10-05,913.0,273,63300,Critical Shortage,95.6
+EQ-1380,Delhi,Artillery Tractor,Operational,2026-08-01,2026-10-15,569.0,154,50200,Available,86.7
+EQ-1983,Lucknow, Field Diesel Generator ,Operational,08-07-2026,22-08-2026,278.0,201,47400,Available,90.0
+EQ-1030,siliguri,Heavy Tactical Truck,Operational,2026-06-28,2026-08-27,464.0,161,21000,Available,82.2
+EQ-2012,Lucknow,Heavy Tactical Truck,Operational,2026-07-01,2026-08-30,493.0,183,"18,700 INR",Low,83.7
+EQ-1212,Lucknow,FIELD DIESEL GENERATOR,Operational,2026-07-09,2026-08-23,512.0,328,75600,Available,83.7
+EQ-1282,LUCKNOW,Field Diesel Generator,Operational,2026-08-02,2026-09-16,428.0,299,52600,Available,98.7
+EQ-1042,  Jodhpur   ,Heavy Tactical Truck,Maintenance,08-Jul-2026,06-Sep-2026,524.0,182,38300,Low,66.4
+EQ-2065,Lucknow,Heavy Tactical Truck,Operational,2026-07-11,2026-09-09,451.0,158,20300,Available,93%
+EQ-1784,delhi,Armored Personnel Carrier (APC),Operational,2026-07-11,2026-10-09,1039.0,225,"₹86,700",Available,94.7
+EQ-1076,delhi,Mobile Radar Unit,Operational,2026-06-08,2026-08-07,494.0,236,Rs. 128100,Low,98.2
+EQ-1857,Delhi,Artillery Tractor,Operational,10-07-2026,23-09-2026,531.0,153,47200,Available,98.3
+EQ-1088,Lucknow,Artillery Tractor,Operational,2026-07-08,2026-09-21,795.0,211,"58,100 INR",Low,95.5
+EQ-1819,Jodhpur,Artillery Tractor,Operational,2026-06-19,2026-09-02,673.0,199,"₹57,000",,85.1
+EQ-2029,Jodhpur,Field Diesel Generator,Operational,2026-07-11,2026-08-25,436.0,296,55400,Low,84%
+EQ-2055,Jodhpur,Mobile Radar Unit,operational,2026-07-19,2026-09-17,404.0,167,141100,Available,0.8030
+EQ-1980,KANPUR,Artillery Tractor,maintenance,27/07/2026,10/10/2026,768.0,233,93100,Available,52.0
+EQ-1017,Leh, Field Diesel Generator ,Operational,2026-07-26,2026-09-09,299.0,199,"₹58,000",Available,93.6
+EQ-1937,kANPUR,Armored Personnel Carrier (APC),Operational,05-29-2026,08-27-2026,660.0,143,62300,Available,98%
+EQ-2051,bhopal,Artillery Tractor,Operational,11-06-2026,25-08-2026,618.0,163,54900,Available,91.2
+EQ-2246,Lucknow,ARMORED PERSONNEL CARRIER (APC),Operational,2026-06-20,2026-09-18,643.0,133,70500,Available,0.8660
+EQ-1291,kanpur,Artillery Tractor,Operational,2026-08-03,2026-10-17,,184,57900,Low,87.3
+EQ-2196,Siliguri,Field Diesel Generator,Operational,29-Jul-2026,12-Sep-2026,383.0,286,59300,Available,89.0
+EQ-1178,LEH,Artillery Tractor,Out of Service,2026-07-21,2026-10-04,944.0,267,116700,Available,0.3320
+EQ-1820,Bhopal,Field Diesel Generator,Operational,08-05-2026,09-19-2026,490.0,323,"56,900 INR",Low,95.5%
+EQ-1301,Delhi,Field Diesel Generator,Operational,2026-07-22,2026-09-05,287.0,210,52800,Available,94%
+EQ-1961,kANPUR,Tactical UAV Launcher,operational,2026-07-13,2026-08-12,253.0,227,113200,Low,92.7
+EQ-2110,kANPUR,Tactical UAV Launcher,Operational,2026-07-29,2026-08-28,306.0,290,125900,Available,0.8490
+EQ-1174,lucknow,field diesel generator,Operational,2026-07-13,2026-08-27,401.0,280,60400,Available,97.5
+EQ-1450,Delhi,Heavy Tactical Truck,Operational,2026-07-05,2026-09-03,327.0,127,18700,Available,96.3%
+EQ-1794,  Leh   ,Artillery Tractor,maintenance,2026-06-05,2026-08-19,433.0,131,"86,400 INR",Low,66.6
+EQ-1674,delhi,Armored Personnel Carrier (APC),Operational,2026-07-17,2026-10-15,791.0,176,"75,900 INR",Available,83.7
+EQ-2124,Lucknow,HEAVY TACTICAL TRUCK,Operational,2026-07-24,2026-09-22,332.0,123,16300,Available,0.9740
+EQ-1904,Bhopal,Armored Personnel Carrier (APC),Operational,2026-05-07,2026-08-05,1196.0,258,86700,Low,85.1
+EQ-1599,Pune,Armored Personnel Carrier (APC),Operational,2026-08-01,2026-10-30,815.0,172,68500,Available,84%
+EQ-1263,Pune,Armored Personnel Carrier (APC),Maintenance,2026-05-21,2026-08-19,222.0,45,85400,Low,58.3
+EQ-1981,Siliguri,Artillery Tractor,Operational,2026-07-07,2026-09-20,765.0,234,53000,Available,94.0
+EQ-1853,BHOPAL, Heavy Tactical Truck ,Operational,02-07-2026,31-08-2026,383.0,146,18200,Available,91.0
+EQ-2205,Bhopal,Heavy Tactical Truck,Operational,2026-08-04,2026-10-03,474.0,177,20200,Available,92.7
+EQ-1669,siliguri,Armored Personnel Carrier (APC),operational,2026-07-16,2026-10-14,296.0,62,Rs. 54800,Available,87.0
+EQ-2242,Jodhpur,Field Diesel Generator,Operational,2026-07-31,2026-09-14,373.0,247,56300,Available,96.4
+EQ-1315,jodhpur,Tactical UAV Launcher,Operational,2026-07-05,2026-08-04,267.0,260,115300,Available,98.4
+EQ-1909,Kanpur,Armored Personnel Carrier (APC),maintenance,2026-04-30,2026-07-29,1007.0,227,114700,Available,52.6
+EQ-1522,kanpur,TACTICAL UAV LAUNCHER,Operational,24/07/2026,23/08/2026,261.0,222,96300,Available,89.9
+EQ-1969,Kanpur,Armored Personnel Carrier (APC),Operational,2026-06-04,2026-09-02,871.0,192,75700,Low,0.9220
+EQ-1108,Lucknow,Heavy Tactical Truck,Operational,2026-07-08,2026-09-06,517.0,182,21400,Low,93.4
+EQ-2047,Siliguri,Armored Personnel Carrier (APC),Operational,2026-07-06,2026-10-04,1196.0,227,"90,500 INR",Available,89.9
+EQ-2129,Bhopal, Heavy Tactical Truck ,Operational,2026-06-15,2026-08-14,449.0,172,"₹17,000",Critical Shortage,97.4
+EQ-1656,Lucknow,Artillery Tractor,Maintenance,2026-06-10,2026-08-24,740.0,197,81700,Low,51.4
+EQ-1621,  Kanpur   ,Heavy Tactical Truck,operational,2026-07-14,2026-09-12,359.0,139,16800,Available,81%
+EQ-1402,dELHI,Field Diesel Generator,Operational,2026-06-24,2026-08-08,328.0,224,55100,Available,97.8
+EQ-1381,Lucknow,Field Diesel Generator,Operational,04-Jul-2026,18-Aug-2026,270.0,209,51500,Available,88.8
+EQ-1010,LUCKNOW,Heavy Tactical Truck,Operational,2026-07-31,2026-09-29,558.0,199,22100,Low,84.0
+EQ-1725,DELHI,FIELD DIESEL GENERATOR,Operational,2026-08-02,2026-09-16,390.0,270,55200,Available,89%
+EQ-2027,Leh,Heavy Tactical Truck,Maintenance,2026-07-04,2026-09-02,452.0,176,31700,Available,56.5
+EQ-2156,Lucknow,field diesel generator,Operational,2026-07-04,2026-08-18,427.0,320,59400,Available,81.3
+EQ-1139,Lucknow,Artillery Tractor,Operational,2026-07-10,2026-09-23,845.0,235,"60,400 INR",Available,91.0
+EQ-1112,Lucknow,Field Diesel Generator,operational,19/06/2026,03/08/2026,354.0,258,"62,500 INR",Critical Shortage,84.0
+EQ-1730,Lucknow,Heavy Tactical Truck,Operational,09-06-2026,08-08-2026,386.0,139,19200,Available,85.3
+EQ-1071,Kanpur,Heavy Tactical Truck,Operational,2026-07-31,2026-09-29,463.0,191,21300,Available,0.8220
+EQ-1041,Leh,Tactical UAV Launcher,Operational,2026-07-06,2026-08-05,282.0,231,115900,Available,83.7
+EQ-1945,Delhi,Heavy Tactical Truck,Operational,06-03-2026,08-02-2026,659.0,258,23400,Low,89.7
+EQ-1537,Bhopal, Heavy Tactical Truck ,Operational,2026-07-23,2026-09-21,353.0,136,"19,900 INR",,85.6
+EQ-2107,Pune,artillery tractor,operational,2026-06-05,2026-08-19,806.0,225,"₹58,900",Available,82.4
+EQ-1933,Lucknow,Heavy Tactical Truck,Operational,2026-07-03,2026-09-01,268.0,109,15300,Low,96.5
+EQ-1675,Lucknow,Artillery Tractor,Operational,2026-07-24,2026-10-07,411.0,124,42600,Low,85%
+EQ-1891,Kanpur,Armored Personnel Carrier (APC),Out of Service,2026-05-10,2026-08-08,1216.0,236,134700,Available,37.1
+EQ-2174,Leh,Field Diesel Generator,Operational,30-Jul-2026,13-Sep-2026,379.0,256,60000,Available,95.2
+EQ-2103,Jodhpur,Tactical UAV Launcher,maintenance,05-Jul-2026,04-Aug-2026,327.0,299,210700,Low,0.5910
+EQ-1643,Jodhpur,Heavy Tactical Truck,Operational,2026-06-17,2026-08-16,414.0,163,Rs. 20400,Available,93.5
+EQ-1424,Kanpur,TACTICAL UAV LAUNCHER,Operational,2026-07-25,2026-08-24,274.0,243,102300,Available,98.2
+EQ-1519,SILIGURI,Heavy Tactical Truck,Operational,2026-07-18,2026-09-16,504.0,179,21200,Available,96.6
+EQ-1753,Leh,Tactical UAV Launcher,Operational,2026-07-19,2026-08-18,176.0,146,90500,Available,80.4%
+EQ-1748,Kanpur,Tactical UAV Launcher,Operational,17/07/2026,16/08/2026,166.0,157,85800,Low,94.6
+EQ-1298,  Bhopal   , Tactical UAV Launcher ,Out of Service,2026-07-23,2026-08-22,253.0,210,196600,Critical Shortage,0.4050
+EQ-1870,Pune,Artillery Tractor,Operational,2026-06-14,2026-08-28,1104.0,295,69500,Available,96.7%
+EQ-1850,Siliguri,Tactical_UAV_Launcher,Out of Service,2026-07-06,2026-08-05,196.0,168,236300,Low,39.3
+EQ-1642,pUNE,Armored Personnel Carrier (APC),Operational,12-May-2026,10-Aug-2026,1470.0,278,80700,Available,88.3%
+EQ-2145,Delhi,Field Diesel Generator,Operational,11-07-2026,25-08-2026,368.0,249,45700,Available,89.6
+EQ-1747,Jodhpur,Heavy Tactical Truck,operational,2026-07-24,2026-09-22,501.0,183,Rs. 20000,Available,81.2
+EQ-2031,Delhi,Field Diesel Generator,Operational,2026-07-04,2026-08-18,337.0,244,Rs. 60500,Available,97.3%
+EQ-1841,Delhi,Heavy Tactical Truck,Operational,2026-06-15,2026-08-14,486.0,172,18400,Available,90.2
+EQ-1475,Bhopal,Artillery Tractor,Operational,2026-07-15,2026-09-28,1017.0,277,62300,,80.6%
+EQ-2097,Pune,Armored Personnel Carrier (APC),Operational,2026-07-27,2026-10-25,913.0,198,"₹85,000",Available,88.9
+EQ-2244,Kanpur,FIELD DIESEL GENERATOR,Operational,2026-08-05,2026-09-19,260.0,199,59400,Available,82.6
+EQ-1289,LUCKNOW,Armored Personnel Carrier (APC),operational,12/07/2026,10/10/2026,996.0,209,"₹75,600",Critical Shortage,97.4
+EQ-1455,Leh,Artillery Tractor,operational,2026-08-01,2026-10-15,626.0,168,"49,000 INR",Available,83.7
+EQ-1601,Delhi,Tactical UAV Launcher,operational,02-Jul-2026,01-Aug-2026,269.0,232,"116,800 INR",Available,89.3
+EQ-1283,Bhopal,Mobile Radar Unit,Operational,2026-07-13,2026-09-11,603.0,274,167500,Low,96.0
+EQ-1814,Lucknow,Armored Personnel Carrier (APC),Operational,2026-07-09,2026-10-07,1032.0,204,72800,Available,82.6
+EQ-1957,Kanpur,Heavy Tactical Truck,operational,2026-06-22,2026-08-21,474.0,190,17700,Available,89.7
+EQ-2178,Delhi,Tactical UAV Launcher,operational,2026-08-03,2026-09-02,206.0,190,"108,800 INR",Available,0.9250
+EQ-1168,JODHPUR, Artillery Tractor ,Operational,2026-06-08,2026-08-22,943.0,289,"57,200 INR",Critical Shortage,87.4
+EQ-1191,Leh,ARMORED PERSONNEL CARRIER (APC),Out of Service,2026-05-07,2026-08-05,818.0,172,Rs. 156000,Available,0.1830
+EQ-2189,Kanpur,Heavy Tactical Truck,Operational,2026-06-22,2026-08-21,,199,"19,100 INR",Critical Shortage,81.3
+EQ-1960,BHOPAL,Field Diesel Generator,Operational,26/07/2026,09/09/2026,373.0,286,57100,Available,84.4
+EQ-1247,BHOPAL,Field Diesel Generator,Operational,09-Jul-2026,23-Aug-2026,302.0,231,47200,Available,89%
+EQ-1948,Bhopal,Field Diesel Generator,operational,2026-07-05,2026-08-19,328.0,218,Rs. 50700,Available,87.9
+EQ-1755,bhopal,Armored Personnel Carrier (APC),Operational,2026-05-27,2026-08-25,657.0,147,75400,Low,92.2
+EQ-1634,Delhi,Armored Personnel Carrier (APC),Operational,27/06/2026,25/09/2026,782.0,173,65700,Critical Shortage,97.1
+EQ-2125,Kanpur,Heavy Tactical Truck,Operational,25-Jun-2026,24-Aug-2026,674.0,248,19500,Available,84.6
+EQ-2034,  Lucknow   ,Artillery Tractor,operational,15/07/2026,28/09/2026,860.0,227,55600,Available,94.1
+EQ-1254,LUCKNOW,Field Diesel Generator,Operational,21-Jun-2026,05-Aug-2026,448.0,321,"₹60,000",Low,83.2
+EQ-1547,Lucknow,Heavy Tactical Truck,Operational,27-Jul-2026,25-Sep-2026,534.0,200,21700,Available,85.7
+EQ-1422,Kanpur,Heavy Tactical Truck,Operational,30/07/2026,28/09/2026,647.0,253,"₹21,400",Available,95.6
+EQ-1693,Pune,Field Diesel Generator,Operational,2026-07-18,2026-09-01,301.0,195,46500,Low,96.9%
+EQ-1344,Delhi,Heavy Tactical Truck,Maintenance,2026-06-08,2026-08-07,426.0,152,"₹31,400",Critical Shortage,63.8
+EQ-1067,Lucknow,Heavy Tactical Truck,Operational,07-20-2026,09-18-2026,433.0,171,"₹17,200",,88.2
+EQ-1624,Kanpur,TACTICAL UAV LAUNCHER,Operational,2026-07-17,2026-08-16,277.0,262,111000,Available,81.3
+EQ-1045,  Bhopal   ,Mobile Radar Unit,Operational,2026-07-30,2026-09-28,260.0,121,127700,Low,86.3
+EQ-1123,Bhopal,Field Diesel Generator,Operational,06-27-2026,08-11-2026,474.0,344,"63,800 INR",Low,85.0
+EQ-1195,Lucknow,Heavy Tactical Truck,operational,2026-06-28,2026-08-27,518.0,182,18600,Available,93.8
+EQ-2183,Lucknow,Field Diesel Generator,Operational,28-06-2026,12-08-2026,413.0,315,"53,500 INR",Low,97.4
+EQ-1729,Kanpur,Heavy Tactical Truck,operational,2026-06-11,2026-08-10,432.0,150,"₹20,500",Available,92.0%
+EQ-1153,Bhopal,Field Diesel Generator,Operational,2026-07-29,2026-09-12,325.0,219,59800,Available,81.5
+EQ-1921,LUCKNOW,ARMORED PERSONNEL CARRIER (APC),Operational,2026-06-22,2026-09-20,1243.0,248,79500,Available,91.1
+EQ-1073,Bhopal,Heavy Tactical Truck,Operational,2026-08-04,2026-10-03,446.0,173,19100,Available,83.7
+EQ-2171,DELHI, Armored Personnel Carrier (APC) ,Operational,2026-06-05,2026-09-03,1096.0,232,75400,Critical Shortage,99.0
+EQ-1955,Leh,Heavy Tactical Truck,Operational,2026-07-03,2026-09-01,469.0,171,21000,Low,82.8
+EQ-1995,kanpur, Artillery Tractor ,Operational,2026-06-04,2026-08-18,485.0,144,51600,Available,91.6
+EQ-1713,Lucknow,Heavy Tactical Truck,Operational,2026-06-26,2026-08-25,426.0,150,17900,Low,84.6
+EQ-1925,Delhi,Field Diesel Generator,Operational,2026-07-26,2026-09-09,481.0,331,Rs. 59700,Low,82.2
+EQ-1986,DELHI,Field Diesel Generator,Operational,2026-07-15,2026-08-29,248.0,190,47500,Available,94.0
+EQ-1991,Kanpur,Heavy Tactical Truck,Operational,2026-07-08,2026-09-06,447.0,184,21200,Critical Shortage,89%
+EQ-1303,SILIGURI,Heavy Tactical Truck,operational,2026-07-09,2026-09-07,533.0,208,20700,Low,84.7
+EQ-1069,Pune,Armored Personnel Carrier (APC),Operational,2026-05-09,2026-08-07,1000.0,213,Rs. 70800,Available,0.9610
+EQ-1650,Delhi,Field Diesel Generator,Operational,24/06/2026,08/08/2026,456.0,301,63100,Low,93%
+EQ-1828,Delhi,Armored Personnel Carrier (APC),operational,2026-07-27,2026-10-25,805.0,168,69600,Available,96.8
+EQ-1144,pUNE, Heavy Tactical Truck ,Operational,2026-07-28,2026-09-26,473.0,183,20700,Available,96.0
+EQ-2120,Bhopal,Heavy Tactical Truck,Operational,2026-06-25,2026-08-24,602.0,222,Rs. 20700,Critical Shortage,86.2
+EQ-1751,lUCKNOW,Heavy Tactical Truck,Operational,2026-07-31,2026-09-29,363.0,133,18800,Available,88.3%
+EQ-2089,Kanpur,Artillery_Tractor,operational,2026-06-23,2026-09-06,604.0,182,47900,Available,0.9490
+EQ-1278,  Jodhpur   ,Armored Personnel Carrier (APC),operational,13-05-2026,11-08-2026,810.0,164,72000,Available,86.9%
+EQ-1291,kanpur,Artillery Tractor,Operational,2026-08-03,2026-10-17,,184,57900,Low,87.3
+EQ-1441,  Leh   ,Heavy Tactical Truck,Operational,2026-06-19,2026-08-18,538.0,192,17700,Available,85.1
+EQ-1025,Leh,Heavy Tactical Truck,Operational,2026-06-23,2026-08-22,425.0,150,20200,Available,89.6
+EQ-1160,Pune,Heavy Tactical Truck,operational,15/06/2026,14/08/2026,564.0,204,18400,Available,95.3
+EQ-1954,Bhopal,Field Diesel Generator,operational,2026-07-15,2026-08-29,511.0,346,61800,Available,0.8640
+EQ-1204,Lucknow,Armored Personnel Carrier (APC),Operational,2026-06-27,2026-09-25,1118.0,247,94000,Available,85.8
+EQ-1778,Leh,Armored Personnel Carrier (APC),operational,2026-06-21,2026-09-19,,182,"74,700 INR",Available,82.3
+EQ-1333,Siliguri,Armored Personnel Carrier (APC),Operational,2026-08-04,2026-11-02,948.0,198,71900,Available,88.1
+EQ-1785,Bhopal,Armored Personnel Carrier (APC),Operational,20-May-2026,18-Aug-2026,1001.0,222,86300,Available,0.8300
+EQ-2149,Jodhpur,Armored Personnel Carrier (APC),operational,2026-07-22,2026-10-20,1311.0,274,89900,Available,93.3
+EQ-1175,KANPUR,ARTILLERY TRACTOR,Operational,08-03-2026,10-17-2026,686.0,208,59300,Available,94.4
+EQ-2150,Pune,Heavy Tactical Truck,Operational,2026-07-07,2026-09-05,376.0,136,18000,Available,92.7
+EQ-1435,Bhopal,Field Diesel Generator,Operational,2026-07-22,2026-09-05,470.0,350,54700,Low,97.7%
+EQ-1206,Kanpur,Armored Personnel Carrier (APC),maintenance,03-Aug-2026,01-Nov-2026,679.0,148,97600,Critical Shortage,64.1
+EQ-1255,Delhi,Artillery Tractor,Operational,2026-07-13,2026-09-26,466.0,119,49700,Available,86.7
+EQ-1037,Bhopal,Heavy Tactical Truck,Maintenance,2026-07-22,2026-09-20,447.0,184,29700,Critical Shortage,0.6290
+EQ-2161,Lucknow,Heavy Tactical Truck,Operational,01-06-2026,31-07-2026,158.0,62,"₹16,500",Available,81.0
+EQ-1310,Lucknow,Field Diesel Generator,Out of Service,2026-06-23,2026-08-07,319.0,247,121600,Critical Shortage,41.3
+EQ-1412,Kanpur,HEAVY TACTICAL TRUCK,Operational,2026-08-04,2026-10-03,303.0,124,17000,Available,86.5
+EQ-1583,Lucknow,Artillery Tractor,Operational,15/06/2026,29/08/2026,860.0,226,58400,Available,84.4
+EQ-1321,Delhi, Armored Personnel Carrier (APC) ,Operational,2026-06-09,2026-09-07,967.0,199,70700,Available,96.6
+EQ-1837,Jodhpur,Tactical UAV Launcher,Operational,2026-07-13,2026-08-12,323.0,272,112200,Available,83%
+EQ-1051,Pune,Field Diesel Generator,Out of Service,2026-07-05,2026-08-19,363.0,279,147600,Low,23.3
+EQ-1272,DELHI,Artillery Tractor,Operational,2026-06-25,2026-09-08,410.0,123,48100,Available,84.5
+EQ-1584,Pune,Heavy Tactical Truck,Operational,2026-07-13,2026-09-11,782.0,277,21600,Available,85.3
+EQ-1663,Lucknow,Mobile Radar Unit,Operational,2026-08-05,2026-10-04,461.0,193,151200,,87%
+EQ-1805,Lucknow,mobile radar unit,Operational,2026-07-16,2026-09-14,403.0,173,118500,Available,95.1
+EQ-1997,sILIGURI,Heavy Tactical Truck,Operational,2026-06-22,2026-08-21,618.0,255,Rs. 24800,Available,91.5
+EQ-1520,Bhopal,Heavy Tactical Truck,Operational,29-06-2026,28-08-2026,593.0,208,22400,Available,0.8360
+EQ-2102,Siliguri,HEAVY TACTICAL TRUCK,Operational,2026-06-09,2026-08-08,121.0,45,Rs. 13600,Available,80.3
+EQ-1431,Kanpur,Tactical UAV Launcher,Maintenance,2026-07-11,2026-08-10,,135,162600,Low,46%
+EQ-2039,Kanpur,Field Diesel Generator,Operational,02-07-2026,16-08-2026,383.0,273,50800,Available,95.6
+EQ-1418,sILIGURI,Field Diesel Generator,Maintenance,2026-07-15,2026-08-29,386.0,266,99100,Critical Shortage,57.3
+EQ-2139,Siliguri, Tactical UAV Launcher ,Maintenance,2026-07-16,2026-08-15,272.0,224,Rs. 185100,Critical Shortage,0.5610
+EQ-1433,Jodhpur,Heavy Tactical Truck,Maintenance,2026-07-08,2026-09-06,401.0,162,26300,Low,56%
+EQ-1147,Leh,Field Diesel Generator,Operational,2026-07-03,2026-08-17,283.0,185,46900,Available,93.8%
+EQ-2249,Lucknow,tactical uav launcher,Operational,25-Jul-2026,24-Aug-2026,223.0,206,Rs. 93600,Critical Shortage,95.4
+EQ-2207,Leh,ARTILLERY TRACTOR,operational,2026-07-22,2026-10-05,517.0,159,"₹50,900",Available,0.9440
+EQ-1670,Bhopal,Field Diesel Generator,operational,2026-07-25,2026-09-08,440.0,325,65700,Available,84.0
+EQ-1183,  Lucknow   , Heavy Tactical Truck ,Operational,2026-06-11,2026-08-10,333.0,126,17100,Available,0.9720
+EQ-1421,Bhopal,Heavy Tactical Truck,Maintenance,2026-07-18,2026-09-16,650.0,267,Rs. 38700,Available,56.0
+EQ-1757,Leh,Heavy Tactical Truck,Operational,16-Jul-2026,14-Sep-2026,475.0,197,19500,Available,85.7
+EQ-1364,delhi,Heavy Tactical Truck,Operational,2026-07-13,2026-09-11,554.0,193,17900,Low,98.1
+EQ-2100,Lucknow,Tactical UAV Launcher,Operational,2026-07-22,2026-08-21,223.0,212,92100,Available,88.2
+EQ-1769,Lucknow,HEAVY TACTICAL TRUCK,Operational,2026-06-23,2026-08-22,385.0,146,17200,Available,90.3
+EQ-1064,Lucknow,Field Diesel Generator,Operational,07-07-2026,08-21-2026,253.0,188,50300,Available,92%
+EQ-1684,Siliguri,Artillery Tractor,operational,2026-06-08,2026-08-22,706.0,219,60300,Available,84.3
+EQ-1764,Leh,Artillery Tractor,Operational,13/07/2026,26/09/2026,667.0,190,55900,Available,0.8060
+EQ-1114,kanpur,Tactical UAV Launcher,Operational,04/07/2026,03/08/2026,354.0,318,109200,Available,86.9
+EQ-1816,Leh,Armored Personnel Carrier (APC),Operational,30/06/2026,28/09/2026,536.0,120,68000,Available,0.8620
+EQ-1540,Kanpur,ARMORED PERSONNEL CARRIER (APC),Operational,2026-06-12,2026-09-10,754.0,166,"77,300 INR",Low,83.5
+EQ-1641,  Lucknow   ,Heavy Tactical Truck,Operational,2026-06-09,2026-08-08,417.0,159,18800,Low,96.6
+EQ-1271,  Jodhpur   ,Armored Personnel Carrier (APC),Operational,26-Jun-2026,24-Sep-2026,1274.0,267,78700,Available,86.1
+EQ-1989,kanpur,Artillery Tractor,Operational,2026-06-23,2026-09-06,614.0,183,48900,Available,96.6
+EQ-2069,Kanpur,Armored_Personnel_Carrier_(APC),Operational,2026-07-11,2026-10-09,915.0,171,81300,,91.0%
+EQ-1651,Lucknow,Heavy Tactical Truck,operational,2026-06-15,2026-08-14,629.0,258,"21,800 INR",Available,84.7%
+EQ-1822,Leh,Tactical UAV Launcher,Operational,04-Jul-2026,03-Aug-2026,290.0,265,Rs. 100200,Available,85.2
+EQ-2240,Delhi,Heavy Tactical Truck,Operational,2026-07-24,2026-09-22,,248,24000,Available,81.6
+EQ-1378,Delhi,Mobile Radar Unit,Operational,2026-07-10,2026-09-08,425.0,204,148800,Low,87.5
+EQ-1700,Kanpur,Field Diesel Generator,Operational,07-20-2026,09-03-2026,385.0,248,"56,100 INR",Available,80.8
+EQ-1694,Leh,HEAVY TACTICAL TRUCK,Maintenance,07-06-2026,06-08-2026,519.0,202,39500,Low,59.8%
+EQ-1134,KANPUR,Heavy Tactical Truck,maintenance,2026-07-01,2026-08-30,539.0,196,Rs. 37200,Critical Shortage,58.1
+EQ-2165,Kanpur,Armored Personnel Carrier (APC),Operational,2026-06-18,2026-09-16,1109.0,246,"₹93,000",Available,86.4
+EQ-2044,kANPUR,Field Diesel Generator,Operational,2026-07-22,2026-09-05,365.0,257,Rs. 55200,Available,98.3%
+EQ-1177,Delhi,Heavy Tactical Truck,maintenance,2026-06-12,2026-08-11,445.0,175,25000,Available,64.3
+EQ-1765,Delhi,Field Diesel Generator,Operational,2026-07-16,2026-08-30,503.0,328,68100,Available,81%
+EQ-2082,Siliguri,Armored Personnel Carrier (APC),Operational,2026-06-22,2026-09-20,800.0,177,69000,Available,0.8210
+EQ-1677,Jodhpur,Tactical UAV Launcher,Maintenance,2026-07-16,2026-08-15,169.0,139,158400,Available,58.4%
+EQ-1470,Bhopal,Field Diesel Generator,Operational,08-02-2026,09-16-2026,313.0,225,46000,Available,80.5
+EQ-1143,Kanpur,Tactical UAV Launcher,out of service,2026-07-24,2026-08-23,137.0,114,152700,Low,15%
+EQ-1859,Kanpur,Field Diesel Generator,operational,2026-07-15,2026-08-29,307.0,226,54900,Available,83.8
+EQ-1681,Delhi,Armored Personnel Carrier (APC),operational,2026-07-31,2026-10-29,1031.0,231,Rs. 84200,Available,80.2
+EQ-1140,Leh,Mobile Radar Unit,Operational,12-Jul-2026,10-Sep-2026,278.0,133,"108,700 INR",Available,83.5
+EQ-2093,SILIGURI,Armored Personnel Carrier (APC),Operational,2026-05-04,2026-08-02,,231,75500,Available,88.4
+EQ-2153,Jodhpur,Heavy_Tactical_Truck,Operational,2026-06-15,2026-08-14,377.0,146,18500,Critical Shortage,82.0%
+EQ-1790,Delhi,Tactical UAV Launcher,Operational,08-Jul-2026,07-Aug-2026,117.0,111,78900,Available,0.9170
+EQ-1654,Siliguri,Tactical UAV Launcher,Operational,2026-07-12,2026-08-11,168.0,139,88700,Available,91.3
+EQ-1570,Kanpur,Field Diesel Generator,Out of Service,2026-07-02,2026-08-16,327.0,238,107500,Available,27.2
+EQ-1043,Jodhpur,Field Diesel Generator,operational,18/07/2026,01/09/2026,333.0,253,48500,Available,84.5
+EQ-1372,Lucknow,Field Diesel Generator,operational,31-Jul-2026,14-Sep-2026,401.0,289,62100,Available,89.4
+EQ-1390,Jodhpur,Field Diesel Generator,Operational,07-08-2026,08-22-2026,328.0,225,52900,Available,93.4
+EQ-2187,Siliguri,Heavy Tactical Truck,Out of Service,2026-07-07,2026-09-05,371.0,130,"36,800 INR",Available,21.6
+EQ-1376,Leh,Heavy_Tactical_Truck,operational,2026-07-17,2026-09-15,339.0,140,16700,Available,87.6
+EQ-1758,  Kanpur   ,Armored Personnel Carrier (APC),Operational,09-06-2026,07-09-2026,1089.0,204,81300,,82.3
+EQ-1256,Pune,Heavy Tactical Truck,Operational,29/07/2026,27/09/2026,439.0,153,20300,Critical Shortage,86%
+EQ-1561,Pune,Field Diesel Generator,Operational,20-Jul-2026,03-Sep-2026,425.0,277,57100,Low,96.7
+EQ-1276,  Delhi   ,Armored Personnel Carrier (APC),Operational,2026-07-22,2026-10-20,1097.0,218,74400,Available,81%
+EQ-1101,Lucknow,Field Diesel Generator,Operational,2026-07-27,2026-09-10,258.0,175,56700,Low,81.4
+EQ-1635,Lucknow,Armored Personnel Carrier (APC),Operational,2026-06-10,2026-09-08,664.0,144,"₹64,200",Low,80.0
+EQ-1761,SILIGURI,Heavy Tactical Truck,Operational,06-08-2026,08-07-2026,429.0,149,19100,Available,0.9270
+EQ-1173,  Delhi   ,MOBILE RADAR UNIT,Operational,21/07/2026,19/09/2026,444.0,191,130500,Available,93.9
+EQ-1359,Bhopal,Heavy_Tactical_Truck,Operational,2026-06-14,2026-08-13,,189,17600,Available,84.1
+EQ-2214,LEH,Mobile Radar Unit,Operational,2026-07-04,2026-09-02,548.0,239,161600,Low,83.1
+EQ-1646,Kanpur,Field Diesel Generator,Operational,2026-08-04,2026-09-18,331.0,243,52500,Available,94.8
+EQ-2017,Bhopal,Heavy Tactical Truck,operational,2026-06-04,2026-08-03,411.0,145,19500,Low,95.9
+EQ-2109,LEH,Field Diesel Generator,Operational,2026-07-26,2026-09-09,320.0,222,58100,Available,94.0
+EQ-1292,Leh,Artillery Tractor,Operational,2026-07-01,2026-09-14,642.0,170,46500,Available,84.7
+EQ-1468,Lucknow,HEAVY TACTICAL TRUCK,Operational,2026-08-05,2026-10-04,568.0,209,22300,Available,88.8
+EQ-1913,Kanpur,Field Diesel Generator,Operational,2026-07-12,2026-08-26,429.0,274,55800,Available,89.9
+EQ-2036,Delhi,Field Diesel Generator,Operational,2026-06-21,2026-08-05,480.0,354,55200,Available,84%
+EQ-1306,Delhi,Field Diesel Generator,operational,2026-07-10,2026-08-24,409.0,267,53600,Available,88.3
+EQ-1846,Lucknow,Heavy Tactical Truck,Operational,03-08-2026,02-10-2026,558.0,197,18800,Low,95.5
+EQ-2203,  Delhi   ,Field Diesel Generator,Operational,12-07-2026,26-08-2026,410.0,267,47700,Available,85.1
+EQ-1311,Kanpur,ARMORED PERSONNEL CARRIER (APC),operational,2026-05-25,2026-08-23,935.0,184,"₹82,900",Available,81.7
+EQ-1833,Lucknow,Field Diesel Generator,Operational,04-08-2026,18-09-2026,288.0,199,49700,Critical Shortage,98.0
+EQ-1618,bhopal,Heavy Tactical Truck,maintenance,12/06/2026,11/08/2026,564.0,207,26800,Low,57.5
+EQ-1447,  Lucknow   ,Heavy Tactical Truck,operational,2026-06-12,2026-08-11,477.0,191,20100,Available,83.5
+EQ-1571,Bhopal,Heavy Tactical Truck,Operational,2026-06-30,2026-08-29,480.0,175,19200,Low,96%
+EQ-1072,Delhi,Tactical UAV Launcher,Operational,2026-07-29,2026-08-28,286.0,271,106200,Available,96.4
+EQ-1895,lucknow,Mobile Radar Unit,operational,2026-06-25,2026-08-24,545.0,264,134400,Available,85.6
+EQ-1432,Pune,Artillery Tractor,operational,2026-05-19,2026-08-02,344.0,93,43400,Available,80.6
+EQ-2046,LUCKNOW,Mobile Radar Unit,operational,2026-06-06,2026-08-05,510.0,239,136800,Available,96.4
+EQ-2142,Pune,Heavy Tactical Truck,Operational,2026-07-12,2026-09-10,635.0,236,Rs. 21100,Available,83.9
+EQ-1929,Jodhpur,Heavy Tactical Truck,Operational,2026-07-28,2026-09-26,622.0,245,"21,400 INR",Available,95.4
+EQ-1006,Siliguri,Heavy Tactical Truck,Operational,20-07-2026,18-09-2026,410.0,164,19800,Available,96.8
+EQ-1015,Siliguri,Heavy Tactical Truck,Operational,2026-07-09,2026-09-07,239.0,97,14600,,87.7
+EQ-1196,sILIGURI,heavy tactical truck,Operational,2026-07-12,2026-09-10,502.0,192,17800,,94.6
+EQ-1698,Delhi,Field Diesel Generator,Operational,27-Jul-2026,10-Sep-2026,262.0,184,54100,Low,85.1
+EQ-1985,Leh,Field Diesel Generator,Operational,2026-08-01,2026-09-15,368.0,259,58500,Low,92.7
+EQ-2201,Kanpur,Artillery Tractor,Maintenance,2026-06-10,2026-08-24,683.0,201,86400,Critical Shortage,64%
+EQ-2158,dELHI,Heavy Tactical Truck,Operational,2026-06-03,2026-08-02,,276,25600,,89.6
+EQ-1231,  Pune   ,mobile radar unit,Operational,13/06/2026,12/08/2026,368.0,158,"131,200 INR",Available,93.9
+EQ-1133,delhi,Field Diesel Generator,Operational,2026-06-23,2026-08-07,284.0,196,52500,Available,96.8
+EQ-1489,Jodhpur,Artillery Tractor,operational,2026-06-24,2026-09-07,986.0,279,"₹60,400",Available,86.9
+EQ-1829,Siliguri,Heavy Tactical Truck,Maintenance,2026-06-27,2026-08-26,431.0,156,"26,800 INR",Low,48.6%
+EQ-1926,dELHI,Field Diesel Generator,Maintenance,2026-08-01,2026-09-15,230.0,168,66000,Low,63.4
+EQ-2006,lucknow,Field Diesel Generator,operational,2026-07-16,2026-08-30,392.0,283,62600,Low,85.5
+EQ-1717,lUCKNOW,Artillery Tractor,Operational,2026-06-12,2026-08-26,670.0,200,54100,Available,89.1
+EQ-1951,Kanpur,Field Diesel Generator,Operational,2026-06-30,2026-08-14,351.0,245,55500,Critical Shortage,95.0
+EQ-1061,Leh,Armored Personnel Carrier (APC),Operational,2026-07-06,2026-10-04,843.0,171,79500,Available,85.7
+EQ-1354,Kanpur,Artillery_Tractor,Operational,2026-06-13,2026-08-27,692.0,187,"₹57,700",Available,87.2
+EQ-1585,Jodhpur,Heavy Tactical Truck,Operational,2026-06-12,2026-08-11,511.0,183,17400,Available,95.8
+EQ-1371,Leh,Armored_Personnel_Carrier_(APC),Operational,2026-07-21,2026-10-19,1045.0,196,68400,Available,86.2
+EQ-1494,Kanpur,HEAVY TACTICAL TRUCK,operational,2026-07-17,2026-09-15,374.0,136,16600,Critical Shortage,84.2%
+EQ-2099,Siliguri,HEAVY TACTICAL TRUCK,Operational,2026-07-14,2026-09-12,547.0,216,19700,Available,92.6
+EQ-2090,Siliguri,Armored Personnel Carrier (APC),Operational,29-May-2026,27-Aug-2026,825.0,185,70000,Low,90.5
+EQ-1275,KANPUR,Heavy Tactical Truck,Operational,2026-07-18,2026-09-16,354.0,130,"₹17,400",Low,82.0
+EQ-1763,Leh,Field Diesel Generator,Operational,03/07/2026,17/08/2026,611.0,413,80300,Available,80%
+EQ-1655,LEH,heavy tactical truck,Operational,27/07/2026,25/09/2026,729.0,290,22900,Available,0.8670
+EQ-1594,Lucknow,heavy tactical truck,Operational,2026-07-08,2026-09-06,,190,18500,Available,0.9450
+EQ-1034,bHOPAL,Field Diesel Generator,Operational,2026-06-28,2026-08-12,305.0,196,Rs. 44300,Available,89.6
+EQ-1781,lEH,Artillery Tractor,Operational,2026-06-09,2026-08-23,776.0,203,50400,Available,83.7%
+EQ-1249,Delhi,Heavy_Tactical_Truck,Operational,2026-07-31,2026-09-29,687.0,254,22600,Available,97.3
+EQ-1349,Jodhpur,Armored Personnel Carrier (APC),Operational,2026-06-27,2026-09-25,730.0,159,69000,Low,93.4
+EQ-1023,Lucknow,Armored Personnel Carrier (APC),Operational,2026-05-11,2026-08-09,891.0,198,83300,Available,90.9%
+EQ-1625,Kanpur,Heavy Tactical Truck,Maintenance,2026-07-20,2026-09-18,688.0,246,35100,Available,50%
+EQ-1826,Bhopal,Artillery Tractor,Operational,08/06/2026,22/08/2026,893.0,267,"58,900 INR",Low,98.8
+EQ-1928,Delhi,Field Diesel Generator,operational,2026-07-17,2026-08-31,435.0,282,"₹54,400",Available,96.7
+EQ-1684,Siliguri,Artillery Tractor,operational,2026-06-08,2026-08-22,706.0,219,60300,Available,84.3
+EQ-2080,Kanpur,Field Diesel Generator,Maintenance,2026-06-22,2026-08-06,419.0,311,95000,Available,59.8
+EQ-1640,Delhi,FIELD DIESEL GENERATOR,Operational,2026-07-19,2026-09-02,270.0,182,Rs. 45200,Available,98.7
+EQ-1807,Pune,Heavy Tactical Truck,operational,2026-07-08,2026-09-06,534.0,184,Rs. 17300,Low,85.8
+EQ-2052,Delhi,Mobile Radar Unit,Operational,2026-07-05,2026-09-03,447.0,214,130900,Low,93.8
+EQ-2024,Leh,Armored Personnel Carrier (APC),Operational,2026-07-27,2026-10-25,1584.0,302,Rs. 87600,Available,88%
+EQ-1984,Kanpur,Armored Personnel Carrier (APC),maintenance,08/06/2026,06/09/2026,929.0,192,"145,000 INR",Critical Shortage,50.6
+EQ-1521,Lucknow,Tactical_UAV_Launcher,Out of Service,2026-07-19,2026-08-18,134.0,111,171200,Available,16%
+EQ-1458,Siliguri,Field Diesel Generator,Operational,2026-08-01,2026-09-15,270.0,197,50800,Low,94.8
+EQ-1996,Pune,Armored Personnel Carrier (APC),Operational,2026-05-30,2026-08-28,946.0,180,71900,Available,90.5
+EQ-2241,BHOPAL,Tactical UAV Launcher,Operational,2026-07-20,2026-08-19,188.0,176,Rs. 105300,Available,81.5
+EQ-1213,Delhi,Heavy_Tactical_Truck,Operational,2026-07-28,2026-09-26,554.0,217,"₹22,200",Available,81.2
+EQ-1240,Pune,Field Diesel Generator,operational,2026-06-30,2026-08-14,439.0,311,58600,Available,97.3
+EQ-1885,bhopal,Artillery_Tractor,Operational,07-12-2026,09-25-2026,766.0,229,57100,Available,88.2
+EQ-1952,Delhi,Mobile Radar Unit,Operational,2026-07-23,2026-09-21,513.0,212,"₹156,400",Low,91.6
+EQ-1907,Bhopal,Heavy Tactical Truck,operational,2026-06-29,2026-08-28,319.0,113,"17,300 INR",Low,94.6
+EQ-1745,Siliguri,Armored Personnel Carrier (APC),Operational,2026-06-15,2026-09-13,1082.0,220,"₹89,600",Low,89.2
+EQ-2210,Delhi,Heavy Tactical Truck,Operational,2026-07-06,2026-09-04,644.0,253,21100,Critical Shortage,80.7
+EQ-1839,lucknow,Heavy Tactical Truck,operational,2026-06-25,2026-08-24,556.0,219,"22,400 INR",Available,80.6
+EQ-1567,kanpur,Heavy Tactical Truck,operational,2026-07-05,2026-09-03,204.0,83,15900,Available,88.7
+EQ-2118,Lucknow,FIELD DIESEL GENERATOR,Operational,07-09-2026,08-23-2026,387.0,256,61800,Available,94.3
+EQ-2061,Siliguri,Heavy Tactical Truck,Operational,2026-06-29,2026-08-28,573.0,209,"22,300 INR",Available,93.7
+EQ-1973,Siliguri,Field Diesel Generator,Maintenance,2026-06-19,2026-08-03,464.0,310,78400,Available,49.7
+EQ-1946,Bhopal,Armored Personnel Carrier (APC),Operational,2026-06-11,2026-09-09,662.0,141,62700,Available,94.1
+EQ-1361,Delhi,Field_Diesel_Generator,Operational,2026-07-29,2026-09-12,395.0,291,56200,Low,88.5
+EQ-1116,Delhi, Armored Personnel Carrier (APC) ,Operational,2026-07-19,2026-10-17,1046.0,210,81200,Available,80.7
+EQ-1286,Bhopal,HEAVY TACTICAL TRUCK,operational,2026-07-12,2026-09-10,244.0,87,14400,Critical Shortage,80.5
+EQ-1471,  Delhi   ,Tactical UAV Launcher,Operational,04/07/2026,03/08/2026,191.0,181,103600,Available,80.5
+EQ-1659,Delhi, Mobile Radar Unit ,operational,2026-08-01,2026-09-30,423.0,204,"146,200 INR",Available,81.4
+EQ-1202,Bhopal,Field Diesel Generator,Maintenance,2026-07-17,2026-08-31,419.0,293,97400,Available,45.6
+EQ-1194,dELHI,Artillery Tractor,Operational,03/06/2026,17/08/2026,490.0,132,48300,Available,92.3
+EQ-1709,Kanpur,Armored Personnel Carrier (APC),Operational,2026-07-22,2026-10-20,460.0,90,64700,Available,92.8
+EQ-1629,delhi,Field Diesel Generator,Operational,2026-07-18,2026-09-01,378.0,263,Rs. 52700,Available,87.3
+EQ-2192,Delhi,Armored Personnel Carrier (APC),Operational,2026-07-28,2026-10-26,,128,68500,Available,92.3
+EQ-2159,Pune,Tactical UAV Launcher,operational,2026-07-05,2026-08-04,296.0,244,107700,Available,86.2
+EQ-2091,Lucknow,Heavy Tactical Truck,Operational,2026-06-16,2026-08-15,443.0,171,20400,Available,89.2
+EQ-1425,Kanpur,Tactical UAV Launcher,Operational,2026-07-16,2026-08-15,242.0,227,114600,Low,82%
+EQ-1287,Bhopal, Armored Personnel Carrier (APC) ,Operational,21/07/2026,19/10/2026,879.0,187,75500,Critical Shortage,81.0
+EQ-1036,Kanpur,HEAVY TACTICAL TRUCK,Maintenance,2026-06-02,2026-08-01,330.0,120,29700,Low,53.1
+EQ-1357,LUCKNOW,Tactical UAV Launcher,operational,2026-07-30,2026-08-29,,194,103200,Available,0.8010
+EQ-1660,JODHPUR,Heavy Tactical Truck,Maintenance,2026-08-03,2026-10-02,461.0,168,34300,Available,55.7
+EQ-1715,Kanpur,Field Diesel Generator,operational,2026-06-17,2026-08-01,357.0,257,"₹51,100",Available,93.2
+EQ-1896,Delhi,Heavy Tactical Truck,Operational,07-12-2026,09-10-2026,539.0,204,Rs. 21600,Available,96.5
+EQ-1927,Pune,artillery tractor,Operational,2026-07-04,2026-09-17,622.0,167,50200,Available,0.9790
+EQ-1233,Delhi, Field Diesel Generator ,Operational,2026-06-26,2026-08-10,351.0,262,66600,Available,80%
+EQ-1724,Lucknow, Mobile Radar Unit ,Operational,2026-06-11,2026-08-10,487.0,232,129800,Available,95.8%
+EQ-1590,Leh,Mobile Radar Unit,Operational,2026-07-19,2026-09-17,325.0,152,112800,Available,92.2
+EQ-1226,Jodhpur,Artillery Tractor,Operational,2026-06-25,2026-09-08,818.0,249,66600,Available,93.2
+EQ-1581,DELHI,Armored Personnel Carrier (APC),Operational,2026-05-31,2026-08-29,985.0,211,88400,,91.2
+EQ-2105,bhopal,Field Diesel Generator,operational,2026-06-21,2026-08-05,492.0,326,"62,600 INR",Available,92.8%
+EQ-1844,Kanpur,Field Diesel Generator,Operational,2026-06-19,2026-08-03,383.0,282,64300,Available,87.2
+EQ-2113,LUCKNOW, Tactical UAV Launcher ,Operational,2026-07-16,2026-08-15,274.0,238,109400,Available,91.3%
+EQ-1535,Delhi,Field Diesel Generator,Operational,2026-06-23,2026-08-07,294.0,220,50800,Available,93.9
+EQ-1027,Bhopal,Heavy Tactical Truck,Operational,2026-07-26,2026-09-24,305.0,123,17800,Low,87.3
+EQ-2049,  Jodhpur   ,Armored Personnel Carrier (APC),Operational,03/06/2026,01/09/2026,1344.0,268,Rs. 85200,Available,83.0
+EQ-1454,Pune,Heavy Tactical Truck,operational,10-Jul-2026,08-Sep-2026,486.0,197,18400,Available,96.5
+EQ-2050,Lucknow,Field Diesel Generator,Operational,2026-06-24,2026-08-08,493.0,342,60600,Available,95.0
+EQ-1379,Leh,Field Diesel Generator,Out of Service,2026-06-22,2026-08-06,520.0,391,120500,Critical Shortage,38.0
+EQ-1738,Delhi,Artillery Tractor,Operational,13/07/2026,26/09/2026,836.0,244,64900,Available,95.4
+EQ-2211,Kanpur,Heavy Tactical Truck,operational,2026-06-18,2026-08-17,342.0,119,18400,Available,84.5
+EQ-1159,Delhi,Artillery Tractor,Operational,25-Jul-2026,08-Oct-2026,439.0,135,46700,Available,0.9620
+EQ-1605,PUNE,Field Diesel Generator,Maintenance,2026-06-19,2026-08-03,366.0,284,101000,Available,0.5190
+EQ-1190,Kanpur,Artillery Tractor,Operational,2026-06-20,2026-09-03,406.0,119,51600,Critical Shortage,85.4
+EQ-1165,bHOPAL,Heavy Tactical Truck,Operational,2026-07-15,2026-09-13,610.0,218,21200,Available,90.5
+EQ-1947,Siliguri,Mobile Radar Unit,Operational,2026-08-02,2026-10-01,251.0,118,114800,Available,82.7
+EQ-2180,Kanpur,Mobile Radar Unit,Operational,2026-06-11,2026-08-10,293.0,139,132400,Available,93.6
+EQ-1319,Kanpur,Field Diesel Generator,Operational,2026-06-28,2026-08-12,416.0,279,63500,Available,92.1
+EQ-1176,Leh,Artillery Tractor,Operational,07-24-2026,10-07-2026,760.0,236,64400,Available,97.5%
+EQ-2168,Siliguri,Mobile Radar Unit,Operational,2026-07-25,2026-09-23,466.0,223,127500,Available,0.8620
+EQ-1307,  Bhopal   ,Heavy Tactical Truck,Operational,2026-07-08,2026-09-06,631.0,232,20500,Available,80.3
+EQ-1285,leh,Field Diesel Generator,Maintenance,2026-07-16,2026-08-30,512.0,387,118900,Available,64.1
+EQ-1099,Delhi, Tactical UAV Launcher ,Maintenance,2026-08-04,2026-09-03,220.0,195,"₹175,700",Available,50.7
+EQ-1704,bhopal,Field Diesel Generator,Operational,2026-06-16,2026-07-31,231.0,175,57100,Available,97.3%
+EQ-2218,Pune, Armored Personnel Carrier (APC) ,Operational,07-04-2026,10-02-2026,1066.0,208,"83,700 INR",Available,88.8
+EQ-2227,Lucknow,Armored Personnel Carrier (APC),Operational,22/06/2026,20/09/2026,919.0,197,71300,Available,93%
+EQ-1044,Jodhpur,Armored Personnel Carrier (APC),Operational,2026-05-03,2026-08-01,923.0,179,79000,Available,82.5
+EQ-1872,Lucknow,Tactical UAV Launcher,Operational,2026-07-12,2026-08-11,184.0,155,82400,Available,94.4
+EQ-1838,Delhi,Heavy Tactical Truck,operational,2026-07-30,2026-09-28,375.0,130,17800,Available,92.2
+EQ-2011,Jodhpur,FIELD DIESEL GENERATOR,Operational,2026-06-21,2026-08-05,514.0,339,64000,Available,92.7%
+EQ-1942,jODHPUR,Heavy Tactical Truck,operational,2026-07-23,2026-09-21,570.0,214,"22,800 INR",Available,92.9
+EQ-2058,Delhi,Field Diesel Generator,Operational,2026-07-04,2026-08-18,470.0,330,Rs. 62400,Available,94.9
+EQ-1057,Kanpur,Tactical UAV Launcher,Out of Service,2026-06-25,2026-07-25,155.0,153,169900,Critical Shortage,34.4
+EQ-2072,lucknow,Field Diesel Generator,Operational,2026-07-05,2026-08-19,,288,"₹62,900",Available,96.1
+EQ-1297,  Bhopal   ,Field Diesel Generator,Operational,2026-06-29,2026-08-13,481.0,313,57000,Critical Shortage,93.7
+EQ-1789,Lucknow,Field Diesel Generator,Operational,2026-07-17,2026-08-31,328.0,255,55800,Available,87.9
+EQ-1058,dELHI,armored personnel carrier (apc),operational,2026-06-02,2026-08-31,932.0,179,69000,Available,90.2
+EQ-1692,dELHI,Heavy_Tactical_Truck,Operational,01-Jun-2026,31-Jul-2026,641.0,227,18600,Available,93.3
+EQ-1446,Leh,Armored Personnel Carrier (APC),Operational,2026-05-19,2026-08-17,1179.0,228,"₹77,000",Low,89.5
+EQ-1335,Pune,Tactical UAV Launcher,Operational,2026-07-07,2026-08-06,251.0,243,Rs. 95000,Available,87.2
+EQ-1362,Leh,Artillery Tractor,Operational,2026-08-03,2026-10-17,,271,Rs. 63700,Available,91.2
+EQ-1667,Jodhpur,Field Diesel Generator,Operational,2026-07-14,2026-08-28,361.0,244,59700,Available,95.2
+EQ-2025,Lucknow,Heavy Tactical Truck,Maintenance,2026-07-30,2026-09-28,644.0,252,32300,,65.3
+EQ-1090,Kanpur,Artillery Tractor,maintenance,2026-05-20,2026-08-03,809.0,220,95700,Available,47.3
+EQ-1170,  Bhopal   ,Field Diesel Generator,Operational,2026-07-05,2026-08-19,299.0,214,Rs. 61200,Critical Shortage,97.6
+EQ-1404,Pune,Field Diesel Generator,Operational,2026-07-18,2026-09-01,370.0,262,53900,Critical Shortage,91.9
+EQ-1457,lUCKNOW,Heavy Tactical Truck,Operational,2026-07-29,2026-09-27,459.0,170,"18,800 INR",Available,93.7
+EQ-1329,Siliguri,Heavy_Tactical_Truck,Operational,2026-06-16,2026-08-15,505.0,203,21700,Available,96.2
+EQ-1382,kanpur,ARMORED PERSONNEL CARRIER (APC),Operational,2026-06-10,2026-09-08,,165,77800,Low,98.0
+EQ-1340,Jodhpur,Tactical UAV Launcher,Operational,2026-07-24,2026-08-23,190.0,166,88600,Critical Shortage,98.2
+EQ-1328,Bhopal,Heavy Tactical Truck,operational,2026-06-02,2026-08-01,539.0,210,19500,Low,88.4
+EQ-1341,Jodhpur,Mobile Radar Unit,maintenance,16/06/2026,15/08/2026,353.0,153,196900,Critical Shortage,0.5310
+EQ-1886,Bhopal,Armored Personnel Carrier (APC),Operational,2026-06-13,2026-09-11,1456.0,287,95100,Low,80.7
+EQ-1573,Leh,Field Diesel Generator,Operational,2026-07-30,2026-09-13,398.0,279,56400,Available,98.6
+EQ-2170,Bhopal,Mobile Radar Unit,operational,30-07-2026,28-09-2026,583.0,237,151100,Low,95.7
+EQ-2134,Delhi,Armored Personnel Carrier (APC),Operational,2026-06-04,2026-09-02,,217,"72,500 INR",Low,81.8%
+EQ-2030,Siliguri,Field Diesel Generator,Operational,2026-06-22,2026-08-06,294.0,198,46200,Available,94.6
+EQ-1398,Kanpur,Mobile Radar Unit,Operational,2026-07-08,2026-09-06,556.0,262,166500,Available,84.7
+EQ-1616,Kanpur,Mobile Radar Unit,Operational,24-06-2026,23-08-2026,,201,138400,Available,90.5%
+EQ-1374,Lucknow,Mobile Radar Unit,Operational,2026-06-28,2026-08-27,511.0,242,159300,Low,0.9280
+EQ-1401,Siliguri,Field Diesel Generator,Operational,2026-07-04,2026-08-18,227.0,164,47800,Low,95.5
+EQ-2198,Bhopal,Field Diesel Generator,Operational,2026-07-30,2026-09-13,410.0,293,52900,Critical Shortage,93.8
+EQ-1923,Jodhpur,Heavy Tactical Truck,Operational,17-Jun-2026,16-Aug-2026,452.0,180,Rs. 18800,Available,81.2
+EQ-1964,Kanpur,Heavy_Tactical_Truck,Operational,2026-06-03,2026-08-02,527.0,206,"₹19,500",Available,82%
+EQ-1658,Kanpur,Heavy Tactical Truck,operational,2026-07-10,2026-09-08,488.0,173,21300,Available,85.2
+EQ-1597,  Bhopal   ,Field Diesel Generator,operational,2026-06-21,2026-08-05,342.0,243,54800,Available,98.6
+EQ-2136,lUCKNOW,Armored Personnel Carrier (APC),Operational,2026-06-15,2026-09-13,1089.0,243,91000,Available,83.2
+EQ-1384,Lucknow,Tactical UAV Launcher,Operational,2026-07-26,2026-08-25,172.0,168,Rs. 88300,Critical Shortage,94.3
+EQ-2167,Kanpur,Armored Personnel Carrier (APC),maintenance,2026-04-28,2026-07-27,1204.0,264,122100,Low,54.3
+EQ-1406,Siliguri,Mobile_Radar_Unit,operational,2026-07-02,2026-08-31,534.0,226,159600,Available,82.2
+EQ-2004,Lucknow,FIELD DIESEL GENERATOR,Operational,24/06/2026,08/08/2026,335.0,221,"₹65,300",Available,88.2
+EQ-2225,Lucknow,Heavy Tactical Truck,Operational,2026-06-02,2026-08-01,449.0,166,19600,Available,88.9
+EQ-1864,Lucknow,Field_Diesel_Generator,Operational,2026-06-27,2026-08-11,504.0,367,63000,Available,97.2
+EQ-2182,Leh,Mobile_Radar_Unit,Operational,25-07-2026,23-09-2026,597.0,264,Rs. 166700,Available,90.1
+EQ-1963,sILIGURI,Heavy_Tactical_Truck,operational,2026-06-11,2026-08-10,502.0,183,20900,Available,85.2
+EQ-1867,Delhi,Heavy Tactical Truck,Operational,20/06/2026,19/08/2026,540.0,187,"17,300 INR",Low,0.9740
+EQ-2243,Jodhpur,Field Diesel Generator,Operational,2026-06-30,2026-08-14,311.0,225,54000,Critical Shortage,92.4
+EQ-1250,bhopal,Artillery Tractor,Operational,2026-07-20,2026-10-03,797.0,215,53400,Low,98.2
+EQ-1385,Kanpur, Tactical UAV Launcher ,Operational,2026-07-31,2026-08-30,161.0,157,96600,Available,94.8
+EQ-1994,DELHI,Tactical UAV Launcher,Operational,08-07-2026,07-08-2026,,160,Rs. 92700,Low,85.0
+EQ-1264,LUCKNOW,Tactical UAV Launcher,Operational,2026-07-12,2026-08-11,169.0,143,83300,Available,84.0
+EQ-1113,Leh,Field Diesel Generator,Operational,2026-07-09,2026-08-23,398.0,263,Rs. 51100,Available,94.9
+EQ-1772,Delhi,Heavy Tactical Truck,Operational,2026-06-07,2026-08-06,404.0,149,18400,Low,83.1
+EQ-1487,Delhi,Mobile Radar Unit,Operational,06-06-2026,05-08-2026,346.0,162,135700,Available,87.9
+EQ-1504,Jodhpur,Armored Personnel Carrier (APC),Operational,2026-07-20,2026-10-18,1178.0,223,72300,Available,86.5
+EQ-1804,BHOPAL,Field Diesel Generator,operational,2026-07-20,2026-09-03,354.0,232,58200,Low,81.2
+EQ-1111,Bhopal, Heavy Tactical Truck ,Operational,2026-07-31,2026-09-29,244.0,88,16800,Available,81%
+EQ-1082,Kanpur,Tactical UAV Launcher,operational,07-05-2026,08-04-2026,231.0,212,114400,Available,94%
+EQ-1953,Kanpur,Artillery Tractor,Operational,2026-07-20,2026-10-03,496.0,132,44900,Available,81.4
+EQ-1001,delhi,Heavy Tactical Truck,Operational,2026-07-25,2026-09-23,546.0,197,"20,500 INR",Available,80.6
+EQ-1388,  Lucknow   ,Field Diesel Generator,Operational,07-09-2026,08-23-2026,556.0,372,69600,Available,0.9080
+EQ-1008,lucknow,Armored Personnel Carrier (APC),Maintenance,2026-07-13,2026-10-11,1142.0,233,"₹101,700",Available,64.8
+EQ-1564,BHOPAL,Field Diesel Generator,operational,2026-07-01,2026-08-15,373.0,240,60800,Critical Shortage,87.4
+EQ-1142,bhopal,Heavy Tactical Truck,Maintenance,2026-07-18,2026-09-16,563.0,233,"₹35,500",Available,0.4710
+EQ-2094,LUCKNOW,Field Diesel Generator,Operational,18-Jun-2026,02-Aug-2026,359.0,263,60500,Available,84.3
+EQ-1442,Kanpur,Armored Personnel Carrier (APC),Maintenance,2026-07-19,2026-10-17,969.0,193,139400,Critical Shortage,64.5
+EQ-1744,  Delhi   ,Heavy Tactical Truck,Operational,07-22-2026,09-20-2026,426.0,176,18800,Low,83.6
+EQ-1939,Kanpur,Tactical UAV Launcher,operational,2026-07-10,2026-08-09,251.0,207,100000,Available,93.3
+EQ-1931,  Kanpur   ,Armored Personnel Carrier (APC),Operational,2026-05-14,2026-08-12,812.0,167,63900,Available,89.1
+EQ-2126,Jodhpur,Armored Personnel Carrier (APC),maintenance,2026-07-02,2026-09-30,674.0,137,112000,Low,48.9
+EQ-1586,bhopal,Armored Personnel Carrier (APC),Operational,2026-05-28,2026-08-26,947.0,207,"₹68,900",Low,93.6
+EQ-1770,Delhi,Armored Personnel Carrier (APC),Operational,2026-06-11,2026-09-09,1287.0,285,"89,200 INR",Available,98.6
+EQ-2000,Kanpur,Armored Personnel Carrier (APC),operational,12/07/2026,10/10/2026,1097.0,223,79500,Available,89.9
+EQ-1836,Leh,HEAVY TACTICAL TRUCK,Out of Service,2026-06-11,2026-08-10,498.0,185,38300,Critical Shortage,38.0
+EQ-1563,kanpur,TACTICAL UAV LAUNCHER,Operational,2026-07-14,2026-08-13,286.0,238,117200,Available,80.0
+EQ-2064,Delhi,Field Diesel Generator,operational,2026-07-21,2026-09-04,228.0,155,44300,Available,0.8330
+EQ-1575,Lucknow,Tactical UAV Launcher,Operational,2026-07-04,2026-08-03,263.0,236,"94,200 INR",Low,83%
+EQ-1377,Bhopal,Field Diesel Generator,Operational,2026-07-13,2026-08-27,459.0,312,64900,Available,86.1
+EQ-1842,delhi,Heavy Tactical Truck,Operational,2026-07-09,2026-09-07,492.0,205,22400,Available,89.9
+EQ-1993,Delhi,Heavy Tactical Truck,Operational,2026-07-12,2026-09-10,401.0,163,16900,Available,80%
+EQ-1239,Jodhpur,Field_Diesel_Generator,Operational,2026-07-23,2026-09-06,329.0,220,63300,Available,0.8340
+EQ-1780,Kanpur,Heavy Tactical Truck,Out of Service,2026-05-26,2026-07-25,581.0,202,41800,Low,29.7
+EQ-1661,Lucknow,Heavy Tactical Truck,Operational,2026-06-24,2026-08-23,362.0,149,17000,Available,81.0
+EQ-1332,Bhopal,Mobile Radar Unit,Maintenance,2026-06-11,2026-08-10,328.0,150,262700,Critical Shortage,65.1
+EQ-1472,Kanpur,TACTICAL UAV LAUNCHER,Operational,07-06-2026,08-05-2026,88.0,79,"74,300 INR",Critical Shortage,82.6%
+EQ-1688,BHOPAL,HEAVY TACTICAL TRUCK,operational,2026-07-15,2026-09-13,,158,20800,Low,89.5
+EQ-1478,Kanpur,Mobile Radar Unit,Maintenance,04-Jul-2026,02-Sep-2026,514.0,210,"183,500 INR",Available,49.7%
+EQ-1197,Delhi,Field Diesel Generator,Operational,2026-06-29,2026-08-13,293.0,206,"₹59,700",Available,97.2
+EQ-2217,Leh,Heavy Tactical Truck,Operational,2026-07-14,2026-09-12,382.0,144,19000,Low,89.7
+EQ-2173,Delhi,Heavy Tactical Truck,Operational,2026-06-15,2026-08-14,459.0,179,19800,Available,94.8
+EQ-1682,Delhi,Field Diesel Generator,operational,2026-07-06,2026-08-20,269.0,192,"56,900 INR",Available,96.4%
+EQ-1483,Lucknow,Artillery Tractor,Operational,05-17-2026,07-31-2026,434.0,114,"₹46,400",Available,90.6
+EQ-1543,Lucknow,Field Diesel Generator,operational,2026-07-20,2026-09-03,412.0,291,62900,Critical Shortage,83.9%
+EQ-1330,Jodhpur,Heavy Tactical Truck,Operational,2026-08-02,2026-10-01,573.0,203,"19,400 INR",Available,95.0
+EQ-2116,Jodhpur,Field Diesel Generator,Operational,2026-07-17,2026-08-31,381.0,281,56300,Available,84.3
+EQ-1351,Pune,Artillery Tractor,Maintenance,09-Jun-2026,23-Aug-2026,733.0,210,108500,Available,46%
+EQ-2079,Delhi,Heavy Tactical Truck,Operational,31-07-2026,29-09-2026,,242,19200,Available,95.8
+EQ-1917,Bhopal,artillery tractor,Maintenance,2026-05-29,2026-08-12,772.0,225,82400,Available,58.3
+EQ-1266,kanpur,Field Diesel Generator,Operational,2026-06-23,2026-08-07,285.0,185,52000,Low,87.9
+EQ-1391,Bhopal,Heavy Tactical Truck,operational,2026-06-22,2026-08-21,351.0,134,"16,500 INR",Available,87.0
+EQ-1198,Lucknow,Heavy Tactical Truck,Operational,20/06/2026,19/08/2026,511.0,181,"₹20,800",Critical Shortage,95.2
+EQ-1056,Lucknow,Field Diesel Generator,operational,2026-06-25,2026-08-09,430.0,315,"₹62,300",Critical Shortage,97.8
+EQ-1031,Kanpur,Artillery Tractor,Out of Service,2026-05-16,2026-07-30,552.0,164,"98,400 INR",Available,37.8
+EQ-1115,  Jodhpur   ,Heavy Tactical Truck,Operational,2026-06-20,2026-08-19,453.0,166,19300,Available,97.1
+EQ-2141,Delhi,Artillery Tractor,Operational,2026-06-14,2026-08-28,599.0,180,55300,Low,82.8
+EQ-1474,Bhopal,Armored Personnel Carrier (APC),Maintenance,2026-07-14,2026-10-12,1400.0,263,119000,Critical Shortage,57.8
+EQ-1305,Delhi,Heavy Tactical Truck,Maintenance,06-06-2026,05-08-2026,452.0,174,Rs. 34000,Available,62.5
+EQ-1046,Lucknow,Armored Personnel Carrier (APC),operational,2026-05-19,2026-08-17,841.0,159,80200,Available,85.2
+EQ-2175,Lucknow,Mobile Radar Unit,Operational,2026-06-22,2026-08-21,330.0,157,126900,Available,94%
+EQ-2231,Leh,Armored Personnel Carrier (APC),Operational,2026-07-27,2026-10-25,832.0,167,76300,Available,86.9
+EQ-1350,Pune,heavy tactical truck,Operational,2026-07-14,2026-09-12,426.0,165,20700,Available,93.4
+EQ-1320,Leh, Armored Personnel Carrier (APC) ,operational,18/05/2026,16/08/2026,935.0,188,72900,Available,88.2
+EQ-1536,Delhi,Field Diesel Generator,Operational,2026-07-17,2026-08-31,370.0,262,62300,Available,91.5
+EQ-1299,Jodhpur,HEAVY TACTICAL TRUCK,Operational,2026-06-10,2026-08-09,567.0,211,20600,Critical Shortage,95.8
+EQ-1280,Bhopal,Heavy Tactical Truck,maintenance,2026-06-21,2026-08-20,375.0,157,27900,Low,50.8
+EQ-1611,Delhi,Armored Personnel Carrier (APC),Maintenance,2026-05-14,2026-08-12,1107.0,227,Rs. 155500,Available,0.6270
+EQ-1676,  Kanpur   ,Tactical UAV Launcher,operational,2026-07-08,2026-08-07,,156,92100,Critical Shortage,91.2
+EQ-1589,  Bhopal   ,Field Diesel Generator,Maintenance,2026-06-16,2026-07-31,427.0,309,78600,Low,46.7
+EQ-1270,Siliguri,heavy tactical truck,Operational,2026-06-16,2026-08-15,497.0,180,17500,Low,95.1
+EQ-1005,sILIGURI,Field Diesel Generator,Operational,17-07-2026,31-08-2026,340.0,245,49400,Available,90.8
+EQ-1553,Leh,Heavy Tactical Truck,operational,2026-06-14,2026-08-13,545.0,227,21500,Available,80.9
+EQ-1248,DELHI, Field Diesel Generator ,Operational,2026-07-14,2026-08-28,300.0,220,51800,Available,97.0%
+EQ-1843,  Jodhpur   ,Heavy Tactical Truck,Operational,2026-07-15,2026-09-13,318.0,124,"₹17,700",Available,89.1
+EQ-2135,Siliguri,Field Diesel Generator,Operational,2026-06-29,2026-08-13,318.0,245,53100,,85.4
+EQ-1324,Kanpur,Field Diesel Generator,Operational,2026-06-18,2026-08-02,576.0,385,62100,Available,88.4
+EQ-1443,Delhi,Field Diesel Generator,Operational,2026-07-30,2026-09-13,,135,44500,Low,87.0
+EQ-1296,Delhi,Armored Personnel Carrier (APC),Operational,2026-07-20,2026-10-18,833.0,160,79100,Available,84.7
+EQ-1274,Delhi,Field Diesel Generator,Operational,2026-06-20,2026-08-04,358.0,260,51000,Critical Shortage,0.9460
+EQ-1223,Bhopal,Artillery Tractor,Operational,2026-06-29,2026-09-12,838.0,229,60000,Available,81.3
+EQ-2223,Leh,Field Diesel Generator,Operational,2026-07-28,2026-09-11,436.0,298,58200,Available,92.1
+EQ-2122,Bhopal,Armored Personnel Carrier (APC),Maintenance,2026-06-13,2026-09-11,1241.0,254,163600,Available,46.5
+EQ-2232,Delhi,Heavy Tactical Truck,Maintenance,25-06-2026,24-08-2026,294.0,113,24100,Low,67.9
+EQ-1102,Siliguri,Artillery Tractor,operational,2026-06-23,2026-09-06,602.0,173,48000,Available,87.6
+EQ-1302,Jodhpur,Heavy Tactical Truck,Operational,2026-06-15,2026-08-14,390.0,149,17200,Available,81%
+EQ-1617,bHOPAL, Heavy Tactical Truck ,operational,2026-06-04,2026-08-03,453.0,179,20800,Low,99.0
+EQ-1187,Jodhpur,Heavy_Tactical_Truck,Operational,25-Jun-2026,24-Aug-2026,495.0,196,21400,Available,83.8
+EQ-1161,Jodhpur,Artillery Tractor,Operational,24/05/2026,07/08/2026,569.0,146,"49,900 INR",Available,86.1
+EQ-1697,Jodhpur,Field Diesel Generator,Operational,2026-07-21,2026-09-04,379.0,279,"₹66,200",Low,98.9
+EQ-1496,Jodhpur, Heavy Tactical Truck ,Operational,15-07-2026,13-09-2026,495.0,199,18100,Available,95.1
+EQ-1782,Kanpur,Armored Personnel Carrier (APC),Operational,2026-07-31,2026-10-29,608.0,128,64800,Available,91.5%
+EQ-1505,Lucknow,Artillery Tractor,Operational,2026-05-22,2026-08-05,609.0,162,Rs. 57000,Available,85.0
+EQ-1207,Lucknow,Heavy Tactical Truck,Operational,2026-07-21,2026-09-19,570.0,198,17900,Available,84.6
+EQ-1962,Leh,Armored Personnel Carrier (APC),Maintenance,07-20-2026,10-18-2026,1293.0,261,121200,Available,66.4
+EQ-2228,Delhi,Artillery Tractor,Operational,2026-08-04,2026-10-18,635.0,187,"53,900 INR",Available,93.1
+EQ-1880,Pune,Heavy_Tactical_Truck,Operational,2026-06-25,2026-08-24,572.0,228,"₹19,900",Available,80.8
+EQ-1077,Pune,Armored Personnel Carrier (APC),operational,2026-05-04,2026-08-02,951.0,199,82900,Available,82.0
+EQ-1216,  Bhopal   ,Field Diesel Generator,Operational,07-13-2026,08-27-2026,470.0,305,"49,400 INR",,83.8%
+EQ-1132,Lucknow,Heavy Tactical Truck,Operational,2026-06-04,2026-08-03,461.0,178,19400,Available,0.9330
+EQ-1490,Leh,Armored Personnel Carrier (APC),operational,2026-05-16,2026-08-14,1096.0,239,73200,Available,93.6
+EQ-1818,Siliguri,Field Diesel Generator,Operational,2026-07-29,2026-09-12,436.0,313,53600,Available,83%
+EQ-1126,Bhopal,Heavy Tactical Truck,Operational,2026-06-25,2026-08-24,703.0,273,24800,Low,0.8890
+EQ-1038,  Bhopal   ,ARMORED PERSONNEL CARRIER (APC),Operational,2026-07-27,2026-10-25,461.0,97,59900,Available,88.6
+EQ-2239,  Pune   ,Heavy Tactical Truck,Operational,2026-06-08,2026-08-07,571.0,200,21300,Available,91.8
+EQ-1517,Kanpur,Heavy Tactical Truck,Operational,2026-07-03,2026-09-01,570.0,197,21900,Available,97.9
+EQ-2221,Delhi,Heavy Tactical Truck,Operational,2026-06-23,2026-08-22,290.0,121,17200,Critical Shortage,93.8%
+EQ-1373,jODHPUR,ARMORED PERSONNEL CARRIER (APC),Operational,2026-07-31,2026-10-29,1320.0,267,80400,Available,80.7
+EQ-1593,Lucknow,Armored Personnel Carrier (APC),Operational,04-Aug-2026,02-Nov-2026,1000.0,218,Rs. 71900,Available,98.0
+EQ-1347,Bhopal,Armored Personnel Carrier (APC),Maintenance,09/05/2026,07/08/2026,547.0,122,102800,Low,67.7
+EQ-1414,  Delhi   ,Field Diesel Generator,Operational,2026-06-19,2026-08-03,,336,"56,000 INR",Available,98.2
+EQ-1336,Bhopal,heavy tactical truck,Operational,2026-07-13,2026-09-11,466.0,168,Rs. 18300,Critical Shortage,97.6
+EQ-1273,PUNE, Heavy Tactical Truck ,operational,25-Jun-2026,24-Aug-2026,559.0,227,23000,Low,93.8
+EQ-2018,Kanpur,Artillery Tractor,Operational,2026-06-13,2026-08-27,568.0,170,"₹47,100",Available,85.2
+EQ-1813,Jodhpur,Armored Personnel Carrier (APC),Operational,2026-07-15,2026-10-13,1411.0,267,94500,Available,97%
+EQ-2096,Lucknow,Armored Personnel Carrier (APC),Operational,2026-05-18,2026-08-16,996.0,190,83900,Available,96.1%
+EQ-2191,Siliguri, Field Diesel Generator ,Operational,2026-07-15,2026-08-29,368.0,266,"54,500 INR",Available,84%
+EQ-1815,Pune,Field Diesel Generator,Operational,2026-07-23,2026-09-06,465.0,321,61200,Available,88.7
+EQ-1080,  Delhi   ,Heavy Tactical Truck,Operational,04/08/2026,03/10/2026,211.0,85,16700,Available,93.3
+EQ-2057,Delhi,Heavy Tactical Truck,Maintenance,2026-07-08,2026-09-06,443.0,173,32500,Available,51%
+EQ-1662,Siliguri,Armored Personnel Carrier (APC),Operational,2026-05-21,2026-08-19,828.0,167,67700,Available,81.1
+EQ-1711,Bhopal,Heavy Tactical Truck,maintenance,2026-07-22,2026-09-20,531.0,184,Rs. 30800,Available,0.6650
+EQ-1803,Siliguri,Heavy Tactical Truck,operational,2026-07-04,2026-09-02,478.0,179,"20,400 INR",Available,82.4
+EQ-1845,Kanpur,Heavy Tactical Truck,Operational,2026-07-19,2026-09-17,474.0,182,17800,Available,94.7
+EQ-1683,Lucknow,Field Diesel Generator,Operational,01-07-2026,15-08-2026,320.0,228,Rs. 58500,Available,80%
+EQ-1032,Bhopal,Armored Personnel Carrier (APC),Operational,2026-05-04,2026-08-02,1436.0,287,95700,Available,96%
+EQ-1645,Leh,Artillery Tractor,operational,26/06/2026,09/09/2026,586.0,182,56200,Critical Shortage,0.9740
+EQ-1932,Kanpur,Heavy Tactical Truck,Maintenance,2026-05-19,2026-07-18,,259,29400,Available,58.4
+EQ-1211,Lucknow,Heavy Tactical Truck,operational,01-07-2026,30-08-2026,502.0,200,18600,Available,92%
+EQ-1054,Leh,Mobile Radar Unit,Operational,2026-06-05,2026-08-04,481.0,225,132400,Low,84.7
+EQ-1759,Delhi,Artillery Tractor,Operational,2026-07-01,2026-09-14,537.0,152,Rs. 50200,Available,82.7
+EQ-1934,Lucknow,heavy tactical truck,Operational,2026-07-23,2026-09-21,220.0,76,17100,Available,98.9
+EQ-1516,Leh, Armored Personnel Carrier (APC) ,Operational,05-25-2026,08-23-2026,1241.0,232,80300,Available,0.8350
+EQ-1623,Delhi,Mobile Radar Unit,Operational,2026-07-19,2026-09-17,695.0,289,152200,Available,94.5
+EQ-1021,Pune,Heavy Tactical Truck,operational,2026-07-08,2026-09-06,626.0,240,23000,Available,87.2
+EQ-1592,kanpur, Field Diesel Generator ,Maintenance,2026-05-28,2026-07-12,351.0,231,94500,Available,0.6130
+EQ-2184,kANPUR,Artillery Tractor,Operational,2026-06-23,2026-09-06,432.0,116,"41,900 INR",Available,84.2%
+EQ-1002,Kanpur,Heavy Tactical Truck,Operational,26/07/2026,24/09/2026,482.0,168,19200,Available,95.8
+EQ-1796,  Lucknow   ,Artillery Tractor,Operational,26-05-2026,09-08-2026,911.0,247,59600,Available,92.4
+EQ-1832,Delhi,Mobile Radar Unit,Out of Service,01/07/2026,30/08/2026,321.0,149,"289,700 INR",Critical Shortage,22.7
+EQ-1258,Delhi,HEAVY TACTICAL TRUCK,Operational,2026-06-24,2026-08-23,386.0,143,16000,Available,85.4
+EQ-1944,Jodhpur, Heavy Tactical Truck ,Operational,06-27-2026,08-26-2026,461.0,170,18000,Available,82.7
+EQ-1007,Kanpur,Heavy Tactical Truck,maintenance,2026-07-30,2026-09-28,658.0,246,37600,Low,45.3
+EQ-2075,Bhopal,Armored_Personnel_Carrier_(APC),Operational,06-28-2026,09-26-2026,1155.0,244,87000,Low,94%
+EQ-1415,BHOPAL,Tactical UAV Launcher,Operational,01-08-2026,31-08-2026,239.0,211,92000,Available,97.0
+EQ-1428,Bhopal,Field Diesel Generator,Maintenance,2026-06-19,2026-08-03,393.0,301,114500,Critical Shortage,50.8%
+EQ-2001,Lucknow,Armored Personnel Carrier (APC),Operational,2026-07-28,2026-10-26,1205.0,264,76400,Available,84.6
+EQ-1737,Delhi,Artillery Tractor,Operational,2026-07-07,2026-09-20,716.0,207,50600,Available,95.2
+EQ-1708,Kanpur,Heavy Tactical Truck,Operational,2026-07-24,2026-09-22,,253,23600,Available,98.4
+EQ-1090,Kanpur,Artillery Tractor,maintenance,2026-05-20,2026-08-03,809.0,220,95700,Available,47.3
+EQ-1087,Bhopal,Mobile Radar Unit,Maintenance,21-Jun-2026,20-Aug-2026,570.0,240,240800,Low,61.1
+EQ-2148,PUNE,Heavy Tactical Truck,Operational,2026-07-24,2026-09-22,294.0,110,"₹15,800",Available,93.9
+EQ-2188,KANPUR,HEAVY TACTICAL TRUCK,Operational,2026-06-09,2026-08-08,413.0,164,19700,Low,91.3
+EQ-1798,Jodhpur,Field Diesel Generator,Maintenance,2026-07-30,2026-09-13,424.0,300,97800,Available,58.4
+EQ-2086,Lucknow,Heavy Tactical Truck,Operational,2026-06-12,2026-08-11,509.0,194,19600,Available,88.3
+EQ-1609,Leh,Field Diesel Generator,operational,2026-06-20,2026-08-04,233.0,153,43900,Available,95.1
+EQ-1899,jodhpur,Artillery Tractor,Out of Service,2026-07-11,2026-09-24,892.0,255,156400,Available,38.7
+EQ-2155,Delhi,Heavy Tactical Truck,Operational,2026-06-27,2026-08-26,611.0,248,21100,Available,88.7
+EQ-1430,Jodhpur,Armored Personnel Carrier (APC),Operational,06-13-2026,09-11-2026,569.0,107,68400,Available,90.9
+EQ-1534,Bhopal,Field Diesel Generator,Maintenance,22-Jun-2026,06-Aug-2026,279.0,187,84900,Critical Shortage,53.9
+EQ-2140,Delhi,Armored Personnel Carrier (APC),Operational,20-Jun-2026,18-Sep-2026,1018.0,230,74000,Available,98.7
+EQ-1316,Leh,Heavy_Tactical_Truck,Maintenance,2026-06-02,2026-08-01,447.0,175,"₹29,700",Available,56.2
+EQ-2077,Leh,Field Diesel Generator,Out of Service,2026-07-29,2026-09-12,237.0,166,87400,Low,27.3
+EQ-1130,Delhi,Armored Personnel Carrier (APC),Operational,05/07/2026,03/10/2026,765.0,169,64200,Available,80.8
+EQ-2137,Pune,ARMORED PERSONNEL CARRIER (APC),Operational,2026-05-18,2026-08-16,1319.0,254,77600,Low,86%
+EQ-2209,Bhopal,Heavy Tactical Truck,Operational,2026-06-27,2026-08-26,273.0,111,16200,Available,92.7
+EQ-1760,Kanpur,Field_Diesel_Generator,operational,08-05-2026,09-19-2026,436.0,302,63100,Available,94.4
+EQ-2043,Leh,Field Diesel Generator,Operational,2026-07-29,2026-09-12,495.0,324,68600,Available,91.3
+EQ-1492,Kanpur,Artillery Tractor,Maintenance,2026-04-30,2026-07-14,994.0,268,"83,000 INR",Available,51.9
+EQ-1823,Lucknow,Heavy Tactical Truck,Operational,2026-06-19,2026-08-18,766.0,278,24700,Available,96.4
+EQ-1733,Bhopal,Heavy Tactical Truck,Out of Service,2026-06-20,2026-08-19,496.0,193,46000,Critical Shortage,29.2
+EQ-1750,Bhopal,Heavy Tactical Truck,Operational,2026-08-05,2026-10-04,282.0,111,16100,Critical Shortage,88.8
+EQ-1685,Leh,Armored Personnel Carrier (APC),Operational,2026-07-24,2026-10-22,713.0,133,72200,Available,95.9
+EQ-1449,KANPUR,Field Diesel Generator,Operational,2026-07-07,2026-08-21,337.0,229,54800,Available,84.6
+EQ-1462,Delhi,Heavy Tactical Truck,Operational,2026-07-09,2026-09-07,430.0,176,"19,200 INR",Available,98.1
+EQ-2152,LUCKNOW, Field Diesel Generator ,Operational,2026-07-16,2026-08-30,191.0,130,47700,Available,97%
+EQ-1858,Delhi,Tactical UAV Launcher,Operational,07-05-2026,08-04-2026,268.0,218,101100,Available,81.8
+EQ-1767,Pune,Artillery Tractor,Maintenance,2026-06-06,2026-08-20,694.0,193,95900,Available,0.4870
+EQ-1074,Pune,Heavy Tactical Truck,Operational,08-01-2026,09-30-2026,623.0,245,21500,Available,86.6
+EQ-2008,Jodhpur,Artillery Tractor,Operational,2026-05-23,2026-08-06,866.0,226,57200,Available,85.8
+EQ-2038,Bhopal,Artillery Tractor,Operational,05-19-2026,08-02-2026,409.0,121,Rs. 43700,Critical Shortage,84%
+EQ-1106,Leh,Heavy Tactical Truck,Operational,2026-06-25,2026-08-24,527.0,193,19900,Available,87.3
+EQ-1549,Delhi,Tactical UAV Launcher,Operational,28-Jul-2026,27-Aug-2026,255.0,213,"₹111,000",Available,98%
+EQ-1403,Lucknow,Artillery Tractor,Operational,2026-06-01,2026-08-15,647.0,195,55600,Available,98.2
+EQ-1339,  Lucknow   , Armored Personnel Carrier (APC) ,Operational,2026-07-07,2026-10-05,975.0,215,88600,Critical Shortage,95.8
+EQ-1746,Bhopal,Tactical UAV Launcher,Maintenance,2026-07-26,2026-08-25,185.0,158,190400,Low,66.8
+EQ-1970,Siliguri,Mobile Radar Unit,Operational,2026-07-16,2026-09-14,251.0,123,117000,Available,96.2
+EQ-1277,Lucknow,ARMORED PERSONNEL CARRIER (APC),operational,2026-06-12,2026-09-10,1031.0,204,74700,Critical Shortage,83.4
+EQ-2238,  Lucknow   ,Field Diesel Generator,Operational,2026-06-17,2026-08-01,345.0,226,47700,Low,93%
+EQ-2088,Jodhpur,Heavy Tactical Truck,Operational,07-08-2026,09-06-2026,526.0,185,19600,Available,95.9
+EQ-1749,  Leh   ,Armored Personnel Carrier (APC),Operational,06-02-2026,08-31-2026,797.0,164,69400,Critical Shortage,84.8
+EQ-1546,Delhi,Armored Personnel Carrier (APC),Operational,2026-06-29,2026-09-27,709.0,155,69100,Low,94.0
+EQ-1009,Delhi,Artillery Tractor,Operational,06-28-2026,09-11-2026,648.0,171,57300,Available,82.0
+EQ-1035,Kanpur,ARMORED PERSONNEL CARRIER (APC),operational,2026-07-26,2026-10-24,1170.0,236,90100,Available,83.0
+EQ-1348,Pune,Tactical UAV Launcher,operational,2026-07-28,2026-08-27,144.0,124,96300,Available,84.1
+EQ-1463,Lucknow,ARTILLERY TRACTOR,Maintenance,2026-05-19,2026-08-02,541.0,160,86500,Low,65.4
+EQ-1238,Siliguri,Field Diesel Generator,Operational,2026-07-29,2026-09-12,376.0,271,48700,Available,92.2
+EQ-1158,Bhopal,Armored Personnel Carrier (APC),operational,2026-06-04,2026-09-02,1054.0,218,89200,Available,83.8%
+EQ-1831,Delhi, Mobile Radar Unit ,Operational,2026-07-16,2026-09-14,258.0,127,127100,Low,80.8
+EQ-1094,jodhpur,Field Diesel Generator,Operational,2026-07-28,2026-09-11,343.0,240,58200,Available,90.8
